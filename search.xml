@@ -41,5 +41,11 @@
 <p>源码如下：</p>
 <div class="highlight-container" data-rel="Java"><figure class="iseeu highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">private</span> <span class="keyword">static</span> <span class="keyword">class</span> <span class="title class_">ContainerLinkedHashMap</span> <span class="keyword">extends</span> <span class="title class_">LinkedHashMap</span>&lt;DbSourceKey, DruidDataSource&gt; &#123;</span><br><span class="line"></span><br><span class="line">    <span class="comment">/**</span></span><br><span class="line"><span class="comment">     * 链接最大容量</span></span><br><span class="line"><span class="comment">     */</span></span><br><span class="line">    <span class="keyword">private</span> <span class="keyword">final</span> <span class="type">int</span> maxSize;</span><br><span class="line">        </span><br><span class="line">    <span class="meta">@Override</span></span><br><span class="line">    <span class="keyword">protected</span> <span class="type">boolean</span> <span class="title function_">removeEldestEntry</span><span class="params">(Map.Entry&lt;DbSourceKey, DruidDataSource&gt; eldest)</span> &#123;</span><br><span class="line">        <span class="comment">// 超过最大容量, 需要移除旧的数据</span></span><br><span class="line">        <span class="keyword">if</span> (containers.size() &gt; maxSize) &#123;</span><br><span class="line">            <span class="type">DruidDataSource</span> <span class="variable">druidDataSource</span> <span class="operator">=</span> eldest.getValue();</span><br><span class="line">            druidDataSource.close();</span><br><span class="line">        &#125;</span><br><span class="line">    </span><br><span class="line">        <span class="keyword">return</span> containers.size() &gt; maxSize;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div>
 ]]></content>
+      <categories>
+        <category>java</category>
+      </categories>
+      <tags>
+        <tag>java</tag>
+      </tags>
   </entry>
 </search>
