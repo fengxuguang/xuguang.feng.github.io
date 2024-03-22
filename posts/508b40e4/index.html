@@ -13,22 +13,23 @@
     
     <!--- Seo Part-->
     
-    <link rel="canonical" href="https://blog.fengxuguang.top/posts/34963c84/"/>
+    <link rel="canonical" href="https://blog.fengxuguang.top/posts/508b40e4/"/>
     <meta name="robots" content="index,follow">
     <meta name="googlebot" content="index,follow">
     <meta name="revisit-after" content="1 days">
     
-        <meta name="description" content="原型模式是一种创建型设计模式，它允许通过复制现有对象来创建新的对象，而无需显式地指定它们的类。在原型模式中，一个对象作为原型，通过复制自己来创建新的对象。原型模式适用于对象的创建过程非常复杂的情况下，可以通过复制已有的对象来避免重复创建相似的对象，从而提高系统的性能。 原型模式有两种实现方式：浅克隆和深克隆。 浅克隆：浅克隆只复制对象本身和其中的基础数据类型，而不会复制对象中的引用类型。也就是说，">
+        <meta name="description" content="背景​	由于在日常开发中，会经常使用到JDK8中的Stream语法糖，然而在使用过程中，发现存在很多冗余的方法，便想着封装个工具类，简化开发过程中的使用。 工具类 ListUtil12345678910111213141516171819202122232425262728293031323334353637383940414243444546474849505152535455565758596">
 <meta property="og:type" content="article">
-<meta property="og:title" content="创建型-原型模式">
-<meta property="og:url" content="https://blog.fengxuguang.top/posts/34963c84/index.html">
+<meta property="og:title" content="ListUtil封装jdk8-stream语法，简化代码编写">
+<meta property="og:url" content="https://blog.fengxuguang.top/posts/508b40e4/index.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="原型模式是一种创建型设计模式，它允许通过复制现有对象来创建新的对象，而无需显式地指定它们的类。在原型模式中，一个对象作为原型，通过复制自己来创建新的对象。原型模式适用于对象的创建过程非常复杂的情况下，可以通过复制已有的对象来避免重复创建相似的对象，从而提高系统的性能。 原型模式有两种实现方式：浅克隆和深克隆。 浅克隆：浅克隆只复制对象本身和其中的基础数据类型，而不会复制对象中的引用类型。也就是说，">
+<meta property="og:description" content="背景​	由于在日常开发中，会经常使用到JDK8中的Stream语法糖，然而在使用过程中，发现存在很多冗余的方法，便想着封装个工具类，简化开发过程中的使用。 工具类 ListUtil12345678910111213141516171819202122232425262728293031323334353637383940414243444546474849505152535455565758596">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2024-03-01T03:23:53.000Z">
-<meta property="article:modified_time" content="2024-03-04T06:23:01.818Z">
+<meta property="article:published_time" content="2024-03-20T08:08:40.000Z">
+<meta property="article:modified_time" content="2024-03-22T01:25:59.100Z">
 <meta property="article:author" content="John Doe">
-<meta property="article:tag" content="设计模式">
+<meta property="article:tag" content="jdk8">
+<meta property="article:tag" content="stream">
 <meta name="twitter:card" content="summary">
     
     
@@ -41,7 +42,7 @@
     
     <title>
         
-            创建型-原型模式 -
+            ListUtil封装jdk8-stream语法，简化代码编写 -
         
         冯旭光的博客
     </title>
@@ -507,7 +508,7 @@
         <div class="article-title relative w-full">
             
                 <div class="w-full flex items-center pt-6 justify-start">
-                    <h1 class="article-title-regular text-second-text-color text-4xl md:text-6xl font-bold px-2 sm:px-6 md:px-8 py-3">创建型-原型模式</h1>
+                    <h1 class="article-title-regular text-second-text-color text-4xl md:text-6xl font-bold px-2 sm:px-6 md:px-8 py-3">ListUtil封装jdk8-stream语法，简化代码编写</h1>
                 </div>
             
             </div>
@@ -528,35 +529,19 @@
                         <div class="article-meta-info">
     <span class="article-date article-meta-item">
         <i class="fa-regular fa-pen-fancy"></i>&nbsp;
-        <span class="desktop">2024-03-01 11:23:53</span>
-        <span class="mobile">2024-03-01 11:23:53</span>
+        <span class="desktop">2024-03-20 16:08:40</span>
+        <span class="mobile">2024-03-20 16:08:40</span>
         <span class="hover-info">创建</span>
     </span>
     
         <span class="article-date article-meta-item">
             <i class="fa-regular fa-wrench"></i>&nbsp;
-            <span class="desktop">2024-03-04 14:23:01</span>
-            <span class="mobile">2024-03-04 14:23:01</span>
+            <span class="desktop">2024-03-22 09:25:59</span>
+            <span class="mobile">2024-03-22 09:25:59</span>
             <span class="hover-info">更新</span>
         </span>
     
 
-    
-        <span class="article-categories article-meta-item">
-            <i class="fa-regular fa-folders"></i>&nbsp;
-            <ul>
-                
-                
-                    
-                        
-                        <li>
-                            <a href="/categories/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/">设计模式</a>&nbsp;
-                        </li>
-                    
-                    
-                
-            </ul>
-        </span>
     
     
         <span class="article-tags article-meta-item">
@@ -564,7 +549,11 @@
             <ul>
                 
                     <li>
-                        <a href="/tags/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/">设计模式</a>&nbsp;
+                        <a href="/tags/jdk8/">jdk8</a>&nbsp;
+                    </li>
+                
+                    <li>
+                        | <a href="/tags/stream/">stream</a>&nbsp;
                     </li>
                 
             </ul>
@@ -574,12 +563,12 @@
     
     
         <span class="article-wordcount article-meta-item">
-            <i class="fa-regular fa-typewriter"></i>&nbsp;<span>276 字</span>
+            <i class="fa-regular fa-typewriter"></i>&nbsp;<span>1k 字</span>
         </span>
     
     
         <span class="article-min2read article-meta-item">
-            <i class="fa-regular fa-clock"></i>&nbsp;<span>1 分钟</span>
+            <i class="fa-regular fa-clock"></i>&nbsp;<span>5 分钟</span>
         </span>
     
     
@@ -598,14 +587,9 @@
 
 
         <div class="article-content markdown-body px-2 sm:px-6 md:px-8 pb-8">
-            <p><code>原型模式</code>是一种创建型设计模式，它允许通过复制现有对象来创建新的对象，而无需显式地指定它们的类。在原型模式中，一个对象作为原型，通过复制自己来创建新的对象。原型模式适用于对象的创建过程非常复杂的情况下，可以通过复制已有的对象来避免重复创建相似的对象，从而提高系统的性能。</p>
-<p>原型模式有两种实现方式：浅克隆和深克隆。</p>
-<p>浅克隆：浅克隆只复制对象本身和其中的基础数据类型，而不会复制对象中的引用类型。也就是说，新对象中的引用类型变量和原对象中的引用类型变量指向同一个对象。Java 中的 Object 类提供了一个 clone() 方法，可以实现浅克隆。</p>
-<p>要实现克隆，需要满足以下条件：</p>
-<ol>
-<li>实现 Cloneable 接口，否则会抛出 CloneNotSupportException 异常；</li>
-<li>重写 clone() 方法，并使用 super.clone() 来创建新的对象。</li>
-</ol>
+            <h2 id="背景"><a href="#背景" class="headerlink" title="背景"></a>背景</h2><p>​	由于在日常开发中，会经常使用到<code>JDK8</code>中的<code>Stream</code>语法糖，然而在使用过程中，发现存在很多冗余的方法，便想着封装个工具类，简化开发过程中的使用。</p>
+<h2 id="工具类-ListUtil"><a href="#工具类-ListUtil" class="headerlink" title="工具类 ListUtil"></a>工具类 ListUtil</h2><div class="highlight-container" data-rel="Java"><figure class="iseeu highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br><span class="line">89</span><br><span class="line">90</span><br><span class="line">91</span><br><span class="line">92</span><br><span class="line">93</span><br><span class="line">94</span><br><span class="line">95</span><br><span class="line">96</span><br><span class="line">97</span><br><span class="line">98</span><br><span class="line">99</span><br><span class="line">100</span><br><span class="line">101</span><br><span class="line">102</span><br><span class="line">103</span><br><span class="line">104</span><br><span class="line">105</span><br><span class="line">106</span><br><span class="line">107</span><br><span class="line">108</span><br><span class="line">109</span><br><span class="line">110</span><br><span class="line">111</span><br><span class="line">112</span><br><span class="line">113</span><br><span class="line">114</span><br><span class="line">115</span><br><span class="line">116</span><br><span class="line">117</span><br><span class="line">118</span><br><span class="line">119</span><br><span class="line">120</span><br><span class="line">121</span><br><span class="line">122</span><br><span class="line">123</span><br><span class="line">124</span><br><span class="line">125</span><br><span class="line">126</span><br><span class="line">127</span><br><span class="line">128</span><br><span class="line">129</span><br><span class="line">130</span><br><span class="line">131</span><br><span class="line">132</span><br><span class="line">133</span><br><span class="line">134</span><br><span class="line">135</span><br><span class="line">136</span><br><span class="line">137</span><br><span class="line">138</span><br><span class="line">139</span><br><span class="line">140</span><br><span class="line">141</span><br><span class="line">142</span><br><span class="line">143</span><br><span class="line">144</span><br><span class="line">145</span><br><span class="line">146</span><br><span class="line">147</span><br><span class="line">148</span><br><span class="line">149</span><br><span class="line">150</span><br><span class="line">151</span><br><span class="line">152</span><br><span class="line">153</span><br><span class="line">154</span><br><span class="line">155</span><br><span class="line">156</span><br><span class="line">157</span><br><span class="line">158</span><br><span class="line">159</span><br><span class="line">160</span><br><span class="line">161</span><br><span class="line">162</span><br><span class="line">163</span><br><span class="line">164</span><br><span class="line">165</span><br><span class="line">166</span><br><span class="line">167</span><br><span class="line">168</span><br><span class="line">169</span><br><span class="line">170</span><br><span class="line">171</span><br><span class="line">172</span><br><span class="line">173</span><br><span class="line">174</span><br><span class="line">175</span><br><span class="line">176</span><br><span class="line">177</span><br><span class="line">178</span><br><span class="line">179</span><br><span class="line">180</span><br><span class="line">181</span><br><span class="line">182</span><br><span class="line">183</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> org.apache.commons.collections.CollectionUtils;</span><br><span class="line"><span class="keyword">import</span> org.apache.commons.lang3.StringUtils;</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> java.util.ArrayList;</span><br><span class="line"><span class="keyword">import</span> java.util.Collections;</span><br><span class="line"><span class="keyword">import</span> java.util.HashMap;</span><br><span class="line"><span class="keyword">import</span> java.util.List;</span><br><span class="line"><span class="keyword">import</span> java.util.Map;</span><br><span class="line"><span class="keyword">import</span> java.util.Optional;</span><br><span class="line"><span class="keyword">import</span> java.util.function.BinaryOperator;</span><br><span class="line"><span class="keyword">import</span> java.util.function.Function;</span><br><span class="line"><span class="keyword">import</span> java.util.function.Predicate;</span><br><span class="line"><span class="keyword">import</span> java.util.stream.Collectors;</span><br><span class="line"></span><br><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * JDK8-Stream 工具类封装</span></span><br><span class="line"><span class="comment"> * Created by fengxuguang on 2024/3/20 14:29</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">ListUtil</span> &#123;</span><br><span class="line"></span><br><span class="line">    <span class="comment">/**</span></span><br><span class="line"><span class="comment">     * 过滤出有效 属性, 并去重</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> list 集合</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> mapper 处理属性</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@return</span> List&lt;String&gt; 返回结果</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> &lt;T&gt; 形参集合内实体类型</span></span><br><span class="line"><span class="comment">     */</span></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> &lt;T&gt;List&lt;String&gt; <span class="title function_">filterValidValue</span><span class="params">(List&lt;T&gt; list, Function&lt;? <span class="built_in">super</span> T, String&gt; mapper)</span> &#123;</span><br><span class="line">        <span class="keyword">if</span> (CollectionUtils.isEmpty(list)) &#123;</span><br><span class="line">            <span class="keyword">return</span> Collections.emptyList();</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        <span class="keyword">return</span> list.stream()</span><br><span class="line">                .map(mapper)</span><br><span class="line">                .filter(StringUtils::isNotBlank)</span><br><span class="line">                .distinct()</span><br><span class="line">                .collect(Collectors.toList());</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="comment">/**</span></span><br><span class="line"><span class="comment">     * 过滤多字段有效值, 并去重</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> list 集合</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> mappers 属性, 支持多属性</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@return</span> List&lt;String&gt; 返回结果</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> &lt;T&gt; 形参集合内实体类型</span></span><br><span class="line"><span class="comment">     */</span></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> &lt;T&gt; List&lt;String&gt; <span class="title function_">filterValidValueForFields</span><span class="params">(List&lt;T&gt; list, Function&lt;? <span class="built_in">super</span> T, String&gt; ...mappers)</span> &#123;</span><br><span class="line">        <span class="keyword">if</span> (CollectionUtils.isEmpty(list)) &#123;</span><br><span class="line">            <span class="keyword">return</span> Collections.emptyList();</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        List&lt;String&gt; result = <span class="keyword">new</span> <span class="title class_">ArrayList</span>&lt;&gt;();</span><br><span class="line">        <span class="keyword">for</span> (Function&lt;? <span class="built_in">super</span> T, String&gt; mapper : mappers) &#123;</span><br><span class="line">            result.addAll(list.stream()</span><br><span class="line">                    .map(mapper)</span><br><span class="line">                    .filter(StringUtils::isNotBlank)</span><br><span class="line">                    .distinct()</span><br><span class="line">                    .collect(Collectors.toList()));</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> result.stream()</span><br><span class="line">                .distinct()</span><br><span class="line">                .collect(Collectors.toList());</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="comment">/**</span></span><br><span class="line"><span class="comment">     * 将 List 转为 Map, 如果有相同元素, 去第一个</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> list list集合</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> keyMapper 作为属性列</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@return</span> Map&lt;String, T&gt; map 集合</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> &lt;T&gt; 形参集合内实体类型</span></span><br><span class="line"><span class="comment">     */</span></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> &lt;T&gt; Map&lt;String, T&gt; <span class="title function_">toMap</span><span class="params">(List&lt;T&gt; list, Function&lt;? <span class="built_in">super</span> T, String&gt; keyMapper)</span> &#123;</span><br><span class="line">        BinaryOperator&lt;T&gt; miss = (k1, k2) -&gt; k1;</span><br><span class="line">        <span class="keyword">return</span> list.stream()</span><br><span class="line">                .collect(Collectors.toMap(keyMapper, Function.identity(), miss));</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="comment">/**</span></span><br><span class="line"><span class="comment">     * 过滤数据</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> list list 集合</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> predicate 断言</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@return</span> List&lt;T&gt; 集合</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> &lt;T&gt; 形参集合内实体类型</span></span><br><span class="line"><span class="comment">     */</span></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> &lt;T&gt; List&lt;T&gt; <span class="title function_">filter</span><span class="params">(List&lt;T&gt; list, Predicate&lt;? <span class="built_in">super</span> T&gt; predicate)</span> &#123;</span><br><span class="line">        <span class="keyword">if</span> (CollectionUtils.isEmpty(list)) &#123;</span><br><span class="line">            <span class="keyword">return</span> Collections.emptyList();</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        <span class="keyword">return</span> list.stream()</span><br><span class="line">                .filter(predicate)</span><br><span class="line">                .collect(Collectors.toList());</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="comment">/**</span></span><br><span class="line"><span class="comment">     * 获取 List 集合内实体中某属性的值</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> list List集合</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> mapper 属性</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@return</span> List&lt;T&gt; 集合</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> &lt;R&gt; 返回集合内实体的类型</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> &lt;T&gt; 形参集合内实体类型</span></span><br><span class="line"><span class="comment">     */</span></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> &lt;R, T&gt; List&lt;R&gt; <span class="title function_">map</span><span class="params">(List&lt;T&gt; list, Function&lt;? <span class="built_in">super</span> T, R&gt; mapper)</span> &#123;</span><br><span class="line">        <span class="keyword">if</span> (CollectionUtils.isEmpty(list)) &#123;</span><br><span class="line">            <span class="keyword">return</span> Collections.emptyList();</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        <span class="keyword">return</span> list.stream()</span><br><span class="line">                .map(mapper)</span><br><span class="line">                .collect(Collectors.toList());</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="comment">/**</span></span><br><span class="line"><span class="comment">     * 将 List 集合按照集合内实体某属性进行分组</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> list List集合</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> mapper 属性</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@return</span> Map&lt;R, List&lt;T&gt; map 集合</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> &lt;R&gt; 分组属性类型</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> &lt;T&gt; 形参集合内实体类型</span></span><br><span class="line"><span class="comment">     */</span></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> &lt;R, T&gt; Map&lt;R, List&lt;T&gt;&gt; <span class="title function_">groupBy</span><span class="params">(List&lt;T&gt; list, Function&lt;? <span class="built_in">super</span> T, R&gt; mapper)</span> &#123;</span><br><span class="line">        <span class="keyword">if</span> (CollectionUtils.isEmpty(list)) &#123;</span><br><span class="line">            <span class="keyword">return</span> Collections.emptyMap();</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        <span class="keyword">return</span> list.stream()</span><br><span class="line">                .collect(Collectors.groupingBy(mapper));</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="comment">/**</span></span><br><span class="line"><span class="comment">     * 将 List 集合按照实体属性 keyMapper 作为 key, valueMapper 作为 value 封装成 map 集合</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> list List集合</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> keyMapper 实体属性, 作为 map 集合的 key</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> valueMapper 实体属性, 作为 map 集合的 value</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@return</span> Map&lt;K, List&lt;R&gt;&gt; map 集合</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> &lt;K&gt; 返回 map 集合的 key 类型</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> &lt;T&gt; 形参 List 集合类型</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> &lt;R&gt; 返回 map 集合的 value 类型</span></span><br><span class="line"><span class="comment">     */</span></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> &lt;K, T, R&gt; Map&lt;K, List&lt;R&gt;&gt; <span class="title function_">groupBy</span><span class="params">(List&lt;T&gt; list,</span></span><br><span class="line"><span class="params">                                                    Function&lt;? <span class="built_in">super</span> T, K&gt; keyMapper,</span></span><br><span class="line"><span class="params">                                                    Function&lt;? <span class="built_in">super</span> T, R&gt; valueMapper)</span> &#123;</span><br><span class="line">        <span class="keyword">if</span> (CollectionUtils.isEmpty(list)) &#123;</span><br><span class="line">            <span class="keyword">return</span> Collections.emptyMap();</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        Map&lt;K, List&lt;R&gt;&gt; result = <span class="keyword">new</span> <span class="title class_">HashMap</span>&lt;&gt;();</span><br><span class="line">        groupBy(list, keyMapper).forEach((k, v) -&gt; result.put(k, map(v, valueMapper)));</span><br><span class="line"></span><br><span class="line">        <span class="keyword">return</span> result;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="comment">/**</span></span><br><span class="line"><span class="comment">     * 获取 List 集合过滤之后的一个数据</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> list List 集合</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> predicate 断言, 过滤条件</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@return</span> Optional&lt;T&gt;</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> &lt;T&gt; 形参集合内实体类型</span></span><br><span class="line"><span class="comment">     */</span></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> &lt;T&gt; Optional&lt;T&gt; <span class="title function_">findOne</span><span class="params">(List&lt;T&gt; list, Predicate&lt;? <span class="built_in">super</span> T&gt; predicate)</span> &#123;</span><br><span class="line">        <span class="keyword">return</span> list.stream()</span><br><span class="line">                .filter(predicate)</span><br><span class="line">                .findFirst();</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="comment">/**</span></span><br><span class="line"><span class="comment">     * 获取 List 集合过滤后的数量</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> list List 集合</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> predicate 断言, 过滤条件</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@return</span> long 数量</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> &lt;T&gt; 形参集合内实体类型</span></span><br><span class="line"><span class="comment">     */</span></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> &lt;T&gt; <span class="type">long</span> <span class="title function_">count</span><span class="params">(List&lt;T&gt; list, Predicate&lt;? <span class="built_in">super</span> T&gt; predicate)</span> &#123;</span><br><span class="line">        <span class="keyword">if</span> (CollectionUtils.isEmpty(list)) &#123;</span><br><span class="line">            <span class="keyword">return</span> <span class="number">0L</span>;</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        <span class="keyword">return</span> list.stream()</span><br><span class="line">                .filter(predicate)</span><br><span class="line">                .count();</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div>
+
 
         </div>
 
@@ -613,18 +597,18 @@
             <div class="post-copyright-info w-full my-8 px-2 sm:px-6 md:px-8">
                 <div class="article-copyright-info-container">
     <ul>
-        <li><strong>标题:</strong> 创建型-原型模式</li>
+        <li><strong>标题:</strong> ListUtil封装jdk8-stream语法，简化代码编写</li>
         <li><strong>作者:</strong> 冯旭光</li>
         <li><strong>创建于
-                :</strong> 2024-03-01 11:23:53</li>
+                :</strong> 2024-03-20 16:08:40</li>
         
             <li>
                 <strong>更新于
-                    :</strong> 2024-03-04 14:23:01
+                    :</strong> 2024-03-22 09:25:59
             </li>
         
         <li>
-            <strong>链接:</strong> https://blog.fengxuguang.top/posts/34963c84/
+            <strong>链接:</strong> https://blog.fengxuguang.top/posts/508b40e4/
         </li>
         <li>
             <strong>
@@ -646,7 +630,11 @@
             <ul class="post-tags-box text-lg mt-1.5 flex-wrap justify-center flex md:hidden">
                 
                     <li class="tag-item mx-0.5">
-                        <a href="/tags/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/">#设计模式</a>&nbsp;
+                        <a href="/tags/jdk8/">#jdk8</a>&nbsp;
+                    </li>
+                
+                    <li class="tag-item mx-0.5">
+                        <a href="/tags/stream/">#stream</a>&nbsp;
                     </li>
                 
             </ul>
@@ -657,29 +645,14 @@
         
             <div class="article-nav my-8 flex justify-between items-center px-2 sm:px-6 md:px-8">
                 
-                    <div class="article-prev border-border-color shadow-redefine-flat shadow-shadow-color-2 rounded-medium px-4 py-2 hover:shadow-redefine-flat-hover hover:shadow-shadow-color-2">
-                        <a class="prev"
-                        rel="prev"
-                        href="/posts/508b40e4/"
-                        >
-                            <span class="left arrow-icon flex justify-center items-center">
-                                <i class="fa-solid fa-chevron-left"></i>
-                            </span>
-                            <span class="title flex justify-center items-center">
-                                <span class="post-nav-title-item">ListUtil封装jdk8-stream语法，简化代码编写</span>
-                                <span class="post-nav-item">上一篇</span>
-                            </span>
-                        </a>
-                    </div>
-                
                 
                     <div class="article-next border-border-color shadow-redefine-flat shadow-shadow-color-2 rounded-medium px-4 py-2 hover:shadow-redefine-flat-hover hover:shadow-shadow-color-2">
                         <a class="next"
                         rel="next"
-                        href="/posts/319e992b/"
+                        href="/posts/34963c84/"
                         >
                             <span class="title flex justify-center items-center">
-                                <span class="post-nav-title-item">2024阅读进度</span>
+                                <span class="post-nav-title-item">创建型-原型模式</span>
                                 <span class="post-nav-item">下一篇</span>
                             </span>
                             <span class="right arrow-icon flex justify-center items-center">
@@ -758,8 +731,8 @@
             <div class="post-toc-wrap">
     <div class="post-toc">
         <div class="toc-title">此页目录</div>
-        <div class="page-title">创建型-原型模式</div>
-        
+        <div class="page-title">ListUtil封装jdk8-stream语法，简化代码编写</div>
+        <ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%83%8C%E6%99%AF"><span class="nav-text">背景</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%B7%A5%E5%85%B7%E7%B1%BB-ListUtil"><span class="nav-text">工具类 ListUtil</span></a></li></ol>
 
     </div>
 </div>
