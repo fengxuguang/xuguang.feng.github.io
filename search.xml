@@ -63,8 +63,8 @@
                 ></td>
 <td>微信读书</td>
 <td>3.20</td>
-<td></td>
-<td>25%</td>
+<td>4.4</td>
+<td>&#10004;完成</td>
 </tr>
 </tbody></table>
 ]]></content>
@@ -92,25 +92,6 @@
 
 <p>More info: <a class="link"   href="https://hexo.io/docs/one-command-deployment.html" >Deployment <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
 ]]></content>
-  </entry>
-  <entry>
-    <title>创建型-原型模式</title>
-    <url>/posts/34963c84/</url>
-    <content><![CDATA[<p><code>原型模式</code>是一种创建型设计模式，它允许通过复制现有对象来创建新的对象，而无需显式地指定它们的类。在原型模式中，一个对象作为原型，通过复制自己来创建新的对象。原型模式适用于对象的创建过程非常复杂的情况下，可以通过复制已有的对象来避免重复创建相似的对象，从而提高系统的性能。</p>
-<p>原型模式有两种实现方式：浅克隆和深克隆。</p>
-<p>浅克隆：浅克隆只复制对象本身和其中的基础数据类型，而不会复制对象中的引用类型。也就是说，新对象中的引用类型变量和原对象中的引用类型变量指向同一个对象。Java 中的 Object 类提供了一个 clone() 方法，可以实现浅克隆。</p>
-<p>要实现克隆，需要满足以下条件：</p>
-<ol>
-<li>实现 Cloneable 接口，否则会抛出 CloneNotSupportException 异常；</li>
-<li>重写 clone() 方法，并使用 super.clone() 来创建新的对象。</li>
-</ol>
-]]></content>
-      <categories>
-        <category>设计模式</category>
-      </categories>
-      <tags>
-        <tag>设计模式</tag>
-      </tags>
   </entry>
   <entry>
     <title>创建型-单例模式</title>
@@ -168,6 +149,25 @@
 <p>客户端测试</p>
 <div class="highlight-container" data-rel="Java"><figure class="iseeu highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">Client</span> &#123;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title function_">main</span><span class="params">(String[] args)</span> &#123;</span><br><span class="line">        <span class="type">Singleton</span> <span class="variable">instance</span> <span class="operator">=</span> Singleton.getInstance();</span><br><span class="line">        <span class="type">Singleton</span> <span class="variable">instance1</span> <span class="operator">=</span> Singleton.getInstance();</span><br><span class="line"></span><br><span class="line">        System.out.println(instance == instance1);	<span class="comment">// 输出: true</span></span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div>
 
+]]></content>
+      <categories>
+        <category>设计模式</category>
+      </categories>
+      <tags>
+        <tag>设计模式</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>创建型-原型模式</title>
+    <url>/posts/34963c84/</url>
+    <content><![CDATA[<p><code>原型模式</code>是一种创建型设计模式，它允许通过复制现有对象来创建新的对象，而无需显式地指定它们的类。在原型模式中，一个对象作为原型，通过复制自己来创建新的对象。原型模式适用于对象的创建过程非常复杂的情况下，可以通过复制已有的对象来避免重复创建相似的对象，从而提高系统的性能。</p>
+<p>原型模式有两种实现方式：浅克隆和深克隆。</p>
+<p>浅克隆：浅克隆只复制对象本身和其中的基础数据类型，而不会复制对象中的引用类型。也就是说，新对象中的引用类型变量和原对象中的引用类型变量指向同一个对象。Java 中的 Object 类提供了一个 clone() 方法，可以实现浅克隆。</p>
+<p>要实现克隆，需要满足以下条件：</p>
+<ol>
+<li>实现 Cloneable 接口，否则会抛出 CloneNotSupportException 异常；</li>
+<li>重写 clone() 方法，并使用 super.clone() 来创建新的对象。</li>
+</ol>
 ]]></content>
       <categories>
         <category>设计模式</category>
@@ -700,6 +700,18 @@
       </tags>
   </entry>
   <entry>
+    <title>ListUtil封装jdk8-stream语法，简化代码编写</title>
+    <url>/posts/508b40e4/</url>
+    <content><![CDATA[<h2 id="背景"><a href="#背景" class="headerlink" title="背景"></a>背景</h2><p>​	由于在日常开发中，会经常使用到<code>JDK8</code>中的<code>Stream</code>语法糖，然而在使用过程中，发现存在很多冗余的方法，便想着封装个工具类，简化开发过程中的使用。</p>
+<h2 id="工具类-ListUtil"><a href="#工具类-ListUtil" class="headerlink" title="工具类 ListUtil"></a>工具类 ListUtil</h2><div class="highlight-container" data-rel="Java"><figure class="iseeu highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> org.apache.commons.collections.CollectionUtils;</span><br><span class="line"><span class="keyword">import</span> org.apache.commons.lang3.StringUtils;</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> java.util.ArrayList;</span><br><span class="line"><span class="keyword">import</span> java.util.Collections;</span><br><span class="line"><span class="keyword">import</span> java.util.HashMap;</span><br><span class="line"><span class="keyword">import</span> java.util.List;</span><br><span class="line"><span class="keyword">import</span> java.util.Map;</span><br><span class="line"><span class="keyword">import</span> java.util.Optional;</span><br><span class="line"><span class="keyword">import</span> java.util.function.BinaryOperator;</span><br><span class="line"><span class="keyword">import</span> java.util.function.Function;</span><br><span class="line"><span class="keyword">import</span> java.util.function.Predicate;</span><br><span class="line"><span class="keyword">import</span> java.util.stream.Collectors;</span><br><span class="line"></span><br><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * JDK8-Stream 工具类封装</span></span><br><span class="line"><span class="comment"> * Created by fengxuguang on 2024/3/20 14:29</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">ListUtil</span> &#123;</span><br><span class="line"></span><br><span class="line">    <span class="comment">/**</span></span><br><span class="line"><span class="comment">     * 过滤出有效 属性, 并去重</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> list 集合</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> mapper 处理属性</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@return</span> List&lt;String&gt; 返回结果</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> &lt;T&gt; 形参集合内实体类型</span></span><br><span class="line"><span class="comment">     */</span></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> &lt;T&gt;List&lt;String&gt; <span class="title function_">filterValidValue</span><span class="params">(List&lt;T&gt; list, Function&lt;? <span class="built_in">super</span> T, String&gt; mapper)</span> &#123;</span><br><span class="line">        <span class="keyword">if</span> (CollectionUtils.isEmpty(list)) &#123;</span><br><span class="line">            <span class="keyword">return</span> Collections.emptyList();</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        <span class="keyword">return</span> list.stream()</span><br><span class="line">                .map(mapper)</span><br><span class="line">                .filter(StringUtils::isNotBlank)</span><br><span class="line">                .distinct()</span><br><span class="line">                .collect(Collectors.toList());</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="comment">/**</span></span><br><span class="line"><span class="comment">     * 过滤多字段有效值, 并去重</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> list 集合</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> mappers 属性, 支持多属性</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@return</span> List&lt;String&gt; 返回结果</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> &lt;T&gt; 形参集合内实体类型</span></span><br><span class="line"><span class="comment">     */</span></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> &lt;T&gt; List&lt;String&gt; <span class="title function_">filterValidValueForFields</span><span class="params">(List&lt;T&gt; list, Function&lt;? <span class="built_in">super</span> T, String&gt; ...mappers)</span> &#123;</span><br><span class="line">        <span class="keyword">if</span> (CollectionUtils.isEmpty(list)) &#123;</span><br><span class="line">            <span class="keyword">return</span> Collections.emptyList();</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        List&lt;String&gt; result = <span class="keyword">new</span> <span class="title class_">ArrayList</span>&lt;&gt;();</span><br><span class="line">        <span class="keyword">for</span> (Function&lt;? <span class="built_in">super</span> T, String&gt; mapper : mappers) &#123;</span><br><span class="line">            result.addAll(list.stream()</span><br><span class="line">                    .map(mapper)</span><br><span class="line">                    .filter(StringUtils::isNotBlank)</span><br><span class="line">                    .distinct()</span><br><span class="line">                    .collect(Collectors.toList()));</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> result.stream()</span><br><span class="line">                .distinct()</span><br><span class="line">                .collect(Collectors.toList());</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="comment">/**</span></span><br><span class="line"><span class="comment">     * 将 List 转为 Map, 如果有相同元素, 去第一个</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> list list集合</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> keyMapper 作为属性列</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@return</span> Map&lt;String, T&gt; map 集合</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> &lt;T&gt; 形参集合内实体类型</span></span><br><span class="line"><span class="comment">     */</span></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> &lt;T&gt; Map&lt;String, T&gt; <span class="title function_">toMap</span><span class="params">(List&lt;T&gt; list, Function&lt;? <span class="built_in">super</span> T, String&gt; keyMapper)</span> &#123;</span><br><span class="line">        BinaryOperator&lt;T&gt; miss = (k1, k2) -&gt; k1;</span><br><span class="line">        <span class="keyword">return</span> list.stream()</span><br><span class="line">                .collect(Collectors.toMap(keyMapper, Function.identity(), miss));</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="comment">/**</span></span><br><span class="line"><span class="comment">     * 过滤数据</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> list list 集合</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> predicate 断言</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@return</span> List&lt;T&gt; 集合</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> &lt;T&gt; 形参集合内实体类型</span></span><br><span class="line"><span class="comment">     */</span></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> &lt;T&gt; List&lt;T&gt; <span class="title function_">filter</span><span class="params">(List&lt;T&gt; list, Predicate&lt;? <span class="built_in">super</span> T&gt; predicate)</span> &#123;</span><br><span class="line">        <span class="keyword">if</span> (CollectionUtils.isEmpty(list)) &#123;</span><br><span class="line">            <span class="keyword">return</span> Collections.emptyList();</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        <span class="keyword">return</span> list.stream()</span><br><span class="line">                .filter(predicate)</span><br><span class="line">                .collect(Collectors.toList());</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="comment">/**</span></span><br><span class="line"><span class="comment">     * 获取 List 集合内实体中某属性的值</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> list List集合</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> mapper 属性</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@return</span> List&lt;T&gt; 集合</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> &lt;R&gt; 返回集合内实体的类型</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> &lt;T&gt; 形参集合内实体类型</span></span><br><span class="line"><span class="comment">     */</span></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> &lt;R, T&gt; List&lt;R&gt; <span class="title function_">map</span><span class="params">(List&lt;T&gt; list, Function&lt;? <span class="built_in">super</span> T, R&gt; mapper)</span> &#123;</span><br><span class="line">        <span class="keyword">if</span> (CollectionUtils.isEmpty(list)) &#123;</span><br><span class="line">            <span class="keyword">return</span> Collections.emptyList();</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        <span class="keyword">return</span> list.stream()</span><br><span class="line">                .map(mapper)</span><br><span class="line">                .collect(Collectors.toList());</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="comment">/**</span></span><br><span class="line"><span class="comment">     * 将 List 集合按照集合内实体某属性进行分组</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> list List集合</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> mapper 属性</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@return</span> Map&lt;R, List&lt;T&gt; map 集合</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> &lt;R&gt; 分组属性类型</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> &lt;T&gt; 形参集合内实体类型</span></span><br><span class="line"><span class="comment">     */</span></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> &lt;R, T&gt; Map&lt;R, List&lt;T&gt;&gt; <span class="title function_">groupBy</span><span class="params">(List&lt;T&gt; list, Function&lt;? <span class="built_in">super</span> T, R&gt; mapper)</span> &#123;</span><br><span class="line">        <span class="keyword">if</span> (CollectionUtils.isEmpty(list)) &#123;</span><br><span class="line">            <span class="keyword">return</span> Collections.emptyMap();</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        <span class="keyword">return</span> list.stream()</span><br><span class="line">                .collect(Collectors.groupingBy(mapper));</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="comment">/**</span></span><br><span class="line"><span class="comment">     * 将 List 集合按照实体属性 keyMapper 作为 key, valueMapper 作为 value 封装成 map 集合</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> list List集合</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> keyMapper 实体属性, 作为 map 集合的 key</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> valueMapper 实体属性, 作为 map 集合的 value</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@return</span> Map&lt;K, List&lt;R&gt;&gt; map 集合</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> &lt;K&gt; 返回 map 集合的 key 类型</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> &lt;T&gt; 形参 List 集合类型</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> &lt;R&gt; 返回 map 集合的 value 类型</span></span><br><span class="line"><span class="comment">     */</span></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> &lt;K, T, R&gt; Map&lt;K, List&lt;R&gt;&gt; <span class="title function_">groupBy</span><span class="params">(List&lt;T&gt; list,</span></span><br><span class="line"><span class="params">                                                    Function&lt;? <span class="built_in">super</span> T, K&gt; keyMapper,</span></span><br><span class="line"><span class="params">                                                    Function&lt;? <span class="built_in">super</span> T, R&gt; valueMapper)</span> &#123;</span><br><span class="line">        <span class="keyword">if</span> (CollectionUtils.isEmpty(list)) &#123;</span><br><span class="line">            <span class="keyword">return</span> Collections.emptyMap();</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        Map&lt;K, List&lt;R&gt;&gt; result = <span class="keyword">new</span> <span class="title class_">HashMap</span>&lt;&gt;();</span><br><span class="line">        groupBy(list, keyMapper).forEach((k, v) -&gt; result.put(k, map(v, valueMapper)));</span><br><span class="line"></span><br><span class="line">        <span class="keyword">return</span> result;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="comment">/**</span></span><br><span class="line"><span class="comment">     * 获取 List 集合过滤之后的一个数据</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> list List 集合</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> predicate 断言, 过滤条件</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@return</span> Optional&lt;T&gt;</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> &lt;T&gt; 形参集合内实体类型</span></span><br><span class="line"><span class="comment">     */</span></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> &lt;T&gt; Optional&lt;T&gt; <span class="title function_">findOne</span><span class="params">(List&lt;T&gt; list, Predicate&lt;? <span class="built_in">super</span> T&gt; predicate)</span> &#123;</span><br><span class="line">        <span class="keyword">return</span> list.stream()</span><br><span class="line">                .filter(predicate)</span><br><span class="line">                .findFirst();</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="comment">/**</span></span><br><span class="line"><span class="comment">     * 获取 List 集合过滤后的数量</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> list List 集合</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> predicate 断言, 过滤条件</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@return</span> long 数量</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> &lt;T&gt; 形参集合内实体类型</span></span><br><span class="line"><span class="comment">     */</span></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> &lt;T&gt; <span class="type">long</span> <span class="title function_">count</span><span class="params">(List&lt;T&gt; list, Predicate&lt;? <span class="built_in">super</span> T&gt; predicate)</span> &#123;</span><br><span class="line">        <span class="keyword">if</span> (CollectionUtils.isEmpty(list)) &#123;</span><br><span class="line">            <span class="keyword">return</span> <span class="number">0L</span>;</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        <span class="keyword">return</span> list.stream()</span><br><span class="line">                .filter(predicate)</span><br><span class="line">                .count();</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div>
+
+]]></content>
+      <tags>
+        <tag>jdk8</tag>
+        <tag>stream</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>IDEA快捷键</title>
     <url>/posts/610bdf07/</url>
     <content><![CDATA[<h1 id="通用型"><a href="#通用型" class="headerlink" title="通用型"></a>通用型</h1><table>
@@ -951,40 +963,6 @@
       </tags>
   </entry>
   <entry>
-    <title>IDEA打开文件后左侧有很多空白设置</title>
-    <url>/posts/1384e06/</url>
-    <content><![CDATA[<p>IDEA 升级到 2024.1 版本后，打开文件发现文件左侧空白太多了，截图如下：</p>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="/../../images/articles/idea_01.png"
-                      alt="image-20240417153929981"
-                ></p>
-<p>解决方案，在 idea 菜单栏 view 处找到 View &gt; Appearance &gt; Exit Distraction Free Mode 设置即可，截图如下：</p>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="/../../images/articles/idea_02.png"
-                      alt="image-20240417154347065"
-                ></p>
-]]></content>
-      <tags>
-        <tag>idea</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>ListUtil封装jdk8-stream语法，简化代码编写</title>
-    <url>/posts/508b40e4/</url>
-    <content><![CDATA[<h2 id="背景"><a href="#背景" class="headerlink" title="背景"></a>背景</h2><p>​	由于在日常开发中，会经常使用到<code>JDK8</code>中的<code>Stream</code>语法糖，然而在使用过程中，发现存在很多冗余的方法，便想着封装个工具类，简化开发过程中的使用。</p>
-<h2 id="工具类-ListUtil"><a href="#工具类-ListUtil" class="headerlink" title="工具类 ListUtil"></a>工具类 ListUtil</h2><div class="highlight-container" data-rel="Java"><figure class="iseeu highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> org.apache.commons.collections.CollectionUtils;</span><br><span class="line"><span class="keyword">import</span> org.apache.commons.lang3.StringUtils;</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> java.util.ArrayList;</span><br><span class="line"><span class="keyword">import</span> java.util.Collections;</span><br><span class="line"><span class="keyword">import</span> java.util.HashMap;</span><br><span class="line"><span class="keyword">import</span> java.util.List;</span><br><span class="line"><span class="keyword">import</span> java.util.Map;</span><br><span class="line"><span class="keyword">import</span> java.util.Optional;</span><br><span class="line"><span class="keyword">import</span> java.util.function.BinaryOperator;</span><br><span class="line"><span class="keyword">import</span> java.util.function.Function;</span><br><span class="line"><span class="keyword">import</span> java.util.function.Predicate;</span><br><span class="line"><span class="keyword">import</span> java.util.stream.Collectors;</span><br><span class="line"></span><br><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * JDK8-Stream 工具类封装</span></span><br><span class="line"><span class="comment"> * Created by fengxuguang on 2024/3/20 14:29</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">ListUtil</span> &#123;</span><br><span class="line"></span><br><span class="line">    <span class="comment">/**</span></span><br><span class="line"><span class="comment">     * 过滤出有效 属性, 并去重</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> list 集合</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> mapper 处理属性</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@return</span> List&lt;String&gt; 返回结果</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> &lt;T&gt; 形参集合内实体类型</span></span><br><span class="line"><span class="comment">     */</span></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> &lt;T&gt;List&lt;String&gt; <span class="title function_">filterValidValue</span><span class="params">(List&lt;T&gt; list, Function&lt;? <span class="built_in">super</span> T, String&gt; mapper)</span> &#123;</span><br><span class="line">        <span class="keyword">if</span> (CollectionUtils.isEmpty(list)) &#123;</span><br><span class="line">            <span class="keyword">return</span> Collections.emptyList();</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        <span class="keyword">return</span> list.stream()</span><br><span class="line">                .map(mapper)</span><br><span class="line">                .filter(StringUtils::isNotBlank)</span><br><span class="line">                .distinct()</span><br><span class="line">                .collect(Collectors.toList());</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="comment">/**</span></span><br><span class="line"><span class="comment">     * 过滤多字段有效值, 并去重</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> list 集合</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> mappers 属性, 支持多属性</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@return</span> List&lt;String&gt; 返回结果</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> &lt;T&gt; 形参集合内实体类型</span></span><br><span class="line"><span class="comment">     */</span></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> &lt;T&gt; List&lt;String&gt; <span class="title function_">filterValidValueForFields</span><span class="params">(List&lt;T&gt; list, Function&lt;? <span class="built_in">super</span> T, String&gt; ...mappers)</span> &#123;</span><br><span class="line">        <span class="keyword">if</span> (CollectionUtils.isEmpty(list)) &#123;</span><br><span class="line">            <span class="keyword">return</span> Collections.emptyList();</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        List&lt;String&gt; result = <span class="keyword">new</span> <span class="title class_">ArrayList</span>&lt;&gt;();</span><br><span class="line">        <span class="keyword">for</span> (Function&lt;? <span class="built_in">super</span> T, String&gt; mapper : mappers) &#123;</span><br><span class="line">            result.addAll(list.stream()</span><br><span class="line">                    .map(mapper)</span><br><span class="line">                    .filter(StringUtils::isNotBlank)</span><br><span class="line">                    .distinct()</span><br><span class="line">                    .collect(Collectors.toList()));</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> result.stream()</span><br><span class="line">                .distinct()</span><br><span class="line">                .collect(Collectors.toList());</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="comment">/**</span></span><br><span class="line"><span class="comment">     * 将 List 转为 Map, 如果有相同元素, 去第一个</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> list list集合</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> keyMapper 作为属性列</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@return</span> Map&lt;String, T&gt; map 集合</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> &lt;T&gt; 形参集合内实体类型</span></span><br><span class="line"><span class="comment">     */</span></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> &lt;T&gt; Map&lt;String, T&gt; <span class="title function_">toMap</span><span class="params">(List&lt;T&gt; list, Function&lt;? <span class="built_in">super</span> T, String&gt; keyMapper)</span> &#123;</span><br><span class="line">        BinaryOperator&lt;T&gt; miss = (k1, k2) -&gt; k1;</span><br><span class="line">        <span class="keyword">return</span> list.stream()</span><br><span class="line">                .collect(Collectors.toMap(keyMapper, Function.identity(), miss));</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="comment">/**</span></span><br><span class="line"><span class="comment">     * 过滤数据</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> list list 集合</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> predicate 断言</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@return</span> List&lt;T&gt; 集合</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> &lt;T&gt; 形参集合内实体类型</span></span><br><span class="line"><span class="comment">     */</span></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> &lt;T&gt; List&lt;T&gt; <span class="title function_">filter</span><span class="params">(List&lt;T&gt; list, Predicate&lt;? <span class="built_in">super</span> T&gt; predicate)</span> &#123;</span><br><span class="line">        <span class="keyword">if</span> (CollectionUtils.isEmpty(list)) &#123;</span><br><span class="line">            <span class="keyword">return</span> Collections.emptyList();</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        <span class="keyword">return</span> list.stream()</span><br><span class="line">                .filter(predicate)</span><br><span class="line">                .collect(Collectors.toList());</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="comment">/**</span></span><br><span class="line"><span class="comment">     * 获取 List 集合内实体中某属性的值</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> list List集合</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> mapper 属性</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@return</span> List&lt;T&gt; 集合</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> &lt;R&gt; 返回集合内实体的类型</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> &lt;T&gt; 形参集合内实体类型</span></span><br><span class="line"><span class="comment">     */</span></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> &lt;R, T&gt; List&lt;R&gt; <span class="title function_">map</span><span class="params">(List&lt;T&gt; list, Function&lt;? <span class="built_in">super</span> T, R&gt; mapper)</span> &#123;</span><br><span class="line">        <span class="keyword">if</span> (CollectionUtils.isEmpty(list)) &#123;</span><br><span class="line">            <span class="keyword">return</span> Collections.emptyList();</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        <span class="keyword">return</span> list.stream()</span><br><span class="line">                .map(mapper)</span><br><span class="line">                .collect(Collectors.toList());</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="comment">/**</span></span><br><span class="line"><span class="comment">     * 将 List 集合按照集合内实体某属性进行分组</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> list List集合</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> mapper 属性</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@return</span> Map&lt;R, List&lt;T&gt; map 集合</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> &lt;R&gt; 分组属性类型</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> &lt;T&gt; 形参集合内实体类型</span></span><br><span class="line"><span class="comment">     */</span></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> &lt;R, T&gt; Map&lt;R, List&lt;T&gt;&gt; <span class="title function_">groupBy</span><span class="params">(List&lt;T&gt; list, Function&lt;? <span class="built_in">super</span> T, R&gt; mapper)</span> &#123;</span><br><span class="line">        <span class="keyword">if</span> (CollectionUtils.isEmpty(list)) &#123;</span><br><span class="line">            <span class="keyword">return</span> Collections.emptyMap();</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        <span class="keyword">return</span> list.stream()</span><br><span class="line">                .collect(Collectors.groupingBy(mapper));</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="comment">/**</span></span><br><span class="line"><span class="comment">     * 将 List 集合按照实体属性 keyMapper 作为 key, valueMapper 作为 value 封装成 map 集合</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> list List集合</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> keyMapper 实体属性, 作为 map 集合的 key</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> valueMapper 实体属性, 作为 map 集合的 value</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@return</span> Map&lt;K, List&lt;R&gt;&gt; map 集合</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> &lt;K&gt; 返回 map 集合的 key 类型</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> &lt;T&gt; 形参 List 集合类型</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> &lt;R&gt; 返回 map 集合的 value 类型</span></span><br><span class="line"><span class="comment">     */</span></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> &lt;K, T, R&gt; Map&lt;K, List&lt;R&gt;&gt; <span class="title function_">groupBy</span><span class="params">(List&lt;T&gt; list,</span></span><br><span class="line"><span class="params">                                                    Function&lt;? <span class="built_in">super</span> T, K&gt; keyMapper,</span></span><br><span class="line"><span class="params">                                                    Function&lt;? <span class="built_in">super</span> T, R&gt; valueMapper)</span> &#123;</span><br><span class="line">        <span class="keyword">if</span> (CollectionUtils.isEmpty(list)) &#123;</span><br><span class="line">            <span class="keyword">return</span> Collections.emptyMap();</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        Map&lt;K, List&lt;R&gt;&gt; result = <span class="keyword">new</span> <span class="title class_">HashMap</span>&lt;&gt;();</span><br><span class="line">        groupBy(list, keyMapper).forEach((k, v) -&gt; result.put(k, map(v, valueMapper)));</span><br><span class="line"></span><br><span class="line">        <span class="keyword">return</span> result;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="comment">/**</span></span><br><span class="line"><span class="comment">     * 获取 List 集合过滤之后的一个数据</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> list List 集合</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> predicate 断言, 过滤条件</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@return</span> Optional&lt;T&gt;</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> &lt;T&gt; 形参集合内实体类型</span></span><br><span class="line"><span class="comment">     */</span></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> &lt;T&gt; Optional&lt;T&gt; <span class="title function_">findOne</span><span class="params">(List&lt;T&gt; list, Predicate&lt;? <span class="built_in">super</span> T&gt; predicate)</span> &#123;</span><br><span class="line">        <span class="keyword">return</span> list.stream()</span><br><span class="line">                .filter(predicate)</span><br><span class="line">                .findFirst();</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="comment">/**</span></span><br><span class="line"><span class="comment">     * 获取 List 集合过滤后的数量</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> list List 集合</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> predicate 断言, 过滤条件</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@return</span> long 数量</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> &lt;T&gt; 形参集合内实体类型</span></span><br><span class="line"><span class="comment">     */</span></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> &lt;T&gt; <span class="type">long</span> <span class="title function_">count</span><span class="params">(List&lt;T&gt; list, Predicate&lt;? <span class="built_in">super</span> T&gt; predicate)</span> &#123;</span><br><span class="line">        <span class="keyword">if</span> (CollectionUtils.isEmpty(list)) &#123;</span><br><span class="line">            <span class="keyword">return</span> <span class="number">0L</span>;</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        <span class="keyword">return</span> list.stream()</span><br><span class="line">                .filter(predicate)</span><br><span class="line">                .count();</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div>
-
-]]></content>
-      <tags>
-        <tag>jdk8</tag>
-        <tag>stream</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>动态 Druid 连接池</title>
     <url>/posts/ecd042ad/</url>
     <content><![CDATA[<h2 id="动态-Druid-连接池"><a href="#动态-Druid-连接池" class="headerlink" title="动态 Druid 连接池"></a>动态 Druid 连接池</h2><h3 id="背景"><a href="#背景" class="headerlink" title="背景"></a>背景</h3><p> <strong>需求</strong>：因项目业务需求，需要在系统上配置不同数据库，然后进行连接获取数据库相关数据； 原生 JDBC 通过 DriverManager 进行连接每次都要重新进行连接，导致整体查询时间效率变低，故引入 Druid 连接池；<br>  但是不同类型数据库生成<code>DruidDataSource</code>后没有将<code>DS(DruidDataSource)</code>进行缓存起来， 本质还是每次连接数据库时还是重新进行数据库连接，问题依然存在。<br>  所以设计了一个<code>容器</code>将<code>DS</code>缓存起来，考虑到容器里数量限制，使用<code>LinkedHashMap</code>进行存储数据，控制存储<code>DS</code>的数量。 另考虑缓存起来的<code>DS</code>存在数据库密码修改的情况，支持更新<code>容器</code>内<code>DS</code>的<code>密码</code>，保证 DS 可用。<br>具体代码如下：</p>
@@ -1012,6 +990,28 @@
       </categories>
       <tags>
         <tag>java</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>IDEA打开文件后左侧有很多空白设置</title>
+    <url>/posts/1384e06/</url>
+    <content><![CDATA[<p>IDEA 升级到 2024.1 版本后，打开文件发现文件左侧空白太多了，截图如下：</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/../../images/articles/idea_01.png"
+                      alt="image-20240417153929981"
+                ></p>
+<p>解决方案，在 idea 菜单栏 view 处找到 View &gt; Appearance &gt; Exit Distraction Free Mode 设置即可，截图如下：</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/../../images/articles/idea_02.png"
+                      alt="image-20240417154347065"
+                ></p>
+]]></content>
+      <tags>
+        <tag>idea</tag>
       </tags>
   </entry>
   <entry>
@@ -1268,6 +1268,72 @@
       </tags>
   </entry>
   <entry>
+    <title>7.整数反转【中等】</title>
+    <url>/posts/13a6e543/</url>
+    <content><![CDATA[<h2 id="题目"><a href="#题目" class="headerlink" title="题目"></a>题目</h2><p>给你一个 32 位的有符号整数 <code>x</code> ，返回将 <code>x</code> 中的数字部分反转后的结果。</p>
+<p>如果反转后整数超过 32 位的有符号整数的范围 <code>[−231, 231 − 1]</code> ，就返回 0。</p>
+<p><strong>假设环境不允许存储 64 位整数（有符号或无符号）。</strong></p>
+<p><strong>示例 1：</strong></p>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">输入：x = 123</span><br><span class="line">输出：321</span><br></pre></td></tr></table></figure></div>
+
+<p><strong>示例 2：</strong></p>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">输入：x = -123</span><br><span class="line">输出：-321</span><br></pre></td></tr></table></figure></div>
+
+<p><strong>示例 3：</strong></p>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">输入：x = 120</span><br><span class="line">输出：21</span><br></pre></td></tr></table></figure></div>
+
+<p><strong>示例 4：</strong></p>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">输入：x = 0</span><br><span class="line">输出：0</span><br></pre></td></tr></table></figure></div>
+
+<p><strong>提示：</strong></p>
+<ul>
+<li><code>-231 &lt;= x &lt;= 231 - 1</code></li>
+</ul>
+<p>Related Topics</p>
+<p>数学</p>
+<h2 id="代码实现"><a href="#代码实现" class="headerlink" title="代码实现"></a>代码实现</h2><h3 id="java"><a href="#java" class="headerlink" title="java"></a>java</h3><div class="highlight-container" data-rel="Java"><figure class="iseeu highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">Solution</span> &#123;</span><br><span class="line">    <span class="keyword">public</span> <span class="type">int</span> <span class="title function_">reverse</span><span class="params">(<span class="type">int</span> x)</span> &#123;</span><br><span class="line">        <span class="type">int</span> <span class="variable">res</span> <span class="operator">=</span> <span class="number">0</span>;</span><br><span class="line">        <span class="keyword">while</span> (x != <span class="number">0</span>) &#123;</span><br><span class="line">            <span class="type">int</span> <span class="variable">pop</span> <span class="operator">=</span> x % <span class="number">10</span>;</span><br><span class="line">            <span class="keyword">if</span> (res &gt; Integer.MAX_VALUE / <span class="number">10</span> || (res == Integer.MAX_VALUE / <span class="number">10</span> &amp;&amp; pop &gt; <span class="number">7</span>)) &#123;</span><br><span class="line">                <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">            &#125;</span><br><span class="line">            <span class="keyword">if</span> (res &lt; Integer.MIN_VALUE / <span class="number">10</span> || (res == Integer.MIN_VALUE / <span class="number">10</span> &amp;&amp; pop &lt; -<span class="number">8</span>)) &#123;</span><br><span class="line">                <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">            &#125;</span><br><span class="line">            res = res * <span class="number">10</span> + pop;</span><br><span class="line">            x /= <span class="number">10</span>;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> res;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div>
+]]></content>
+      <categories>
+        <category>leetcode</category>
+      </categories>
+      <tags>
+        <tag>leetcode</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>9.回文数【简单】</title>
+    <url>/posts/a7884dee/</url>
+    <content><![CDATA[<h2 id="题目"><a href="#题目" class="headerlink" title="题目"></a>题目</h2><p>给你一个整数 <code>x</code> ，如果 <code>x</code> 是一个回文整数，返回 <code>true</code> ；否则，返回 <code>false</code> 。</p>
+<p>回文数是指正序（从左向右）和倒序（从右向左）读都是一样的整数。</p>
+<ul>
+<li>例如，<code>121</code> 是回文，而 <code>123</code> 不是。</li>
+</ul>
+<p><strong>示例 1：</strong></p>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">输入：x = 121</span><br><span class="line">输出：true</span><br></pre></td></tr></table></figure></div>
+
+<p><strong>示例 2：</strong></p>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">输入：x = -121</span><br><span class="line">输出：false</span><br><span class="line">解释：从左向右读, 为 -121 。 从右向左读, 为 121- 。因此它不是一个回文数。</span><br></pre></td></tr></table></figure></div>
+
+<p><strong>示例 3：</strong></p>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">输入：x = 10</span><br><span class="line">输出：false</span><br><span class="line">解释：从右向左读, 为 01 。因此它不是一个回文数。</span><br></pre></td></tr></table></figure></div>
+
+<p><strong>提示：</strong></p>
+<ul>
+<li><code>-231 &lt;= x &lt;= 231 - 1</code></li>
+</ul>
+<p><strong>进阶：</strong>你能不将整数转为字符串来解决这个问题吗？</p>
+<p>Related Topics</p>
+<p>数学</p>
+<h2 id="代码实现"><a href="#代码实现" class="headerlink" title="代码实现"></a>代码实现</h2><h3 id="java"><a href="#java" class="headerlink" title="java"></a>java</h3><div class="highlight-container" data-rel="Java"><figure class="iseeu highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">Solution</span> &#123;</span><br><span class="line">    <span class="keyword">public</span> <span class="type">boolean</span> <span class="title function_">isPalindrome</span><span class="params">(<span class="type">int</span> x)</span> &#123;</span><br><span class="line">        <span class="keyword">if</span> (x &lt; <span class="number">0</span> || (x % <span class="number">10</span> == <span class="number">0</span> &amp;&amp; x != <span class="number">0</span>)) <span class="keyword">return</span> <span class="literal">false</span>;</span><br><span class="line"></span><br><span class="line">        <span class="type">int</span> <span class="variable">revertedNumber</span> <span class="operator">=</span> <span class="number">0</span>;</span><br><span class="line">        <span class="keyword">while</span> (x &gt; revertedNumber) &#123;</span><br><span class="line">            revertedNumber = revertedNumber * <span class="number">10</span> + x % <span class="number">10</span>;</span><br><span class="line">            x /= <span class="number">10</span>;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> x == revertedNumber || x == revertedNumber / <span class="number">10</span>;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div>
+]]></content>
+      <categories>
+        <category>leetcode</category>
+      </categories>
+      <tags>
+        <tag>leetcode</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Lombok语法</title>
     <url>/posts/ee5b4d8/</url>
     <content><![CDATA[<h2 id="依赖包"><a href="#依赖包" class="headerlink" title="依赖包"></a>依赖包</h2><div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;dependency&gt;</span><br><span class="line">  &lt;groupId&gt;org.projectlombok&lt;/groupId&gt;</span><br><span class="line">  &lt;artifactId&gt;lombok&lt;/artifactId&gt;</span><br><span class="line">  &lt;version&gt;1.18.24&lt;/version&gt;</span><br><span class="line">&lt;/dependency&gt;</span><br></pre></td></tr></table></figure></div>
@@ -1354,72 +1420,6 @@
       </categories>
       <tags>
         <tag>springboot</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>7.整数反转【中等】</title>
-    <url>/posts/13a6e543/</url>
-    <content><![CDATA[<h2 id="题目"><a href="#题目" class="headerlink" title="题目"></a>题目</h2><p>给你一个 32 位的有符号整数 <code>x</code> ，返回将 <code>x</code> 中的数字部分反转后的结果。</p>
-<p>如果反转后整数超过 32 位的有符号整数的范围 <code>[−231, 231 − 1]</code> ，就返回 0。</p>
-<p><strong>假设环境不允许存储 64 位整数（有符号或无符号）。</strong></p>
-<p><strong>示例 1：</strong></p>
-<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">输入：x = 123</span><br><span class="line">输出：321</span><br></pre></td></tr></table></figure></div>
-
-<p><strong>示例 2：</strong></p>
-<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">输入：x = -123</span><br><span class="line">输出：-321</span><br></pre></td></tr></table></figure></div>
-
-<p><strong>示例 3：</strong></p>
-<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">输入：x = 120</span><br><span class="line">输出：21</span><br></pre></td></tr></table></figure></div>
-
-<p><strong>示例 4：</strong></p>
-<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">输入：x = 0</span><br><span class="line">输出：0</span><br></pre></td></tr></table></figure></div>
-
-<p><strong>提示：</strong></p>
-<ul>
-<li><code>-231 &lt;= x &lt;= 231 - 1</code></li>
-</ul>
-<p>Related Topics</p>
-<p>数学</p>
-<h2 id="代码实现"><a href="#代码实现" class="headerlink" title="代码实现"></a>代码实现</h2><h3 id="java"><a href="#java" class="headerlink" title="java"></a>java</h3><div class="highlight-container" data-rel="Java"><figure class="iseeu highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">Solution</span> &#123;</span><br><span class="line">    <span class="keyword">public</span> <span class="type">int</span> <span class="title function_">reverse</span><span class="params">(<span class="type">int</span> x)</span> &#123;</span><br><span class="line">        <span class="type">int</span> <span class="variable">res</span> <span class="operator">=</span> <span class="number">0</span>;</span><br><span class="line">        <span class="keyword">while</span> (x != <span class="number">0</span>) &#123;</span><br><span class="line">            <span class="type">int</span> <span class="variable">pop</span> <span class="operator">=</span> x % <span class="number">10</span>;</span><br><span class="line">            <span class="keyword">if</span> (res &gt; Integer.MAX_VALUE / <span class="number">10</span> || (res == Integer.MAX_VALUE / <span class="number">10</span> &amp;&amp; pop &gt; <span class="number">7</span>)) &#123;</span><br><span class="line">                <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">            &#125;</span><br><span class="line">            <span class="keyword">if</span> (res &lt; Integer.MIN_VALUE / <span class="number">10</span> || (res == Integer.MIN_VALUE / <span class="number">10</span> &amp;&amp; pop &lt; -<span class="number">8</span>)) &#123;</span><br><span class="line">                <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">            &#125;</span><br><span class="line">            res = res * <span class="number">10</span> + pop;</span><br><span class="line">            x /= <span class="number">10</span>;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> res;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div>
-]]></content>
-      <categories>
-        <category>leetcode</category>
-      </categories>
-      <tags>
-        <tag>leetcode</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>9.回文数【简单】</title>
-    <url>/posts/a7884dee/</url>
-    <content><![CDATA[<h2 id="题目"><a href="#题目" class="headerlink" title="题目"></a>题目</h2><p>给你一个整数 <code>x</code> ，如果 <code>x</code> 是一个回文整数，返回 <code>true</code> ；否则，返回 <code>false</code> 。</p>
-<p>回文数是指正序（从左向右）和倒序（从右向左）读都是一样的整数。</p>
-<ul>
-<li>例如，<code>121</code> 是回文，而 <code>123</code> 不是。</li>
-</ul>
-<p><strong>示例 1：</strong></p>
-<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">输入：x = 121</span><br><span class="line">输出：true</span><br></pre></td></tr></table></figure></div>
-
-<p><strong>示例 2：</strong></p>
-<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">输入：x = -121</span><br><span class="line">输出：false</span><br><span class="line">解释：从左向右读, 为 -121 。 从右向左读, 为 121- 。因此它不是一个回文数。</span><br></pre></td></tr></table></figure></div>
-
-<p><strong>示例 3：</strong></p>
-<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">输入：x = 10</span><br><span class="line">输出：false</span><br><span class="line">解释：从右向左读, 为 01 。因此它不是一个回文数。</span><br></pre></td></tr></table></figure></div>
-
-<p><strong>提示：</strong></p>
-<ul>
-<li><code>-231 &lt;= x &lt;= 231 - 1</code></li>
-</ul>
-<p><strong>进阶：</strong>你能不将整数转为字符串来解决这个问题吗？</p>
-<p>Related Topics</p>
-<p>数学</p>
-<h2 id="代码实现"><a href="#代码实现" class="headerlink" title="代码实现"></a>代码实现</h2><h3 id="java"><a href="#java" class="headerlink" title="java"></a>java</h3><div class="highlight-container" data-rel="Java"><figure class="iseeu highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">Solution</span> &#123;</span><br><span class="line">    <span class="keyword">public</span> <span class="type">boolean</span> <span class="title function_">isPalindrome</span><span class="params">(<span class="type">int</span> x)</span> &#123;</span><br><span class="line">        <span class="keyword">if</span> (x &lt; <span class="number">0</span> || (x % <span class="number">10</span> == <span class="number">0</span> &amp;&amp; x != <span class="number">0</span>)) <span class="keyword">return</span> <span class="literal">false</span>;</span><br><span class="line"></span><br><span class="line">        <span class="type">int</span> <span class="variable">revertedNumber</span> <span class="operator">=</span> <span class="number">0</span>;</span><br><span class="line">        <span class="keyword">while</span> (x &gt; revertedNumber) &#123;</span><br><span class="line">            revertedNumber = revertedNumber * <span class="number">10</span> + x % <span class="number">10</span>;</span><br><span class="line">            x /= <span class="number">10</span>;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> x == revertedNumber || x == revertedNumber / <span class="number">10</span>;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div>
-]]></content>
-      <categories>
-        <category>leetcode</category>
-      </categories>
-      <tags>
-        <tag>leetcode</tag>
       </tags>
   </entry>
 </search>
