@@ -13,26 +13,25 @@
     
     <!--- Seo Part-->
     
-    <link rel="canonical" href="https://blog.fengxuguang.top/posts/bc44723c/"/>
+    <link rel="canonical" href="https://blog.fengxuguang.top/posts/8d409c77/"/>
     <meta name="robots" content="index,follow">
     <meta name="googlebot" content="index,follow">
     <meta name="revisit-after" content="1 days">
     
-        <meta name="description" content="一、IDea 中安装 Vim 插件  在 IDEA 中安装如下三个插件：  IdeaVim IdeaVimExtension IdeaVim-EasyMotion   当你的光标变成了小方块后，说明你的 vim 插件安装好了~  二、Vim 的使用1. 进入插入模式按下【i, I, o, O, a, A, r, R】等任何一个字母后进入编辑模式。这时候 IDEA 右下方合会出现 【INSERT】的">
+        <meta name="description" content="一、概述Flume 是 Apache 提供的一个高可用、高可靠、分布式的系统，用于有效地收集、聚合和移动大量日志数据到集中式数据存储。Flume 基于流式架构，灵活简单。它专为日志数据收集服务设计，但也适用于各种其他数据流场景。 二、 前言Flume 官网文档地址：https:&#x2F;&#x2F;flume.apache.org&#x2F;FlumeUserGuide.html  Flume Source 端采用 Kafk">
 <meta property="og:type" content="article">
-<meta property="og:title" content="IDEA中使用Vim">
-<meta property="og:url" content="https://blog.fengxuguang.top/posts/bc44723c/index.html">
+<meta property="og:title" content="Flume从kafka采集数据到另一个kafka">
+<meta property="og:url" content="https://blog.fengxuguang.top/posts/8d409c77/index.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="一、IDea 中安装 Vim 插件  在 IDEA 中安装如下三个插件：  IdeaVim IdeaVimExtension IdeaVim-EasyMotion   当你的光标变成了小方块后，说明你的 vim 插件安装好了~  二、Vim 的使用1. 进入插入模式按下【i, I, o, O, a, A, r, R】等任何一个字母后进入编辑模式。这时候 IDEA 右下方合会出现 【INSERT】的">
+<meta property="og:description" content="一、概述Flume 是 Apache 提供的一个高可用、高可靠、分布式的系统，用于有效地收集、聚合和移动大量日志数据到集中式数据存储。Flume 基于流式架构，灵活简单。它专为日志数据收集服务设计，但也适用于各种其他数据流场景。 二、 前言Flume 官网文档地址：https:&#x2F;&#x2F;flume.apache.org&#x2F;FlumeUserGuide.html  Flume Source 端采用 Kafk">
 <meta property="og:locale" content="zh_CN">
-<meta property="og:image" content="https://blog.fengxuguang.top/images/articles/vim/idea-setting.png">
-<meta property="og:image" content="https://blog.fengxuguang.top/images/articles/vim/idea-plugin.jpg">
-<meta property="article:published_time" content="2024-05-30T02:38:15.000Z">
-<meta property="article:modified_time" content="2024-06-04T04:12:08.833Z">
+<meta property="og:image" content="https://blog.fengxuguang.top/images/articles/flume/flume-architecture.png">
+<meta property="article:published_time" content="2024-06-17T10:57:41.000Z">
+<meta property="article:modified_time" content="2024-06-18T07:01:21.145Z">
 <meta property="article:author" content="John Doe">
-<meta property="article:tag" content="vim">
+<meta property="article:tag" content="flume">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="https://blog.fengxuguang.top/images/articles/vim/idea-setting.png">
+<meta name="twitter:image" content="https://blog.fengxuguang.top/images/articles/flume/flume-architecture.png">
     
     
     <!--- Icon Part-->
@@ -44,7 +43,7 @@
     
     <title>
         
-            IDEA中使用Vim -
+            Flume从kafka采集数据到另一个kafka -
         
         冯旭光的博客
     </title>
@@ -510,7 +509,7 @@
         <div class="article-title relative w-full">
             
                 <div class="w-full flex items-center pt-6 justify-start">
-                    <h1 class="article-title-regular text-second-text-color text-4xl md:text-6xl font-bold px-2 sm:px-6 md:px-8 py-3">IDEA中使用Vim</h1>
+                    <h1 class="article-title-regular text-second-text-color text-4xl md:text-6xl font-bold px-2 sm:px-6 md:px-8 py-3">Flume从kafka采集数据到另一个kafka</h1>
                 </div>
             
             </div>
@@ -531,19 +530,35 @@
                         <div class="article-meta-info">
     <span class="article-date article-meta-item">
         <i class="fa-regular fa-pen-fancy"></i>&nbsp;
-        <span class="desktop">2024-05-30 10:38:15</span>
-        <span class="mobile">2024-05-30 10:38:15</span>
+        <span class="desktop">2024-06-17 18:57:41</span>
+        <span class="mobile">2024-06-17 18:57:41</span>
         <span class="hover-info">创建</span>
     </span>
     
         <span class="article-date article-meta-item">
             <i class="fa-regular fa-wrench"></i>&nbsp;
-            <span class="desktop">2024-06-04 12:12:08</span>
-            <span class="mobile">2024-06-04 12:12:08</span>
+            <span class="desktop">2024-06-18 15:01:21</span>
+            <span class="mobile">2024-06-18 15:01:21</span>
             <span class="hover-info">更新</span>
         </span>
     
 
+    
+        <span class="article-categories article-meta-item">
+            <i class="fa-regular fa-folders"></i>&nbsp;
+            <ul>
+                
+                
+                    
+                        
+                        <li>
+                            <a href="/categories/flume/">flume</a>&nbsp;
+                        </li>
+                    
+                    
+                
+            </ul>
+        </span>
     
     
         <span class="article-tags article-meta-item">
@@ -551,7 +566,7 @@
             <ul>
                 
                     <li>
-                        <a href="/tags/vim/">vim</a>&nbsp;
+                        <a href="/tags/flume/">flume</a>&nbsp;
                     </li>
                 
             </ul>
@@ -561,12 +576,12 @@
     
     
         <span class="article-wordcount article-meta-item">
-            <i class="fa-regular fa-typewriter"></i>&nbsp;<span>389 字</span>
+            <i class="fa-regular fa-typewriter"></i>&nbsp;<span>2k 字</span>
         </span>
     
     
         <span class="article-min2read article-meta-item">
-            <i class="fa-regular fa-clock"></i>&nbsp;<span>1 分钟</span>
+            <i class="fa-regular fa-clock"></i>&nbsp;<span>8 分钟</span>
         </span>
     
     
@@ -585,49 +600,109 @@
 
 
         <div class="article-content markdown-body px-2 sm:px-6 md:px-8 pb-8">
-            <h2 id="一、IDea-中安装-Vim-插件"><a href="#一、IDea-中安装-Vim-插件" class="headerlink" title="一、IDea 中安装 Vim 插件"></a>一、IDea 中安装 Vim 插件</h2><p><img  
+            <h2 id="一、概述"><a href="#一、概述" class="headerlink" title="一、概述"></a>一、概述</h2><p>Flume 是 Apache 提供的一个高可用、高可靠、分布式的系统，用于<strong>有效地收集、聚合和移动大量日志数据到集中式数据存储</strong>。Flume 基于流式架构，灵活简单。它专为<strong>日志数据</strong>收集服务设计，但也适用于各种其他数据流场景。</p>
+<h2 id="二、-前言"><a href="#二、-前言" class="headerlink" title="二、 前言"></a>二、 前言</h2><p>Flume 官网文档地址：<a class="link"   target="_blank" rel="noopener" href="https://flume.apache.org/FlumeUserGuide.html" >https://flume.apache.org/FlumeUserGuide.html <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+<p>Flume Source 端采用 Kafka 官网文档地址：<a class="link"   target="_blank" rel="noopener" href="https://flume.apache.org/FlumeUserGuide.html#kafka-source" >https://flume.apache.org/FlumeUserGuide.html#kafka-source <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+<p>Flume Sink 端采用 Kafka ：<a class="link"   target="_blank" rel="noopener" href="https://flume.apache.org/FlumeUserGuide.html#flume-sinks" >https://flume.apache.org/FlumeUserGuide.html#flume-sinks <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+<p>下载地址：<a class="link"   target="_blank" rel="noopener" href="https://flume.apache.org/download.html" >https://flume.apache.org/download.html <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+<p>github 地址：<a class="link"   target="_blank" rel="noopener" href="https://github.com/apache/logging-flume" >https://github.com/apache/logging-flume <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+<h2 id="三、Flume-架构图"><a href="#三、Flume-架构图" class="headerlink" title="三、Flume 架构图"></a>三、Flume 架构图</h2><p><img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="/../../images/articles/vim/idea-setting.png"
-                      alt="image-20240530104021464"
+                     data-src="/../../images/articles/flume/flume-architecture.png"
+                     
                 ></p>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="/../../images/articles/vim/idea-plugin.jpg"
-                      alt="image-20240530104213244"
-                ></p>
-<p>在 IDEA 中安装如下三个插件：</p>
-<ul>
-<li>IdeaVim</li>
-<li>IdeaVimExtension</li>
-<li>IdeaVim-EasyMotion</li>
-</ul>
 <blockquote>
-<p>当你的光标变成了小方块后，说明你的 vim 插件安装好了~</p>
+<ol>
+<li><strong>Source</strong>：数据的来源。<strong>Source 负责接收或拉取数据进入 Flume 流。</strong>数据可以来自多种来源，如日志文件、网络服务等。</li>
+<li><strong>Channel：用于在 Source 和 Sink 之间传递事件的缓冲区。</strong>Channel 保证了数据的可靠性，即使在传输过程中遇到系统故障，数据也不会丢失。</li>
+<li><strong>Sink</strong>：数据的目的地。<strong>Sink 负责将从 Channel 接收到的数据写入到外部存储系统或数据处理平台</strong>，如 HDFS、ElasticSearch 或 Kafka。</li>
+</ol>
 </blockquote>
-<h2 id="二、Vim-的使用"><a href="#二、Vim-的使用" class="headerlink" title="二、Vim 的使用"></a>二、Vim 的使用</h2><h3 id="1-进入插入模式"><a href="#1-进入插入模式" class="headerlink" title="1. 进入插入模式"></a>1. 进入插入模式</h3><p>按下【i, I, o, O, a, A, r, R】等任何一个字母后进入编辑模式。这时候 IDEA 右下方合会出现 【INSERT】的字样，此时才可以进行编辑。按【ESC】即可退出编辑模式。</p>
+<h3 id="3-1-架构组件"><a href="#3-1-架构组件" class="headerlink" title="3.1 架构组件"></a>3.1 架构组件</h3><h4 id="3-1-1-Agent"><a href="#3-1-1-Agent" class="headerlink" title="3.1.1 Agent"></a>3.1.1 Agent</h4><p>​	Agent 是一个 JVM 进程，它以事件的形式将数据从源头送至目的，是 Flume 数据传输的基本单元。</p>
+<p>​	Agent 主要有 3 个部分组成，<strong>Source</strong>、<strong>Channel</strong>、<strong>Sink</strong>。</p>
+<h4 id="3-1-2-Source"><a href="#3-1-2-Source" class="headerlink" title="3.1.2 Source"></a>3.1.2 Source</h4><p>​	Source 是负责接收数据到 Flume Agent 的组件。Source 组件可以处理各种类型、各种格式的日志数据，包括 avro、thrift、exec、jms、spooling directory、taildir、twitter、kafka、netcat、sequence generator、syslog、http、legacy 等。</p>
+<h4 id="3-1-3-Channel"><a href="#3-1-3-Channel" class="headerlink" title="3.1.3 Channel"></a>3.1.3 Channel</h4><p>​	Channel 是位于 Source 和 Sink 之间的缓冲区。因此，Channel 允许 Source 和 Sink 运行在不同的速率上。<strong>Channel 是线程安全的</strong>，可以同时处理几个 Source 的写入操作和几个 Sink 的读取操作。</p>
+<p>​	Channel 支持的类型包括：</p>
 <ul>
-<li>a 在光标后，进入插入模式；</li>
-<li>A 在本行结尾，进入插入模式；</li>
-<li>i 在光标前，进入插入模式；</li>
-<li>I 在本行开头，进入插入模式；</li>
-<li>o 在本行之后新增一行，并进入插入模式；</li>
-<li>O 在本行之前新增一行，并进入插入模式；</li>
-<li>s 删除当前字符，并进入插入模式；</li>
-<li>S 删除当前行中的所有文本，并进入插入模式；</li>
+<li>Memory：事件存储到内存中。</li>
+<li>JDBC：事件存储到数据库中。</li>
+<li>Kafka：事件存储到 Kafka 中</li>
+<li>File：事件写入到磁盘中。</li>
+<li>Custom：事件写入到自定义中。</li>
 </ul>
-<h3 id="2-移动光标"><a href="#2-移动光标" class="headerlink" title="2. 移动光标"></a>2. 移动光标</h3><p>【h、j、k、l】，分别控制光标左、下、上、右移一个。</p>
-<h3 id="3-复制-粘贴"><a href="#3-复制-粘贴" class="headerlink" title="3. 复制 &amp; 粘贴"></a>3. 复制 &amp; 粘贴</h3><ul>
-<li>yy：复制光标所在行</li>
-<li>nyy：复制光标所在向下 n 行</li>
-<li>y1G：复制光标所在行到第一行的所有数据</li>
-<li>yG：复制光标所在行到最后一行的所有数据</li>
-<li>y0：复制光标所在的那个字符到该行行首的所有数据</li>
-<li>y$：复制光标所在的那个字符到该行行尾的所有数据</li>
-<li>p：将已复制的数据在光标下一行粘贴上</li>
-<li>P：将已复制的数据在光标上一行粘贴上</li>
+<h4 id="3-1-4-Sink"><a href="#3-1-4-Sink" class="headerlink" title="3.1.4 Sink"></a>3.1.4 Sink</h4><p>​	Sink 不断地轮询 Channel 中的事件且批量地移除它们，并将这些事件批量写入到存储（HDFS、Kakfa等）系统、或者发送到另一个 Flume Agent。</p>
+<p>​	Sink 是完全事务性的。在从 Channel 批量删除数据之前，每个 Sink 用 Channel 启动一个事务。批量事件一旦成功写出到存储系统或下一个 Flume Agent，Sink 就利用 Channel 提交事务。事务一旦被提交，该 Channel 从自己的内部缓冲区删除事件。</p>
+<p>​	Sink 组件目的地包括：</p>
+<ul>
+<li>HDFS</li>
+<li>Hive</li>
+<li>Logger</li>
+<li>Avro</li>
+<li>Thrift</li>
+<li>IRC</li>
+<li>File Roll</li>
+<li>Null</li>
+<li>HBase</li>
+<li>Kafka</li>
+<li>Http</li>
+<li>Custom：自定义</li>
 </ul>
+<h4 id="3-1-5-Event"><a href="#3-1-5-Event" class="headerlink" title="3.1.5 Event"></a>3.1.5 Event</h4><p>​	传输单元，Flume 数据传输的基本单元，以事件的形式将数据从源头送至目的地。</p>
+<p>​	Event 由<code>Header</code>和<code>Body</code>两部分组成，Header 用来存放该 event 的一些属性，为 K-V 结构，Body 用来存放该条数据，形式为字节数组。</p>
+<h5 id="设计原因"><a href="#设计原因" class="headerlink" title="设计原因"></a>设计原因</h5><blockquote>
+<ol>
+<li><strong>灵活性</strong>：<code>header</code>是一个键值对集合(Map)，<strong>允许在事件中附加元数据</strong>，如时间戳、源标识、类型等。这种设计提供了极大的灵活性，使得在整个数据流传输过程中，可以根据需要动态添加、读取和修改事件的元信息。</li>
+<li><strong>兼容性</strong>：<code>Body</code>是一个字节数组(byte array)，<strong>可以存储任何形式的数据</strong>，无论是文本、二进制文件还是序列化对象。这意味着 Flume 可以处理各种数据类型，不受内容格式的限制，保证了与各种数据源和目的地的兼容性。</li>
+<li><strong>高效性</strong>：使用字节数组作为<code>Body</code>的存储格式，可以高效地在网络中传输数据，同时也便于存储和处理。由于字节数组在 Java 中也是一种基础且高效的数据结构，它适合用来表示未加工的数据流。</li>
+</ol>
+</blockquote>
+<h5 id="Body-大小限制"><a href="#Body-大小限制" class="headerlink" title="Body 大小限制"></a>Body 大小限制</h5><p><code>Event</code>的<code>Body</code>大小本身在 Flume 的设计中没有硬性限制，但实际上，由于内存和网络带宽的限制，以及目的地系统（如 Kafka）可能对消息大小有自己的限制，通常需要根据具体的使用场景来确定一个合理的大小。例如，Kafka 默认的最大消息是 1MB，尽管这个值是可以配置的。</p>
+<h5 id="源码角度"><a href="#源码角度" class="headerlink" title="源码角度"></a>源码角度</h5><p>从源码角度看，<code>Event</code>的定义体现了其简洁且高效的设计理念。下面是<code>Event</code>接口的源代码。</p>
+<div class="highlight-container" data-rel="Java"><figure class="iseeu highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">package</span> org.apache.flume;</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> java.util.Map;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">interface</span> <span class="title class_">Event</span> &#123;</span><br><span class="line">    Map&lt;String, String&gt; <span class="title function_">getHeaders</span><span class="params">()</span>;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">void</span> <span class="title function_">setHeaders</span><span class="params">(Map&lt;String, String&gt; var1)</span>;</span><br><span class="line"></span><br><span class="line">    <span class="type">byte</span>[] getBody();</span><br><span class="line"></span><br><span class="line">    <span class="keyword">void</span> <span class="title function_">setBody</span><span class="params">(<span class="type">byte</span>[] var1)</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div>
+
+<p>在这个接口中，<code>getHeaders</code>和<code>setHeaders</code>方法用于操作事件的元数据，而<code>getBody</code>和<code>setBody</code>方法则用于获取和设置事件的主体数据。这种设计使得 Flume 能够灵活地处理各种数据类型和格式，同时保持高效的数据处理和传输能力。</p>
+<h2 id="四、安装"><a href="#四、安装" class="headerlink" title="四、安装"></a>四、安装</h2><ol>
+<li><p>将 apache-flume-1.11.0-bin.tar.gz 上传到 linux 的 &#x2F;usr&#x2F;local 目录下</p>
+</li>
+<li><p>解压 apache-flume-1.11.0-bin.tar.gz 到 &#x2F;usr&#x2F;local&#x2F; 目录下</p>
+<blockquote>
+<p>tar -zxf apache-flume-1.11.0-bin.tar.gz -C &#x2F;usr&#x2F;local&#x2F;</p>
+</blockquote>
+</li>
+<li><p>修改 apache-flume-1.11.0-bin 文件夹名称为 flume</p>
+<blockquote>
+<p>mv apache-flume-1.11.0-bin flume</p>
+</blockquote>
+</li>
+<li><p>将 flume&#x2F;conf 下的 flume-env.sh.template 文件修改为 flume-env.sh，并配置 flume-env.sh 文件</p>
+<blockquote>
+<p>mv flume-env.sh.template flume-env.sh</p>
+<p>vi flume-env.sh</p>
+<p>export JAVA_HOME&#x3D;&#x2F;usr&#x2F;local&#x2F;jdk1.8.0_144</p>
+</blockquote>
+</li>
+</ol>
+<h2 id="五、案例"><a href="#五、案例" class="headerlink" title="五、案例"></a>五、案例</h2><h3 id="5-1-Kafka-Memory-Kafka"><a href="#5-1-Kafka-Memory-Kafka" class="headerlink" title="5.1 Kafka -&gt; Memory -&gt; Kafka"></a>5.1 Kafka -&gt; Memory -&gt; Kafka</h3><div class="highlight-container" data-rel="Shell"><figure class="iseeu highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">vi kafka-memory-kafka.conf</span><br></pre></td></tr></table></figure></div>
+
+<div class="highlight-container" data-rel="Properties"><figure class="iseeu highlight properties"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 定义 agent、source、channel、sink 名称，并绑定关系</span></span><br><span class="line"><span class="attr">a1.sources</span> = <span class="string">r1</span></span><br><span class="line"><span class="attr">a1.sinks</span> = <span class="string">k1</span></span><br><span class="line"><span class="attr">a1.channels</span> = <span class="string">c1</span></span><br><span class="line"><span class="comment"></span></span><br><span class="line"><span class="comment"># source </span></span><br><span class="line"><span class="attr">a1.sources.r1.type</span> = <span class="string">org.apache.flume.source.kafka.KafkaSource</span></span><br><span class="line"><span class="attr">a1.sources.r1.channels</span> = <span class="string">c1</span></span><br><span class="line"><span class="attr">a1.sources.r1.batchSize</span> = <span class="string">3</span></span><br><span class="line"><span class="attr">a1.sources.r1.batchDurationMillis</span> = <span class="string">2000</span></span><br><span class="line"><span class="comment"># kafka 服务地址</span></span><br><span class="line"><span class="attr">a1.sources.r1.kafka.bootstrap.servers</span> = <span class="string">192.162.11.25:9092</span></span><br><span class="line"><span class="comment"># topic 名称</span></span><br><span class="line"><span class="attr">a1.sources.r1.kafka.topics</span> = <span class="string">flume-source-kafka2</span></span><br><span class="line"><span class="comment"># 拦截器</span></span><br><span class="line"><span class="attr">a1.sources.r1.interceptors</span> = <span class="string">i1 i2</span></span><br><span class="line"><span class="attr">a1.sources.r1.interceptors.i1.type</span> = <span class="string">static</span></span><br><span class="line"><span class="attr">a1.sources.r1.interceptors.i1.key</span> = <span class="string">topic</span></span><br><span class="line"><span class="attr">a1.sources.r1.interceptors.i1.preserveExisting</span> = <span class="string">false</span></span><br><span class="line"><span class="comment"># sink 端 topic 名称</span></span><br><span class="line"><span class="attr">a1.sources.r1.interceptors.i1.value</span> = <span class="string">flume-collect-kafka2</span></span><br><span class="line"><span class="comment"></span></span><br><span class="line"><span class="comment"># sink</span></span><br><span class="line"><span class="attr">a1.sinks.k1.channel</span> = <span class="string">c1</span></span><br><span class="line"><span class="attr">a1.sinks.k1.type</span> = <span class="string">org.apache.flume.sink.kafka.KafkaSink</span></span><br><span class="line"><span class="attr">a1.sinks.k1.kafka.flumeBatchSize</span> = <span class="string">3</span></span><br><span class="line"><span class="comment"># kafka 服务地址</span></span><br><span class="line"><span class="attr">a1.sinks.k1.kafka.bootstrap.servers</span> = <span class="string">192.162.11.191:9092</span></span><br><span class="line"><span class="comment"># topic 名称</span></span><br><span class="line"><span class="attr">a1.sinks.k1.kafka.topic</span> = <span class="string">flume-collect-kafka2</span></span><br><span class="line"><span class="attr">a1.sinks.k1.kafka.producer.acks</span> = <span class="string">1</span></span><br><span class="line"><span class="attr">a1.sinks.k1.kafka.producer.linger.ms</span> = <span class="string">1</span></span><br><span class="line"><span class="attr">a1.sinks.k1.kafka.producer.compression.type</span> = <span class="string">snappy</span></span><br><span class="line"><span class="comment"></span></span><br><span class="line"><span class="comment"># channel</span></span><br><span class="line"><span class="attr">a1.channels.c1.type</span> = <span class="string">memory</span></span><br><span class="line"><span class="attr">a1.channels.c1.capacity</span> = <span class="string">1000</span></span><br><span class="line"><span class="attr">a1.channels.c1.transactionCapacity</span> = <span class="string">1000</span></span><br><span class="line"><span class="attr">a1.channels.c1.keep-alive</span> = <span class="string">10</span></span><br></pre></td></tr></table></figure></div>
+
+<p>启动命令</p>
+<div class="highlight-container" data-rel="Shell"><figure class="iseeu highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">nohup /usr/local/flume/bin/flume-ng agent \</span><br><span class="line">-n a1 \</span><br><span class="line">-c /usr/local/flume/conf/ \</span><br><span class="line">-f /usr/local/flume/conf/kafka-memory-kafka.conf \</span><br><span class="line">-Dflume.root.logger=INFO,console \</span><br><span class="line"><span class="meta prompt_">&gt; </span><span class="language-bash">/usr/local/flume/conf/kafka-memory-kafka.log 2&gt;&amp;1 &amp;</span></span><br></pre></td></tr></table></figure></div>
+
+
+
+<h3 id="5-2-Kafka-Kafka-Kafka"><a href="#5-2-Kafka-Kafka-Kafka" class="headerlink" title="5.2 Kafka -&gt; Kafka -&gt; Kafka"></a>5.2 Kafka -&gt; Kafka -&gt; Kafka</h3><div class="highlight-container" data-rel="Shell"><figure class="iseeu highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">vi kafka-kafka-kafka.conf</span><br></pre></td></tr></table></figure></div>
+
+<div class="highlight-container" data-rel="Properties"><figure class="iseeu highlight properties"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 定义 agent、source、channel、sink 名称，并绑定关系</span></span><br><span class="line"><span class="attr">a1.sources</span> = <span class="string">r1</span></span><br><span class="line"><span class="attr">a1.sinks</span> = <span class="string">k1</span></span><br><span class="line"><span class="attr">a1.channels</span> = <span class="string">c1</span></span><br><span class="line"><span class="comment"></span></span><br><span class="line"><span class="comment"># source</span></span><br><span class="line"><span class="attr">a1.sources.r1.type</span> = <span class="string">org.apache.flume.source.kafka.KafkaSource</span></span><br><span class="line"><span class="attr">a1.sources.r1.channels</span> = <span class="string">c1</span></span><br><span class="line"><span class="attr">a1.sources.r1.batchSize</span> = <span class="string">3</span></span><br><span class="line"><span class="attr">a1.sources.r1.batchDurationMillis</span> = <span class="string">2000</span></span><br><span class="line"><span class="comment"># Kafka 服务地址</span></span><br><span class="line"><span class="attr">a1.sources.r1.kafka.bootstrap.servers</span> = <span class="string">192.162.11.25:9092</span></span><br><span class="line"><span class="comment"># topic 名称</span></span><br><span class="line"><span class="attr">a1.sources.r1.kafka.topics</span> = <span class="string">flume-source-kafka</span></span><br><span class="line"><span class="comment"># i1 i2 为拦截器，拦截器执行顺序根据配置顺序执行</span></span><br><span class="line"><span class="attr">a1.sources.r1.interceptors</span> = <span class="string">i1 i2</span></span><br><span class="line"><span class="attr">a1.sources.r1.interceptors.i1.type</span> = <span class="string">static</span></span><br><span class="line"><span class="attr">a1.sources.r1.interceptors.i1.key</span> = <span class="string">topic</span></span><br><span class="line"><span class="attr">a1.sources.r1.interceptors.i1.preserveExisting</span> = <span class="string">false</span></span><br><span class="line"><span class="comment"># sink 端 topic 名称</span></span><br><span class="line"><span class="attr">a1.sources.r1.interceptors.i1.value</span> = <span class="string">flume-collect-kafka</span></span><br><span class="line"><span class="comment"># 自定义拦截器插件</span></span><br><span class="line"><span class="attr">a1.sources.r1.interceptors.i2.type</span> = <span class="string">com.bda.dcp.flume.interceptor.JsonInterceptor$Builder</span></span><br><span class="line"><span class="attr">a1.sources.r1.interceptors.i2.keyword</span>=<span class="string">hello, fly</span></span><br><span class="line"><span class="comment"></span></span><br><span class="line"><span class="comment"># sink</span></span><br><span class="line"><span class="attr">a1.sinks.k1.channel</span> = <span class="string">c1</span></span><br><span class="line"><span class="attr">a1.sinks.k1.type</span> = <span class="string">org.apache.flume.sink.kafka.KafkaSink</span></span><br><span class="line"><span class="attr">a1.sinks.k1.kafka.flumeBatchSize</span> = <span class="string">3</span></span><br><span class="line"><span class="comment"># kafka 服务地址</span></span><br><span class="line"><span class="attr">a1.sinks.k1.kafka.bootstrap.servers</span> = <span class="string">192.162.11.191:9092</span></span><br><span class="line"><span class="comment"># topic 名称</span></span><br><span class="line"><span class="attr">a1.sinks.k1.kafka.topic</span> = <span class="string">flume-collect-kafka</span></span><br><span class="line"><span class="attr">a1.sinks.k1.kafka.producer.acks</span> = <span class="string">1</span></span><br><span class="line"><span class="attr">a1.sinks.k1.kafka.producer.linger.ms</span> = <span class="string">1</span></span><br><span class="line"><span class="attr">a1.sinks.k1.kafka.producer.compression.type</span> = <span class="string">snappy</span></span><br><span class="line"><span class="comment"></span></span><br><span class="line"><span class="comment"># channel</span></span><br><span class="line"><span class="attr">a1.channels.c1.type</span> = <span class="string">org.apache.flume.channel.kafka.KafkaChannel</span></span><br><span class="line"><span class="comment"># kafka 服务地址</span></span><br><span class="line"><span class="attr">a1.channels.c1.kafka.bootstrap.servers</span> = <span class="string">192.162.11.25:9092</span></span><br><span class="line"><span class="comment"># topic 名称</span></span><br><span class="line"><span class="attr">a1.channels.c1.kafka.topic</span> = <span class="string">flume-channel</span></span><br><span class="line"><span class="attr">a1.channels.c1.kafka.consumer.auto.offset.reset</span> = <span class="string">latest</span></span><br></pre></td></tr></table></figure></div>
+
+<p>启动命令</p>
+<div class="highlight-container" data-rel="Shell"><figure class="iseeu highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">nohup /usr/local/flume/bin/flume-ng agent \</span><br><span class="line">-n a1 \</span><br><span class="line">-c /usr/local/flume/conf/ \</span><br><span class="line">-f /usr/local/flume/conf/kafka-kafka-kafka.conf \</span><br><span class="line">-Dflume.root.logger=INFO,console \</span><br><span class="line"><span class="meta prompt_">&gt; </span><span class="language-bash">/usr/local/flume/conf/kafka-kafka-kafka.log 2&gt;&amp;1 &amp;</span></span><br></pre></td></tr></table></figure></div>
+
+
+
+
+
 
         </div>
 
@@ -635,18 +710,18 @@
             <div class="post-copyright-info w-full my-8 px-2 sm:px-6 md:px-8">
                 <div class="article-copyright-info-container">
     <ul>
-        <li><strong>标题:</strong> IDEA中使用Vim</li>
+        <li><strong>标题:</strong> Flume从kafka采集数据到另一个kafka</li>
         <li><strong>作者:</strong> 冯旭光</li>
         <li><strong>创建于
-                :</strong> 2024-05-30 10:38:15</li>
+                :</strong> 2024-06-17 18:57:41</li>
         
             <li>
                 <strong>更新于
-                    :</strong> 2024-06-04 12:12:08
+                    :</strong> 2024-06-18 15:01:21
             </li>
         
         <li>
-            <strong>链接:</strong> https://blog.fengxuguang.top/posts/bc44723c/
+            <strong>链接:</strong> https://blog.fengxuguang.top/posts/8d409c77/
         </li>
         <li>
             <strong>
@@ -668,7 +743,7 @@
             <ul class="post-tags-box text-lg mt-1.5 flex-wrap justify-center flex md:hidden">
                 
                     <li class="tag-item mx-0.5">
-                        <a href="/tags/vim/">#vim</a>&nbsp;
+                        <a href="/tags/flume/">#flume</a>&nbsp;
                     </li>
                 
             </ul>
@@ -679,29 +754,14 @@
         
             <div class="article-nav my-8 flex justify-between items-center px-2 sm:px-6 md:px-8">
                 
-                    <div class="article-prev border-border-color shadow-redefine-flat shadow-shadow-color-2 rounded-medium px-4 py-2 hover:shadow-redefine-flat-hover hover:shadow-shadow-color-2">
-                        <a class="prev"
-                        rel="prev"
-                        href="/posts/36bbd933/"
-                        >
-                            <span class="left arrow-icon flex justify-center items-center">
-                                <i class="fa-solid fa-chevron-left"></i>
-                            </span>
-                            <span class="title flex justify-center items-center">
-                                <span class="post-nav-title-item">内网穿透（ngrok）</span>
-                                <span class="post-nav-item">上一篇</span>
-                            </span>
-                        </a>
-                    </div>
-                
                 
                     <div class="article-next border-border-color shadow-redefine-flat shadow-shadow-color-2 rounded-medium px-4 py-2 hover:shadow-redefine-flat-hover hover:shadow-shadow-color-2">
                         <a class="next"
                         rel="next"
-                        href="/posts/89a74d17/"
+                        href="/posts/24adb6a4/"
                         >
                             <span class="title flex justify-center items-center">
-                                <span class="post-nav-title-item">Nacos2.2.1源码启动</span>
+                                <span class="post-nav-title-item">DDD领域驱动（一）</span>
                                 <span class="post-nav-item">下一篇</span>
                             </span>
                             <span class="right arrow-icon flex justify-center items-center">
@@ -780,8 +840,8 @@
             <div class="post-toc-wrap">
     <div class="post-toc">
         <div class="toc-title">此页目录</div>
-        <div class="page-title">IDEA中使用Vim</div>
-        <ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%B8%80%E3%80%81IDea-%E4%B8%AD%E5%AE%89%E8%A3%85-Vim-%E6%8F%92%E4%BB%B6"><span class="nav-text">一、IDea 中安装 Vim 插件</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%BA%8C%E3%80%81Vim-%E7%9A%84%E4%BD%BF%E7%94%A8"><span class="nav-text">二、Vim 的使用</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#1-%E8%BF%9B%E5%85%A5%E6%8F%92%E5%85%A5%E6%A8%A1%E5%BC%8F"><span class="nav-text">1. 进入插入模式</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-%E7%A7%BB%E5%8A%A8%E5%85%89%E6%A0%87"><span class="nav-text">2. 移动光标</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#3-%E5%A4%8D%E5%88%B6-%E7%B2%98%E8%B4%B4"><span class="nav-text">3. 复制 &amp; 粘贴</span></a></li></ol></li></ol>
+        <div class="page-title">Flume从kafka采集数据到另一个kafka</div>
+        <ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%B8%80%E3%80%81%E6%A6%82%E8%BF%B0"><span class="nav-text">一、概述</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%BA%8C%E3%80%81-%E5%89%8D%E8%A8%80"><span class="nav-text">二、 前言</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%B8%89%E3%80%81Flume-%E6%9E%B6%E6%9E%84%E5%9B%BE"><span class="nav-text">三、Flume 架构图</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#3-1-%E6%9E%B6%E6%9E%84%E7%BB%84%E4%BB%B6"><span class="nav-text">3.1 架构组件</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%9B%9B%E3%80%81%E5%AE%89%E8%A3%85"><span class="nav-text">四、安装</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%BA%94%E3%80%81%E6%A1%88%E4%BE%8B"><span class="nav-text">五、案例</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#5-1-Kafka-Memory-Kafka"><span class="nav-text">5.1 Kafka -&gt; Memory -&gt; Kafka</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#5-2-Kafka-Kafka-Kafka"><span class="nav-text">5.2 Kafka -&gt; Kafka -&gt; Kafka</span></a></li></ol></li></ol>
 
     </div>
 </div>
