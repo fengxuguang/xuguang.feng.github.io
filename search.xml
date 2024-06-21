@@ -1,6 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Hello World</title>
+    <url>/posts/4a17b156/</url>
+    <content><![CDATA[<p>Welcome to <a class="link"   href="https://hexo.io/" >Hexo <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>! This is your very first post. Check <a class="link"   href="https://hexo.io/docs/" >documentation <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> for more info. If you get any problems when using Hexo, you can find the answer in <a class="link"   href="https://hexo.io/docs/troubleshooting.html" >troubleshooting <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> or you can ask me on <a class="link"   href="https://github.com/hexojs/hexo/issues" >GitHub <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure></div>
+
+<p>More info: <a class="link"   href="https://hexo.io/docs/writing.html" >Writing <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure></div>
+
+<p>More info: <a class="link"   href="https://hexo.io/docs/server.html" >Server <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure></div>
+
+<p>More info: <a class="link"   href="https://hexo.io/docs/generating.html" >Generating <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure></div>
+
+<p>More info: <a class="link"   href="https://hexo.io/docs/one-command-deployment.html" >Deployment <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+]]></content>
+  </entry>
+  <entry>
     <title>2024阅读进度</title>
     <url>/posts/319e992b/</url>
     <content><![CDATA[<h2 id="阅读记录"><a href="#阅读记录" class="headerlink" title="阅读记录"></a>阅读记录</h2><table>
@@ -89,24 +107,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Hello World</title>
-    <url>/posts/4a17b156/</url>
-    <content><![CDATA[<p>Welcome to <a class="link"   href="https://hexo.io/" >Hexo <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>! This is your very first post. Check <a class="link"   href="https://hexo.io/docs/" >documentation <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> for more info. If you get any problems when using Hexo, you can find the answer in <a class="link"   href="https://hexo.io/docs/troubleshooting.html" >troubleshooting <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> or you can ask me on <a class="link"   href="https://github.com/hexojs/hexo/issues" >GitHub <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure></div>
-
-<p>More info: <a class="link"   href="https://hexo.io/docs/writing.html" >Writing <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure></div>
-
-<p>More info: <a class="link"   href="https://hexo.io/docs/server.html" >Server <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure></div>
-
-<p>More info: <a class="link"   href="https://hexo.io/docs/generating.html" >Generating <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure></div>
-
-<p>More info: <a class="link"   href="https://hexo.io/docs/one-command-deployment.html" >Deployment <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
-]]></content>
-  </entry>
-  <entry>
     <title>DDD领域驱动（一）</title>
     <url>/posts/24adb6a4/</url>
     <content><![CDATA[]]></content>
@@ -177,159 +177,6 @@
       </categories>
       <tags>
         <tag>设计模式</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>创建型-原型模式</title>
-    <url>/posts/34963c84/</url>
-    <content><![CDATA[<p><code>原型模式</code>是一种创建型设计模式，它允许通过复制现有对象来创建新的对象，而无需显式地指定它们的类。在原型模式中，一个对象作为原型，通过复制自己来创建新的对象。原型模式适用于对象的创建过程非常复杂的情况下，可以通过复制已有的对象来避免重复创建相似的对象，从而提高系统的性能。</p>
-<p>原型模式有两种实现方式：浅克隆和深克隆。</p>
-<p>浅克隆：浅克隆只复制对象本身和其中的基础数据类型，而不会复制对象中的引用类型。也就是说，新对象中的引用类型变量和原对象中的引用类型变量指向同一个对象。Java 中的 Object 类提供了一个 clone() 方法，可以实现浅克隆。</p>
-<p>要实现克隆，需要满足以下条件：</p>
-<ol>
-<li>实现 Cloneable 接口，否则会抛出 CloneNotSupportException 异常；</li>
-<li>重写 clone() 方法，并使用 super.clone() 来创建新的对象。</li>
-</ol>
-]]></content>
-      <categories>
-        <category>设计模式</category>
-      </categories>
-      <tags>
-        <tag>设计模式</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Flume从kafka采集数据到另一个kafka</title>
-    <url>/posts/8d409c77/</url>
-    <content><![CDATA[<h2 id="一、概述"><a href="#一、概述" class="headerlink" title="一、概述"></a>一、概述</h2><p>Flume 是 Apache 提供的一个高可用、高可靠、分布式的系统，用于<strong>有效地收集、聚合和移动大量日志数据到集中式数据存储</strong>。Flume 基于流式架构，灵活简单。它专为<strong>日志数据</strong>收集服务设计，但也适用于各种其他数据流场景。</p>
-<h2 id="二、-前言"><a href="#二、-前言" class="headerlink" title="二、 前言"></a>二、 前言</h2><p>Flume 官网文档地址：<a class="link"   href="https://flume.apache.org/FlumeUserGuide.html" >https://flume.apache.org/FlumeUserGuide.html <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
-<p>Flume Source 端采用 Kafka 官网文档地址：<a class="link"   href="https://flume.apache.org/FlumeUserGuide.html#kafka-source" >https://flume.apache.org/FlumeUserGuide.html#kafka-source <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
-<p>Flume Sink 端采用 Kafka ：<a class="link"   href="https://flume.apache.org/FlumeUserGuide.html#flume-sinks" >https://flume.apache.org/FlumeUserGuide.html#flume-sinks <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
-<p>下载地址：<a class="link"   href="https://flume.apache.org/download.html" >https://flume.apache.org/download.html <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
-<p>github 地址：<a class="link"   href="https://github.com/apache/logging-flume" >https://github.com/apache/logging-flume <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
-<h2 id="三、Flume-架构图"><a href="#三、Flume-架构图" class="headerlink" title="三、Flume 架构图"></a>三、Flume 架构图</h2><p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="/../../images/articles/flume/flume-architecture.png"
-                     
-                ></p>
-<blockquote>
-<ol>
-<li><strong>Source</strong>：数据的来源。<strong>Source 负责接收或拉取数据进入 Flume 流。</strong>数据可以来自多种来源，如日志文件、网络服务等。</li>
-<li><strong>Channel：用于在 Source 和 Sink 之间传递事件的缓冲区。</strong>Channel 保证了数据的可靠性，即使在传输过程中遇到系统故障，数据也不会丢失。</li>
-<li><strong>Sink</strong>：数据的目的地。<strong>Sink 负责将从 Channel 接收到的数据写入到外部存储系统或数据处理平台</strong>，如 HDFS、ElasticSearch 或 Kafka。</li>
-</ol>
-</blockquote>
-<h3 id="3-1-架构组件"><a href="#3-1-架构组件" class="headerlink" title="3.1 架构组件"></a>3.1 架构组件</h3><h4 id="3-1-1-Agent"><a href="#3-1-1-Agent" class="headerlink" title="3.1.1 Agent"></a>3.1.1 Agent</h4><p>​	Agent 是一个 JVM 进程，它以事件的形式将数据从源头送至目的，是 Flume 数据传输的基本单元。</p>
-<p>​	Agent 主要有 3 个部分组成，<strong>Source</strong>、<strong>Channel</strong>、<strong>Sink</strong>。</p>
-<h4 id="3-1-2-Source"><a href="#3-1-2-Source" class="headerlink" title="3.1.2 Source"></a>3.1.2 Source</h4><p>​	Source 是负责接收数据到 Flume Agent 的组件。Source 组件可以处理各种类型、各种格式的日志数据，包括 avro、thrift、exec、jms、spooling directory、taildir、twitter、kafka、netcat、sequence generator、syslog、http、legacy 等。</p>
-<h4 id="3-1-3-Channel"><a href="#3-1-3-Channel" class="headerlink" title="3.1.3 Channel"></a>3.1.3 Channel</h4><p>​	Channel 是位于 Source 和 Sink 之间的缓冲区。因此，Channel 允许 Source 和 Sink 运行在不同的速率上。<strong>Channel 是线程安全的</strong>，可以同时处理几个 Source 的写入操作和几个 Sink 的读取操作。</p>
-<p>​	Channel 支持的类型包括：</p>
-<ul>
-<li>Memory：事件存储到内存中。</li>
-<li>JDBC：事件存储到数据库中。</li>
-<li>Kafka：事件存储到 Kafka 中</li>
-<li>File：事件写入到磁盘中。</li>
-<li>Custom：事件写入到自定义中。</li>
-</ul>
-<h4 id="3-1-4-Sink"><a href="#3-1-4-Sink" class="headerlink" title="3.1.4 Sink"></a>3.1.4 Sink</h4><p>​	Sink 不断地轮询 Channel 中的事件且批量地移除它们，并将这些事件批量写入到存储（HDFS、Kakfa等）系统、或者发送到另一个 Flume Agent。</p>
-<p>​	Sink 是完全事务性的。在从 Channel 批量删除数据之前，每个 Sink 用 Channel 启动一个事务。批量事件一旦成功写出到存储系统或下一个 Flume Agent，Sink 就利用 Channel 提交事务。事务一旦被提交，该 Channel 从自己的内部缓冲区删除事件。</p>
-<p>​	Sink 组件目的地包括：</p>
-<ul>
-<li>HDFS</li>
-<li>Hive</li>
-<li>Logger</li>
-<li>Avro</li>
-<li>Thrift</li>
-<li>IRC</li>
-<li>File Roll</li>
-<li>Null</li>
-<li>HBase</li>
-<li>Kafka</li>
-<li>Http</li>
-<li>Custom：自定义</li>
-</ul>
-<h4 id="3-1-5-Event"><a href="#3-1-5-Event" class="headerlink" title="3.1.5 Event"></a>3.1.5 Event</h4><p>​	传输单元，Flume 数据传输的基本单元，以事件的形式将数据从源头送至目的地。</p>
-<p>​	Event 由<code>Header</code>和<code>Body</code>两部分组成，Header 用来存放该 event 的一些属性，为 K-V 结构，Body 用来存放该条数据，形式为字节数组。</p>
-<h5 id="设计原因"><a href="#设计原因" class="headerlink" title="设计原因"></a>设计原因</h5><blockquote>
-<ol>
-<li><strong>灵活性</strong>：<code>header</code>是一个键值对集合(Map)，<strong>允许在事件中附加元数据</strong>，如时间戳、源标识、类型等。这种设计提供了极大的灵活性，使得在整个数据流传输过程中，可以根据需要动态添加、读取和修改事件的元信息。</li>
-<li><strong>兼容性</strong>：<code>Body</code>是一个字节数组(byte array)，<strong>可以存储任何形式的数据</strong>，无论是文本、二进制文件还是序列化对象。这意味着 Flume 可以处理各种数据类型，不受内容格式的限制，保证了与各种数据源和目的地的兼容性。</li>
-<li><strong>高效性</strong>：使用字节数组作为<code>Body</code>的存储格式，可以高效地在网络中传输数据，同时也便于存储和处理。由于字节数组在 Java 中也是一种基础且高效的数据结构，它适合用来表示未加工的数据流。</li>
-</ol>
-</blockquote>
-<h5 id="Body-大小限制"><a href="#Body-大小限制" class="headerlink" title="Body 大小限制"></a>Body 大小限制</h5><p><code>Event</code>的<code>Body</code>大小本身在 Flume 的设计中没有硬性限制，但实际上，由于内存和网络带宽的限制，以及目的地系统（如 Kafka）可能对消息大小有自己的限制，通常需要根据具体的使用场景来确定一个合理的大小。例如，Kafka 默认的最大消息是 1MB，尽管这个值是可以配置的。</p>
-<h5 id="源码角度"><a href="#源码角度" class="headerlink" title="源码角度"></a>源码角度</h5><p>从源码角度看，<code>Event</code>的定义体现了其简洁且高效的设计理念。下面是<code>Event</code>接口的源代码。</p>
-<div class="highlight-container" data-rel="Java"><figure class="iseeu highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">package</span> org.apache.flume;</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> java.util.Map;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">interface</span> <span class="title class_">Event</span> &#123;</span><br><span class="line">    Map&lt;String, String&gt; <span class="title function_">getHeaders</span><span class="params">()</span>;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">void</span> <span class="title function_">setHeaders</span><span class="params">(Map&lt;String, String&gt; var1)</span>;</span><br><span class="line"></span><br><span class="line">    <span class="type">byte</span>[] getBody();</span><br><span class="line"></span><br><span class="line">    <span class="keyword">void</span> <span class="title function_">setBody</span><span class="params">(<span class="type">byte</span>[] var1)</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div>
-
-<p>在这个接口中，<code>getHeaders</code>和<code>setHeaders</code>方法用于操作事件的元数据，而<code>getBody</code>和<code>setBody</code>方法则用于获取和设置事件的主体数据。这种设计使得 Flume 能够灵活地处理各种数据类型和格式，同时保持高效的数据处理和传输能力。</p>
-<h2 id="四、安装"><a href="#四、安装" class="headerlink" title="四、安装"></a>四、安装</h2><ol>
-<li><p>将 apache-flume-1.11.0-bin.tar.gz 上传到 linux 的 &#x2F;usr&#x2F;local 目录下</p>
-</li>
-<li><p>解压 apache-flume-1.11.0-bin.tar.gz 到 &#x2F;usr&#x2F;local&#x2F; 目录下</p>
-<blockquote>
-<p>tar -zxf apache-flume-1.11.0-bin.tar.gz -C &#x2F;usr&#x2F;local&#x2F;</p>
-</blockquote>
-</li>
-<li><p>修改 apache-flume-1.11.0-bin 文件夹名称为 flume</p>
-<blockquote>
-<p>mv apache-flume-1.11.0-bin flume</p>
-</blockquote>
-</li>
-<li><p>将 flume&#x2F;conf 下的 flume-env.sh.template 文件修改为 flume-env.sh，并配置 flume-env.sh 文件</p>
-<blockquote>
-<p>mv flume-env.sh.template flume-env.sh</p>
-<p>vi flume-env.sh</p>
-<p>export JAVA_HOME&#x3D;&#x2F;usr&#x2F;local&#x2F;jdk1.8.0_144</p>
-</blockquote>
-</li>
-</ol>
-<h2 id="五、案例"><a href="#五、案例" class="headerlink" title="五、案例"></a>五、案例</h2><h3 id="5-1-Kafka-Memory-Kafka"><a href="#5-1-Kafka-Memory-Kafka" class="headerlink" title="5.1 Kafka -&gt; Memory -&gt; Kafka"></a>5.1 Kafka -&gt; Memory -&gt; Kafka</h3><div class="highlight-container" data-rel="Shell"><figure class="iseeu highlight shell"><table><tr><td class="code"><pre><span class="line">vi kafka-memory-kafka.conf</span><br></pre></td></tr></table></figure></div>
-
-<div class="highlight-container" data-rel="Properties"><figure class="iseeu highlight properties"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 定义 agent、source、channel、sink 名称，并绑定关系</span></span><br><span class="line"><span class="attr">a1.sources</span> = <span class="string">r1</span></span><br><span class="line"><span class="attr">a1.sinks</span> = <span class="string">k1</span></span><br><span class="line"><span class="attr">a1.channels</span> = <span class="string">c1</span></span><br><span class="line"><span class="comment"></span></span><br><span class="line"><span class="comment"># source </span></span><br><span class="line"><span class="attr">a1.sources.r1.type</span> = <span class="string">org.apache.flume.source.kafka.KafkaSource</span></span><br><span class="line"><span class="attr">a1.sources.r1.channels</span> = <span class="string">c1</span></span><br><span class="line"><span class="attr">a1.sources.r1.batchSize</span> = <span class="string">3</span></span><br><span class="line"><span class="attr">a1.sources.r1.batchDurationMillis</span> = <span class="string">2000</span></span><br><span class="line"><span class="comment"># kafka 服务地址</span></span><br><span class="line"><span class="attr">a1.sources.r1.kafka.bootstrap.servers</span> = <span class="string">192.162.11.25:9092</span></span><br><span class="line"><span class="comment"># topic 名称</span></span><br><span class="line"><span class="attr">a1.sources.r1.kafka.topics</span> = <span class="string">flume-source-kafka2</span></span><br><span class="line"><span class="comment"># 拦截器</span></span><br><span class="line"><span class="attr">a1.sources.r1.interceptors</span> = <span class="string">i1 i2</span></span><br><span class="line"><span class="attr">a1.sources.r1.interceptors.i1.type</span> = <span class="string">static</span></span><br><span class="line"><span class="attr">a1.sources.r1.interceptors.i1.key</span> = <span class="string">topic</span></span><br><span class="line"><span class="attr">a1.sources.r1.interceptors.i1.preserveExisting</span> = <span class="string">false</span></span><br><span class="line"><span class="comment"># sink 端 topic 名称</span></span><br><span class="line"><span class="attr">a1.sources.r1.interceptors.i1.value</span> = <span class="string">flume-collect-kafka2</span></span><br><span class="line"><span class="comment"></span></span><br><span class="line"><span class="comment"># sink</span></span><br><span class="line"><span class="attr">a1.sinks.k1.channel</span> = <span class="string">c1</span></span><br><span class="line"><span class="attr">a1.sinks.k1.type</span> = <span class="string">org.apache.flume.sink.kafka.KafkaSink</span></span><br><span class="line"><span class="attr">a1.sinks.k1.kafka.flumeBatchSize</span> = <span class="string">3</span></span><br><span class="line"><span class="comment"># kafka 服务地址</span></span><br><span class="line"><span class="attr">a1.sinks.k1.kafka.bootstrap.servers</span> = <span class="string">192.162.11.191:9092</span></span><br><span class="line"><span class="comment"># topic 名称</span></span><br><span class="line"><span class="attr">a1.sinks.k1.kafka.topic</span> = <span class="string">flume-collect-kafka2</span></span><br><span class="line"><span class="attr">a1.sinks.k1.kafka.producer.acks</span> = <span class="string">1</span></span><br><span class="line"><span class="attr">a1.sinks.k1.kafka.producer.linger.ms</span> = <span class="string">1</span></span><br><span class="line"><span class="attr">a1.sinks.k1.kafka.producer.compression.type</span> = <span class="string">snappy</span></span><br><span class="line"><span class="comment"></span></span><br><span class="line"><span class="comment"># channel</span></span><br><span class="line"><span class="attr">a1.channels.c1.type</span> = <span class="string">memory</span></span><br><span class="line"><span class="attr">a1.channels.c1.capacity</span> = <span class="string">1000</span></span><br><span class="line"><span class="attr">a1.channels.c1.transactionCapacity</span> = <span class="string">1000</span></span><br><span class="line"><span class="attr">a1.channels.c1.keep-alive</span> = <span class="string">10</span></span><br></pre></td></tr></table></figure></div>
-
-<p>启动命令</p>
-<div class="highlight-container" data-rel="Shell"><figure class="iseeu highlight shell"><table><tr><td class="code"><pre><span class="line">nohup /usr/local/flume/bin/flume-ng agent \</span><br><span class="line">-n a1 \</span><br><span class="line">-c /usr/local/flume/conf/ \</span><br><span class="line">-f /usr/local/flume/conf/kafka-memory-kafka.conf \</span><br><span class="line">-Dflume.root.logger=INFO,console \</span><br><span class="line"><span class="meta prompt_">&gt; </span><span class="language-bash">/usr/local/flume/conf/kafka-memory-kafka.log 2&gt;&amp;1 &amp;</span></span><br></pre></td></tr></table></figure></div>
-
-
-
-<h3 id="5-2-Kafka-Kafka-Kafka"><a href="#5-2-Kafka-Kafka-Kafka" class="headerlink" title="5.2 Kafka -&gt; Kafka -&gt; Kafka"></a>5.2 Kafka -&gt; Kafka -&gt; Kafka</h3><div class="highlight-container" data-rel="Shell"><figure class="iseeu highlight shell"><table><tr><td class="code"><pre><span class="line">vi kafka-kafka-kafka.conf</span><br></pre></td></tr></table></figure></div>
-
-<div class="highlight-container" data-rel="Properties"><figure class="iseeu highlight properties"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 定义 agent、source、channel、sink 名称，并绑定关系</span></span><br><span class="line"><span class="attr">a1.sources</span> = <span class="string">r1</span></span><br><span class="line"><span class="attr">a1.sinks</span> = <span class="string">k1</span></span><br><span class="line"><span class="attr">a1.channels</span> = <span class="string">c1</span></span><br><span class="line"><span class="comment"></span></span><br><span class="line"><span class="comment"># source</span></span><br><span class="line"><span class="attr">a1.sources.r1.type</span> = <span class="string">org.apache.flume.source.kafka.KafkaSource</span></span><br><span class="line"><span class="attr">a1.sources.r1.channels</span> = <span class="string">c1</span></span><br><span class="line"><span class="attr">a1.sources.r1.batchSize</span> = <span class="string">3</span></span><br><span class="line"><span class="attr">a1.sources.r1.batchDurationMillis</span> = <span class="string">2000</span></span><br><span class="line"><span class="comment"># Kafka 服务地址</span></span><br><span class="line"><span class="attr">a1.sources.r1.kafka.bootstrap.servers</span> = <span class="string">192.162.11.25:9092</span></span><br><span class="line"><span class="comment"># topic 名称</span></span><br><span class="line"><span class="attr">a1.sources.r1.kafka.topics</span> = <span class="string">flume-source-kafka</span></span><br><span class="line"><span class="comment"># i1 i2 为拦截器，拦截器执行顺序根据配置顺序执行</span></span><br><span class="line"><span class="attr">a1.sources.r1.interceptors</span> = <span class="string">i1 i2</span></span><br><span class="line"><span class="attr">a1.sources.r1.interceptors.i1.type</span> = <span class="string">static</span></span><br><span class="line"><span class="attr">a1.sources.r1.interceptors.i1.key</span> = <span class="string">topic</span></span><br><span class="line"><span class="attr">a1.sources.r1.interceptors.i1.preserveExisting</span> = <span class="string">false</span></span><br><span class="line"><span class="comment"># sink 端 topic 名称</span></span><br><span class="line"><span class="attr">a1.sources.r1.interceptors.i1.value</span> = <span class="string">flume-collect-kafka</span></span><br><span class="line"><span class="comment"># 自定义拦截器插件</span></span><br><span class="line"><span class="attr">a1.sources.r1.interceptors.i2.type</span> = <span class="string">com.bda.dcp.flume.interceptor.JsonInterceptor$Builder</span></span><br><span class="line"><span class="attr">a1.sources.r1.interceptors.i2.keyword</span>=<span class="string">hello, fly</span></span><br><span class="line"><span class="comment"></span></span><br><span class="line"><span class="comment"># sink</span></span><br><span class="line"><span class="attr">a1.sinks.k1.channel</span> = <span class="string">c1</span></span><br><span class="line"><span class="attr">a1.sinks.k1.type</span> = <span class="string">org.apache.flume.sink.kafka.KafkaSink</span></span><br><span class="line"><span class="attr">a1.sinks.k1.kafka.flumeBatchSize</span> = <span class="string">3</span></span><br><span class="line"><span class="comment"># kafka 服务地址</span></span><br><span class="line"><span class="attr">a1.sinks.k1.kafka.bootstrap.servers</span> = <span class="string">192.162.11.191:9092</span></span><br><span class="line"><span class="comment"># topic 名称</span></span><br><span class="line"><span class="attr">a1.sinks.k1.kafka.topic</span> = <span class="string">flume-collect-kafka</span></span><br><span class="line"><span class="attr">a1.sinks.k1.kafka.producer.acks</span> = <span class="string">1</span></span><br><span class="line"><span class="attr">a1.sinks.k1.kafka.producer.linger.ms</span> = <span class="string">1</span></span><br><span class="line"><span class="attr">a1.sinks.k1.kafka.producer.compression.type</span> = <span class="string">snappy</span></span><br><span class="line"><span class="comment"></span></span><br><span class="line"><span class="comment"># channel</span></span><br><span class="line"><span class="attr">a1.channels.c1.type</span> = <span class="string">org.apache.flume.channel.kafka.KafkaChannel</span></span><br><span class="line"><span class="comment"># kafka 服务地址</span></span><br><span class="line"><span class="attr">a1.channels.c1.kafka.bootstrap.servers</span> = <span class="string">192.162.11.25:9092</span></span><br><span class="line"><span class="comment"># topic 名称</span></span><br><span class="line"><span class="attr">a1.channels.c1.kafka.topic</span> = <span class="string">flume-channel</span></span><br><span class="line"><span class="attr">a1.channels.c1.kafka.consumer.auto.offset.reset</span> = <span class="string">latest</span></span><br></pre></td></tr></table></figure></div>
-
-<p>启动命令</p>
-<div class="highlight-container" data-rel="Shell"><figure class="iseeu highlight shell"><table><tr><td class="code"><pre><span class="line">nohup /usr/local/flume/bin/flume-ng agent \</span><br><span class="line">-n a1 \</span><br><span class="line">-c /usr/local/flume/conf/ \</span><br><span class="line">-f /usr/local/flume/conf/kafka-kafka-kafka.conf \</span><br><span class="line">-Dflume.root.logger=INFO,console \</span><br><span class="line"><span class="meta prompt_">&gt; </span><span class="language-bash">/usr/local/flume/conf/kafka-kafka-kafka.log 2&gt;&amp;1 &amp;</span></span><br></pre></td></tr></table></figure></div>
-
-
-
-
-
-]]></content>
-      <categories>
-        <category>flume</category>
-      </categories>
-      <tags>
-        <tag>flume</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Flume自定义过滤器插件</title>
-    <url>/posts/3e52edfc/</url>
-    <content><![CDATA[<p>Flume 是一种可扩展的、可靠的分布式日志收集和聚合系统。它使用了拦截器来对数据流进行处理和过滤，以满足不同的需求。Flume 提供了很多内置的拦截器，但我们也可以通过自定义拦截器来实现自定义的数据过滤和处理。</p>
-<h2 id="一、引入依赖"><a href="#一、引入依赖" class="headerlink" title="一、引入依赖"></a>一、引入依赖</h2><p>新建一个工程，引入如下依赖：</p>
-<div class="highlight-container" data-rel="Java"><figure class="iseeu highlight java"><table><tr><td class="code"><pre><span class="line">&lt;dependency&gt;</span><br><span class="line">    &lt;groupId&gt;org.apache.flume&lt;/groupId&gt;</span><br><span class="line">    &lt;artifactId&gt;flume-ng-core&lt;/artifactId&gt;</span><br><span class="line">    &lt;version&gt;<span class="number">1.11</span><span class="number">.0</span>&lt;/version&gt;</span><br><span class="line">&lt;/dependency&gt;</span><br></pre></td></tr></table></figure></div>
-
-<h2 id="二、自定义拦截器类"><a href="#二、自定义拦截器类" class="headerlink" title="二、自定义拦截器类"></a>二、自定义拦截器类</h2><div class="highlight-container" data-rel="Java"><figure class="iseeu highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">package</span> com.bda.dcp.flume.interceptor;</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> com.google.common.base.Splitter;</span><br><span class="line"><span class="keyword">import</span> com.google.gson.Gson;</span><br><span class="line"><span class="keyword">import</span> lombok.extern.slf4j.Slf4j;</span><br><span class="line"><span class="keyword">import</span> org.apache.commons.compress.utils.Lists;</span><br><span class="line"><span class="keyword">import</span> org.apache.commons.lang.StringUtils;</span><br><span class="line"><span class="keyword">import</span> org.apache.flume.Context;</span><br><span class="line"><span class="keyword">import</span> org.apache.flume.Event;</span><br><span class="line"><span class="keyword">import</span> org.apache.flume.interceptor.Interceptor;</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> java.util.ArrayList;</span><br><span class="line"><span class="keyword">import</span> java.util.HashMap;</span><br><span class="line"><span class="keyword">import</span> java.util.List;</span><br><span class="line"><span class="keyword">import</span> java.util.Map;</span><br><span class="line"></span><br><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> *</span></span><br><span class="line"><span class="comment"> * Created by fengxuguang on 2024/6/14 15:32</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line"><span class="meta">@Slf4j</span></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">JsonInterceptor</span> <span class="keyword">implements</span> <span class="title class_">Interceptor</span> &#123;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">private</span> String jsonTopic;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">public</span> <span class="title function_">JsonInterceptor</span><span class="params">(String jsonTopic)</span> &#123;</span><br><span class="line">        <span class="built_in">this</span>.jsonTopic = jsonTopic;</span><br><span class="line">        System.out.println(<span class="string">&quot;======&gt; keyword = &quot;</span> + jsonTopic);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="meta">@Override</span></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">void</span> <span class="title function_">initialize</span><span class="params">()</span> &#123;</span><br><span class="line"></span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="meta">@Override</span></span><br><span class="line">    <span class="keyword">public</span> Event <span class="title function_">intercept</span><span class="params">(Event event)</span> &#123;</span><br><span class="line">        <span class="keyword">try</span> &#123;</span><br><span class="line">            <span class="type">String</span> <span class="variable">body</span> <span class="operator">=</span> <span class="keyword">new</span> <span class="title class_">String</span>(event.getBody());</span><br><span class="line"></span><br><span class="line">            <span class="type">Gson</span> <span class="variable">gson</span> <span class="operator">=</span> <span class="keyword">new</span> <span class="title class_">Gson</span>();</span><br><span class="line">            Map&lt;String, String&gt; bodyJson = gson.fromJson(body, Map.class);</span><br><span class="line">            log.info(<span class="string">&quot;=====&gt; body json: &#123;&#125;&quot;</span>, bodyJson);</span><br><span class="line"></span><br><span class="line">            <span class="comment">// 根据逗号分割配置的字符串，转换成 List&lt;String&gt; 集合</span></span><br><span class="line">            List&lt;String&gt; columns = <span class="keyword">new</span> <span class="title class_">ArrayList</span>&lt;&gt;();</span><br><span class="line">            <span class="keyword">if</span> (StringUtils.isNotBlank(jsonTopic)) &#123;</span><br><span class="line">                Iterable&lt;String&gt; split = Splitter.on(<span class="string">&quot;,&quot;</span>)</span><br><span class="line">                        .omitEmptyStrings()</span><br><span class="line">                        .trimResults()</span><br><span class="line">                        .split(jsonTopic);</span><br><span class="line">                split.forEach(s -&gt; columns.add(s));</span><br><span class="line">            &#125;</span><br><span class="line">            Map&lt;String, String&gt; result = <span class="keyword">new</span> <span class="title class_">HashMap</span>&lt;&gt;();</span><br><span class="line">            <span class="keyword">for</span> (String key : bodyJson.keySet()) &#123;</span><br><span class="line">                <span class="comment">// 过滤出事件 body 内的数据在配置项中指定的字段</span></span><br><span class="line">                <span class="keyword">if</span> (columns.contains(key)) &#123;</span><br><span class="line">                    result.put(key, bodyJson.get(key));</span><br><span class="line">                &#125;</span><br><span class="line">            &#125;</span><br><span class="line"></span><br><span class="line">            event.setBody(gson.toJson(result).getBytes());</span><br><span class="line">            <span class="keyword">return</span> event;</span><br><span class="line">        &#125; <span class="keyword">catch</span> (Exception e) &#123;</span><br><span class="line">            log.error(e.getMessage(), e);</span><br><span class="line">            <span class="keyword">return</span> <span class="literal">null</span>;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="meta">@Override</span></span><br><span class="line">    <span class="keyword">public</span> List&lt;Event&gt; <span class="title function_">intercept</span><span class="params">(List&lt;Event&gt; list)</span> &#123;</span><br><span class="line">        List&lt;Event&gt; resultList = Lists.newArrayList();</span><br><span class="line">        <span class="keyword">for</span> (Event event : list) &#123;</span><br><span class="line">            <span class="type">Event</span> <span class="variable">result</span> <span class="operator">=</span> intercept(event);</span><br><span class="line">            <span class="keyword">if</span> (result != <span class="literal">null</span>) &#123;</span><br><span class="line">                resultList.add(result);</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> resultList;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="meta">@Override</span></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">void</span> <span class="title function_">close</span><span class="params">()</span> &#123;</span><br><span class="line"></span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">class</span> <span class="title class_">Builder</span> <span class="keyword">implements</span> <span class="title class_">Interceptor</span>.Builder &#123;</span><br><span class="line"></span><br><span class="line">        <span class="keyword">private</span> String jsonTopic;</span><br><span class="line"></span><br><span class="line">        <span class="meta">@Override</span></span><br><span class="line">        <span class="keyword">public</span> Interceptor <span class="title function_">build</span><span class="params">()</span> &#123;</span><br><span class="line">            <span class="keyword">return</span> <span class="keyword">new</span> <span class="title class_">JsonInterceptor</span>(jsonTopic);</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        <span class="meta">@Override</span></span><br><span class="line">        <span class="keyword">public</span> <span class="keyword">void</span> <span class="title function_">configure</span><span class="params">(Context context)</span> &#123;</span><br><span class="line">            jsonTopic = context.getString(<span class="string">&quot;jsonTopic&quot;</span>);</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div>
-
-<h2 id="三、打包"><a href="#三、打包" class="headerlink" title="三、打包"></a>三、打包</h2><p>mvn package 打包成 jar 包后放入 flume&#x2F;lib&#x2F; 目录</p>
-<h2 id="四、配置"><a href="#四、配置" class="headerlink" title="四、配置"></a>四、配置</h2><div class="highlight-container" data-rel="Properties"><figure class="iseeu highlight properties"><table><tr><td class="code"><pre><span class="line"><span class="attr">a1.sources</span> = <span class="string">r1</span></span><br><span class="line"><span class="attr">a1.sinks</span> = <span class="string">k1</span></span><br><span class="line"><span class="attr">a1.channels</span> = <span class="string">c1</span></span><br><span class="line"></span><br><span class="line"><span class="attr">a1.sources.r1.type</span> = <span class="string">org.apache.flume.source.kafka.KafkaSource</span></span><br><span class="line"><span class="attr">a1.sources.r1.channels</span> = <span class="string">c1</span></span><br><span class="line"><span class="attr">a1.sources.r1.batchSize</span> = <span class="string">3</span></span><br><span class="line"><span class="attr">a1.sources.r1.batchDurationMillis</span> = <span class="string">2000</span></span><br><span class="line"><span class="attr">a1.sources.r1.kafka.bootstrap.servers</span> = <span class="string">192.162.11.25:9092</span></span><br><span class="line"><span class="attr">a1.sources.r1.kafka.topics</span> = <span class="string">flume-source-kafka</span></span><br><span class="line"><span class="attr">a1.sources.r1.interceptors</span> = <span class="string">i1 i2</span></span><br><span class="line"><span class="attr">a1.sources.r1.interceptors.i1.type</span> = <span class="string">static</span></span><br><span class="line"><span class="attr">a1.sources.r1.interceptors.i1.key</span> = <span class="string">topic</span></span><br><span class="line"><span class="attr">a1.sources.r1.interceptors.i1.preserveExisting</span> = <span class="string">false</span></span><br><span class="line"><span class="attr">a1.sources.r1.interceptors.i1.value</span> = <span class="string">flume-collect-kafka</span></span><br><span class="line"><span class="comment"># 配置自定义拦截器，类型必须是: 类全名$内部类名</span></span><br><span class="line"><span class="attr">a1.sources.r1.interceptors.i2.type</span> = <span class="string">com.bda.dcp.flume.interceptor.JsonInterceptor$Builder</span></span><br><span class="line"><span class="comment"># 配置要过滤的字段</span></span><br><span class="line"><span class="attr">a1.sources.r1.interceptors.i2.jsonTopic</span>=<span class="string">name,age</span></span><br><span class="line"></span><br><span class="line"><span class="attr">a1.sinks.k1.channel</span> = <span class="string">c1</span></span><br><span class="line"><span class="attr">a1.sinks.k1.type</span> = <span class="string">org.apache.flume.sink.kafka.KafkaSink</span></span><br><span class="line"><span class="attr">a1.sinks.k1.kafka.flumeBatchSize</span> = <span class="string">3</span></span><br><span class="line"><span class="attr">a1.sinks.k1.kafka.bootstrap.servers</span> = <span class="string">192.162.11.191:9092</span></span><br><span class="line"><span class="attr">a1.sinks.k1.kafka.topic</span> = <span class="string">flume-collect-kafka</span></span><br><span class="line"><span class="attr">a1.sinks.k1.kafka.producer.acks</span> = <span class="string">1</span></span><br><span class="line"><span class="attr">a1.sinks.k1.kafka.producer.linger.ms</span> = <span class="string">1</span></span><br><span class="line"><span class="attr">a1.sinks.k1.kafka.producer.compression.type</span> = <span class="string">snappy</span></span><br><span class="line"></span><br><span class="line"><span class="attr">a1.channels.c1.type</span> = <span class="string">org.apache.flume.channel.kafka.KafkaChannel</span></span><br><span class="line"><span class="attr">a1.channels.c1.kafka.bootstrap.servers</span> = <span class="string">192.162.11.25:9092</span></span><br><span class="line"><span class="attr">a1.channels.c1.kafka.topic</span> = <span class="string">flume-channel</span></span><br><span class="line"><span class="attr">a1.channels.c1.kafka.consumer.auto.offset.reset</span> = <span class="string">latest</span></span><br></pre></td></tr></table></figure></div>
-
-]]></content>
-      <categories>
-        <category>flume</category>
-      </categories>
-      <tags>
-        <tag>flume</tag>
       </tags>
   </entry>
   <entry>
@@ -469,6 +316,25 @@
       </tags>
   </entry>
   <entry>
+    <title>创建型-原型模式</title>
+    <url>/posts/34963c84/</url>
+    <content><![CDATA[<p><code>原型模式</code>是一种创建型设计模式，它允许通过复制现有对象来创建新的对象，而无需显式地指定它们的类。在原型模式中，一个对象作为原型，通过复制自己来创建新的对象。原型模式适用于对象的创建过程非常复杂的情况下，可以通过复制已有的对象来避免重复创建相似的对象，从而提高系统的性能。</p>
+<p>原型模式有两种实现方式：浅克隆和深克隆。</p>
+<p>浅克隆：浅克隆只复制对象本身和其中的基础数据类型，而不会复制对象中的引用类型。也就是说，新对象中的引用类型变量和原对象中的引用类型变量指向同一个对象。Java 中的 Object 类提供了一个 clone() 方法，可以实现浅克隆。</p>
+<p>要实现克隆，需要满足以下条件：</p>
+<ol>
+<li>实现 Cloneable 接口，否则会抛出 CloneNotSupportException 异常；</li>
+<li>重写 clone() 方法，并使用 super.clone() 来创建新的对象。</li>
+</ol>
+]]></content>
+      <categories>
+        <category>设计模式</category>
+      </categories>
+      <tags>
+        <tag>设计模式</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Docker容器命令</title>
     <url>/posts/35ae3709/</url>
     <content><![CDATA[<h2 id="Docker-容器命令"><a href="#Docker-容器命令" class="headerlink" title="Docker 容器命令"></a>Docker 容器命令</h2><h3 id="1-启动-Docker"><a href="#1-启动-Docker" class="headerlink" title="1. 启动 Docker"></a>1. 启动 Docker</h3><p>要启动一个已经存在的容器，可以使用 <strong>start</strong> 命令。</p>
@@ -561,6 +427,140 @@
       </categories>
       <tags>
         <tag>docker</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Flume自定义过滤器插件</title>
+    <url>/posts/3e52edfc/</url>
+    <content><![CDATA[<p>Flume 是一种可扩展的、可靠的分布式日志收集和聚合系统。它使用了拦截器来对数据流进行处理和过滤，以满足不同的需求。Flume 提供了很多内置的拦截器，但我们也可以通过自定义拦截器来实现自定义的数据过滤和处理。</p>
+<h2 id="一、引入依赖"><a href="#一、引入依赖" class="headerlink" title="一、引入依赖"></a>一、引入依赖</h2><p>新建一个工程，引入如下依赖：</p>
+<div class="highlight-container" data-rel="Java"><figure class="iseeu highlight java"><table><tr><td class="code"><pre><span class="line">&lt;dependency&gt;</span><br><span class="line">    &lt;groupId&gt;org.apache.flume&lt;/groupId&gt;</span><br><span class="line">    &lt;artifactId&gt;flume-ng-core&lt;/artifactId&gt;</span><br><span class="line">    &lt;version&gt;<span class="number">1.11</span><span class="number">.0</span>&lt;/version&gt;</span><br><span class="line">&lt;/dependency&gt;</span><br></pre></td></tr></table></figure></div>
+
+<h2 id="二、自定义拦截器类"><a href="#二、自定义拦截器类" class="headerlink" title="二、自定义拦截器类"></a>二、自定义拦截器类</h2><div class="highlight-container" data-rel="Java"><figure class="iseeu highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">package</span> com.bda.dcp.flume.interceptor;</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> com.google.common.base.Splitter;</span><br><span class="line"><span class="keyword">import</span> com.google.gson.Gson;</span><br><span class="line"><span class="keyword">import</span> lombok.extern.slf4j.Slf4j;</span><br><span class="line"><span class="keyword">import</span> org.apache.commons.compress.utils.Lists;</span><br><span class="line"><span class="keyword">import</span> org.apache.commons.lang.StringUtils;</span><br><span class="line"><span class="keyword">import</span> org.apache.flume.Context;</span><br><span class="line"><span class="keyword">import</span> org.apache.flume.Event;</span><br><span class="line"><span class="keyword">import</span> org.apache.flume.interceptor.Interceptor;</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> java.util.ArrayList;</span><br><span class="line"><span class="keyword">import</span> java.util.HashMap;</span><br><span class="line"><span class="keyword">import</span> java.util.List;</span><br><span class="line"><span class="keyword">import</span> java.util.Map;</span><br><span class="line"></span><br><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> *</span></span><br><span class="line"><span class="comment"> * Created by fengxuguang on 2024/6/14 15:32</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line"><span class="meta">@Slf4j</span></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">JsonInterceptor</span> <span class="keyword">implements</span> <span class="title class_">Interceptor</span> &#123;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">private</span> String jsonTopic;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">public</span> <span class="title function_">JsonInterceptor</span><span class="params">(String jsonTopic)</span> &#123;</span><br><span class="line">        <span class="built_in">this</span>.jsonTopic = jsonTopic;</span><br><span class="line">        System.out.println(<span class="string">&quot;======&gt; keyword = &quot;</span> + jsonTopic);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="meta">@Override</span></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">void</span> <span class="title function_">initialize</span><span class="params">()</span> &#123;</span><br><span class="line"></span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="meta">@Override</span></span><br><span class="line">    <span class="keyword">public</span> Event <span class="title function_">intercept</span><span class="params">(Event event)</span> &#123;</span><br><span class="line">        <span class="keyword">try</span> &#123;</span><br><span class="line">            <span class="type">String</span> <span class="variable">body</span> <span class="operator">=</span> <span class="keyword">new</span> <span class="title class_">String</span>(event.getBody());</span><br><span class="line"></span><br><span class="line">            <span class="type">Gson</span> <span class="variable">gson</span> <span class="operator">=</span> <span class="keyword">new</span> <span class="title class_">Gson</span>();</span><br><span class="line">            Map&lt;String, String&gt; bodyJson = gson.fromJson(body, Map.class);</span><br><span class="line">            log.info(<span class="string">&quot;=====&gt; body json: &#123;&#125;&quot;</span>, bodyJson);</span><br><span class="line"></span><br><span class="line">            <span class="comment">// 根据逗号分割配置的字符串，转换成 List&lt;String&gt; 集合</span></span><br><span class="line">            List&lt;String&gt; columns = <span class="keyword">new</span> <span class="title class_">ArrayList</span>&lt;&gt;();</span><br><span class="line">            <span class="keyword">if</span> (StringUtils.isNotBlank(jsonTopic)) &#123;</span><br><span class="line">                Iterable&lt;String&gt; split = Splitter.on(<span class="string">&quot;,&quot;</span>)</span><br><span class="line">                        .omitEmptyStrings()</span><br><span class="line">                        .trimResults()</span><br><span class="line">                        .split(jsonTopic);</span><br><span class="line">                split.forEach(s -&gt; columns.add(s));</span><br><span class="line">            &#125;</span><br><span class="line">            Map&lt;String, String&gt; result = <span class="keyword">new</span> <span class="title class_">HashMap</span>&lt;&gt;();</span><br><span class="line">            <span class="keyword">for</span> (String key : bodyJson.keySet()) &#123;</span><br><span class="line">                <span class="comment">// 过滤出事件 body 内的数据在配置项中指定的字段</span></span><br><span class="line">                <span class="keyword">if</span> (columns.contains(key)) &#123;</span><br><span class="line">                    result.put(key, bodyJson.get(key));</span><br><span class="line">                &#125;</span><br><span class="line">            &#125;</span><br><span class="line"></span><br><span class="line">            event.setBody(gson.toJson(result).getBytes());</span><br><span class="line">            <span class="keyword">return</span> event;</span><br><span class="line">        &#125; <span class="keyword">catch</span> (Exception e) &#123;</span><br><span class="line">            log.error(e.getMessage(), e);</span><br><span class="line">            <span class="keyword">return</span> <span class="literal">null</span>;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="meta">@Override</span></span><br><span class="line">    <span class="keyword">public</span> List&lt;Event&gt; <span class="title function_">intercept</span><span class="params">(List&lt;Event&gt; list)</span> &#123;</span><br><span class="line">        List&lt;Event&gt; resultList = Lists.newArrayList();</span><br><span class="line">        <span class="keyword">for</span> (Event event : list) &#123;</span><br><span class="line">            <span class="type">Event</span> <span class="variable">result</span> <span class="operator">=</span> intercept(event);</span><br><span class="line">            <span class="keyword">if</span> (result != <span class="literal">null</span>) &#123;</span><br><span class="line">                resultList.add(result);</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> resultList;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="meta">@Override</span></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">void</span> <span class="title function_">close</span><span class="params">()</span> &#123;</span><br><span class="line"></span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">class</span> <span class="title class_">Builder</span> <span class="keyword">implements</span> <span class="title class_">Interceptor</span>.Builder &#123;</span><br><span class="line"></span><br><span class="line">        <span class="keyword">private</span> String jsonTopic;</span><br><span class="line"></span><br><span class="line">        <span class="meta">@Override</span></span><br><span class="line">        <span class="keyword">public</span> Interceptor <span class="title function_">build</span><span class="params">()</span> &#123;</span><br><span class="line">            <span class="keyword">return</span> <span class="keyword">new</span> <span class="title class_">JsonInterceptor</span>(jsonTopic);</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        <span class="meta">@Override</span></span><br><span class="line">        <span class="keyword">public</span> <span class="keyword">void</span> <span class="title function_">configure</span><span class="params">(Context context)</span> &#123;</span><br><span class="line">            jsonTopic = context.getString(<span class="string">&quot;jsonTopic&quot;</span>);</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div>
+
+<h2 id="三、打包"><a href="#三、打包" class="headerlink" title="三、打包"></a>三、打包</h2><p>mvn package 打包成 jar 包后放入 flume&#x2F;lib&#x2F; 目录</p>
+<h2 id="四、配置"><a href="#四、配置" class="headerlink" title="四、配置"></a>四、配置</h2><div class="highlight-container" data-rel="Properties"><figure class="iseeu highlight properties"><table><tr><td class="code"><pre><span class="line"><span class="attr">a1.sources</span> = <span class="string">r1</span></span><br><span class="line"><span class="attr">a1.sinks</span> = <span class="string">k1</span></span><br><span class="line"><span class="attr">a1.channels</span> = <span class="string">c1</span></span><br><span class="line"></span><br><span class="line"><span class="attr">a1.sources.r1.type</span> = <span class="string">org.apache.flume.source.kafka.KafkaSource</span></span><br><span class="line"><span class="attr">a1.sources.r1.channels</span> = <span class="string">c1</span></span><br><span class="line"><span class="attr">a1.sources.r1.batchSize</span> = <span class="string">3</span></span><br><span class="line"><span class="attr">a1.sources.r1.batchDurationMillis</span> = <span class="string">2000</span></span><br><span class="line"><span class="attr">a1.sources.r1.kafka.bootstrap.servers</span> = <span class="string">192.162.11.25:9092</span></span><br><span class="line"><span class="attr">a1.sources.r1.kafka.topics</span> = <span class="string">flume-source-kafka</span></span><br><span class="line"><span class="attr">a1.sources.r1.interceptors</span> = <span class="string">i1 i2</span></span><br><span class="line"><span class="attr">a1.sources.r1.interceptors.i1.type</span> = <span class="string">static</span></span><br><span class="line"><span class="attr">a1.sources.r1.interceptors.i1.key</span> = <span class="string">topic</span></span><br><span class="line"><span class="attr">a1.sources.r1.interceptors.i1.preserveExisting</span> = <span class="string">false</span></span><br><span class="line"><span class="attr">a1.sources.r1.interceptors.i1.value</span> = <span class="string">flume-collect-kafka</span></span><br><span class="line"><span class="comment"># 配置自定义拦截器，类型必须是: 类全名$内部类名</span></span><br><span class="line"><span class="attr">a1.sources.r1.interceptors.i2.type</span> = <span class="string">com.bda.dcp.flume.interceptor.JsonInterceptor$Builder</span></span><br><span class="line"><span class="comment"># 配置要过滤的字段</span></span><br><span class="line"><span class="attr">a1.sources.r1.interceptors.i2.jsonTopic</span>=<span class="string">name,age</span></span><br><span class="line"></span><br><span class="line"><span class="attr">a1.sinks.k1.channel</span> = <span class="string">c1</span></span><br><span class="line"><span class="attr">a1.sinks.k1.type</span> = <span class="string">org.apache.flume.sink.kafka.KafkaSink</span></span><br><span class="line"><span class="attr">a1.sinks.k1.kafka.flumeBatchSize</span> = <span class="string">3</span></span><br><span class="line"><span class="attr">a1.sinks.k1.kafka.bootstrap.servers</span> = <span class="string">192.162.11.191:9092</span></span><br><span class="line"><span class="attr">a1.sinks.k1.kafka.topic</span> = <span class="string">flume-collect-kafka</span></span><br><span class="line"><span class="attr">a1.sinks.k1.kafka.producer.acks</span> = <span class="string">1</span></span><br><span class="line"><span class="attr">a1.sinks.k1.kafka.producer.linger.ms</span> = <span class="string">1</span></span><br><span class="line"><span class="attr">a1.sinks.k1.kafka.producer.compression.type</span> = <span class="string">snappy</span></span><br><span class="line"></span><br><span class="line"><span class="attr">a1.channels.c1.type</span> = <span class="string">org.apache.flume.channel.kafka.KafkaChannel</span></span><br><span class="line"><span class="attr">a1.channels.c1.kafka.bootstrap.servers</span> = <span class="string">192.162.11.25:9092</span></span><br><span class="line"><span class="attr">a1.channels.c1.kafka.topic</span> = <span class="string">flume-channel</span></span><br><span class="line"><span class="attr">a1.channels.c1.kafka.consumer.auto.offset.reset</span> = <span class="string">latest</span></span><br></pre></td></tr></table></figure></div>
+
+]]></content>
+      <categories>
+        <category>flume</category>
+      </categories>
+      <tags>
+        <tag>flume</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Flume从kafka采集数据到另一个kafka</title>
+    <url>/posts/8d409c77/</url>
+    <content><![CDATA[<h2 id="一、概述"><a href="#一、概述" class="headerlink" title="一、概述"></a>一、概述</h2><p>Flume 是 Apache 提供的一个高可用、高可靠、分布式的系统，用于<strong>有效地收集、聚合和移动大量日志数据到集中式数据存储</strong>。Flume 基于流式架构，灵活简单。它专为<strong>日志数据</strong>收集服务设计，但也适用于各种其他数据流场景。</p>
+<h2 id="二、-前言"><a href="#二、-前言" class="headerlink" title="二、 前言"></a>二、 前言</h2><p>Flume 官网文档地址：<a class="link"   href="https://flume.apache.org/FlumeUserGuide.html" >https://flume.apache.org/FlumeUserGuide.html <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+<p>Flume Source 端采用 Kafka 官网文档地址：<a class="link"   href="https://flume.apache.org/FlumeUserGuide.html#kafka-source" >https://flume.apache.org/FlumeUserGuide.html#kafka-source <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+<p>Flume Sink 端采用 Kafka ：<a class="link"   href="https://flume.apache.org/FlumeUserGuide.html#flume-sinks" >https://flume.apache.org/FlumeUserGuide.html#flume-sinks <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+<p>下载地址：<a class="link"   href="https://flume.apache.org/download.html" >https://flume.apache.org/download.html <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+<p>github 地址：<a class="link"   href="https://github.com/apache/logging-flume" >https://github.com/apache/logging-flume <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+<h2 id="三、Flume-架构图"><a href="#三、Flume-架构图" class="headerlink" title="三、Flume 架构图"></a>三、Flume 架构图</h2><p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/../../images/articles/flume/flume-architecture.png"
+                     
+                ></p>
+<blockquote>
+<ol>
+<li><strong>Source</strong>：数据的来源。<strong>Source 负责接收或拉取数据进入 Flume 流。</strong>数据可以来自多种来源，如日志文件、网络服务等。</li>
+<li><strong>Channel：用于在 Source 和 Sink 之间传递事件的缓冲区。</strong>Channel 保证了数据的可靠性，即使在传输过程中遇到系统故障，数据也不会丢失。</li>
+<li><strong>Sink</strong>：数据的目的地。<strong>Sink 负责将从 Channel 接收到的数据写入到外部存储系统或数据处理平台</strong>，如 HDFS、ElasticSearch 或 Kafka。</li>
+</ol>
+</blockquote>
+<h3 id="3-1-架构组件"><a href="#3-1-架构组件" class="headerlink" title="3.1 架构组件"></a>3.1 架构组件</h3><h4 id="3-1-1-Agent"><a href="#3-1-1-Agent" class="headerlink" title="3.1.1 Agent"></a>3.1.1 Agent</h4><p>​	Agent 是一个 JVM 进程，它以事件的形式将数据从源头送至目的，是 Flume 数据传输的基本单元。</p>
+<p>​	Agent 主要有 3 个部分组成，<strong>Source</strong>、<strong>Channel</strong>、<strong>Sink</strong>。</p>
+<h4 id="3-1-2-Source"><a href="#3-1-2-Source" class="headerlink" title="3.1.2 Source"></a>3.1.2 Source</h4><p>​	Source 是负责接收数据到 Flume Agent 的组件。Source 组件可以处理各种类型、各种格式的日志数据，包括 avro、thrift、exec、jms、spooling directory、taildir、twitter、kafka、netcat、sequence generator、syslog、http、legacy 等。</p>
+<h4 id="3-1-3-Channel"><a href="#3-1-3-Channel" class="headerlink" title="3.1.3 Channel"></a>3.1.3 Channel</h4><p>​	Channel 是位于 Source 和 Sink 之间的缓冲区。因此，Channel 允许 Source 和 Sink 运行在不同的速率上。<strong>Channel 是线程安全的</strong>，可以同时处理几个 Source 的写入操作和几个 Sink 的读取操作。</p>
+<p>​	Channel 支持的类型包括：</p>
+<ul>
+<li>Memory：事件存储到内存中。</li>
+<li>JDBC：事件存储到数据库中。</li>
+<li>Kafka：事件存储到 Kafka 中</li>
+<li>File：事件写入到磁盘中。</li>
+<li>Custom：事件写入到自定义中。</li>
+</ul>
+<h4 id="3-1-4-Sink"><a href="#3-1-4-Sink" class="headerlink" title="3.1.4 Sink"></a>3.1.4 Sink</h4><p>​	Sink 不断地轮询 Channel 中的事件且批量地移除它们，并将这些事件批量写入到存储（HDFS、Kakfa等）系统、或者发送到另一个 Flume Agent。</p>
+<p>​	Sink 是完全事务性的。在从 Channel 批量删除数据之前，每个 Sink 用 Channel 启动一个事务。批量事件一旦成功写出到存储系统或下一个 Flume Agent，Sink 就利用 Channel 提交事务。事务一旦被提交，该 Channel 从自己的内部缓冲区删除事件。</p>
+<p>​	Sink 组件目的地包括：</p>
+<ul>
+<li>HDFS</li>
+<li>Hive</li>
+<li>Logger</li>
+<li>Avro</li>
+<li>Thrift</li>
+<li>IRC</li>
+<li>File Roll</li>
+<li>Null</li>
+<li>HBase</li>
+<li>Kafka</li>
+<li>Http</li>
+<li>Custom：自定义</li>
+</ul>
+<h4 id="3-1-5-Event"><a href="#3-1-5-Event" class="headerlink" title="3.1.5 Event"></a>3.1.5 Event</h4><p>​	传输单元，Flume 数据传输的基本单元，以事件的形式将数据从源头送至目的地。</p>
+<p>​	Event 由<code>Header</code>和<code>Body</code>两部分组成，Header 用来存放该 event 的一些属性，为 K-V 结构，Body 用来存放该条数据，形式为字节数组。</p>
+<h5 id="设计原因"><a href="#设计原因" class="headerlink" title="设计原因"></a>设计原因</h5><blockquote>
+<ol>
+<li><strong>灵活性</strong>：<code>header</code>是一个键值对集合(Map)，<strong>允许在事件中附加元数据</strong>，如时间戳、源标识、类型等。这种设计提供了极大的灵活性，使得在整个数据流传输过程中，可以根据需要动态添加、读取和修改事件的元信息。</li>
+<li><strong>兼容性</strong>：<code>Body</code>是一个字节数组(byte array)，<strong>可以存储任何形式的数据</strong>，无论是文本、二进制文件还是序列化对象。这意味着 Flume 可以处理各种数据类型，不受内容格式的限制，保证了与各种数据源和目的地的兼容性。</li>
+<li><strong>高效性</strong>：使用字节数组作为<code>Body</code>的存储格式，可以高效地在网络中传输数据，同时也便于存储和处理。由于字节数组在 Java 中也是一种基础且高效的数据结构，它适合用来表示未加工的数据流。</li>
+</ol>
+</blockquote>
+<h5 id="Body-大小限制"><a href="#Body-大小限制" class="headerlink" title="Body 大小限制"></a>Body 大小限制</h5><p><code>Event</code>的<code>Body</code>大小本身在 Flume 的设计中没有硬性限制，但实际上，由于内存和网络带宽的限制，以及目的地系统（如 Kafka）可能对消息大小有自己的限制，通常需要根据具体的使用场景来确定一个合理的大小。例如，Kafka 默认的最大消息是 1MB，尽管这个值是可以配置的。</p>
+<h5 id="源码角度"><a href="#源码角度" class="headerlink" title="源码角度"></a>源码角度</h5><p>从源码角度看，<code>Event</code>的定义体现了其简洁且高效的设计理念。下面是<code>Event</code>接口的源代码。</p>
+<div class="highlight-container" data-rel="Java"><figure class="iseeu highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">package</span> org.apache.flume;</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> java.util.Map;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">interface</span> <span class="title class_">Event</span> &#123;</span><br><span class="line">    Map&lt;String, String&gt; <span class="title function_">getHeaders</span><span class="params">()</span>;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">void</span> <span class="title function_">setHeaders</span><span class="params">(Map&lt;String, String&gt; var1)</span>;</span><br><span class="line"></span><br><span class="line">    <span class="type">byte</span>[] getBody();</span><br><span class="line"></span><br><span class="line">    <span class="keyword">void</span> <span class="title function_">setBody</span><span class="params">(<span class="type">byte</span>[] var1)</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div>
+
+<p>在这个接口中，<code>getHeaders</code>和<code>setHeaders</code>方法用于操作事件的元数据，而<code>getBody</code>和<code>setBody</code>方法则用于获取和设置事件的主体数据。这种设计使得 Flume 能够灵活地处理各种数据类型和格式，同时保持高效的数据处理和传输能力。</p>
+<h2 id="四、安装"><a href="#四、安装" class="headerlink" title="四、安装"></a>四、安装</h2><ol>
+<li><p>将 apache-flume-1.11.0-bin.tar.gz 上传到 linux 的 &#x2F;usr&#x2F;local 目录下</p>
+</li>
+<li><p>解压 apache-flume-1.11.0-bin.tar.gz 到 &#x2F;usr&#x2F;local&#x2F; 目录下</p>
+<blockquote>
+<p>tar -zxf apache-flume-1.11.0-bin.tar.gz -C &#x2F;usr&#x2F;local&#x2F;</p>
+</blockquote>
+</li>
+<li><p>修改 apache-flume-1.11.0-bin 文件夹名称为 flume</p>
+<blockquote>
+<p>mv apache-flume-1.11.0-bin flume</p>
+</blockquote>
+</li>
+<li><p>将 flume&#x2F;conf 下的 flume-env.sh.template 文件修改为 flume-env.sh，并配置 flume-env.sh 文件</p>
+<blockquote>
+<p>mv flume-env.sh.template flume-env.sh</p>
+<p>vi flume-env.sh</p>
+<p>export JAVA_HOME&#x3D;&#x2F;usr&#x2F;local&#x2F;jdk1.8.0_144</p>
+</blockquote>
+</li>
+</ol>
+<h2 id="五、案例"><a href="#五、案例" class="headerlink" title="五、案例"></a>五、案例</h2><h3 id="5-1-Kafka-Memory-Kafka"><a href="#5-1-Kafka-Memory-Kafka" class="headerlink" title="5.1 Kafka -&gt; Memory -&gt; Kafka"></a>5.1 Kafka -&gt; Memory -&gt; Kafka</h3><div class="highlight-container" data-rel="Shell"><figure class="iseeu highlight shell"><table><tr><td class="code"><pre><span class="line">vi kafka-memory-kafka.conf</span><br></pre></td></tr></table></figure></div>
+
+<div class="highlight-container" data-rel="Properties"><figure class="iseeu highlight properties"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 定义 agent、source、channel、sink 名称，并绑定关系</span></span><br><span class="line"><span class="attr">a1.sources</span> = <span class="string">r1</span></span><br><span class="line"><span class="attr">a1.sinks</span> = <span class="string">k1</span></span><br><span class="line"><span class="attr">a1.channels</span> = <span class="string">c1</span></span><br><span class="line"><span class="comment"></span></span><br><span class="line"><span class="comment"># source </span></span><br><span class="line"><span class="attr">a1.sources.r1.type</span> = <span class="string">org.apache.flume.source.kafka.KafkaSource</span></span><br><span class="line"><span class="attr">a1.sources.r1.channels</span> = <span class="string">c1</span></span><br><span class="line"><span class="attr">a1.sources.r1.batchSize</span> = <span class="string">3</span></span><br><span class="line"><span class="attr">a1.sources.r1.batchDurationMillis</span> = <span class="string">2000</span></span><br><span class="line"><span class="comment"># kafka 服务地址</span></span><br><span class="line"><span class="attr">a1.sources.r1.kafka.bootstrap.servers</span> = <span class="string">192.162.11.25:9092</span></span><br><span class="line"><span class="comment"># topic 名称</span></span><br><span class="line"><span class="attr">a1.sources.r1.kafka.topics</span> = <span class="string">flume-source-kafka2</span></span><br><span class="line"><span class="comment"># 拦截器</span></span><br><span class="line"><span class="attr">a1.sources.r1.interceptors</span> = <span class="string">i1 i2</span></span><br><span class="line"><span class="attr">a1.sources.r1.interceptors.i1.type</span> = <span class="string">static</span></span><br><span class="line"><span class="attr">a1.sources.r1.interceptors.i1.key</span> = <span class="string">topic</span></span><br><span class="line"><span class="attr">a1.sources.r1.interceptors.i1.preserveExisting</span> = <span class="string">false</span></span><br><span class="line"><span class="comment"># sink 端 topic 名称</span></span><br><span class="line"><span class="attr">a1.sources.r1.interceptors.i1.value</span> = <span class="string">flume-collect-kafka2</span></span><br><span class="line"><span class="comment"></span></span><br><span class="line"><span class="comment"># sink</span></span><br><span class="line"><span class="attr">a1.sinks.k1.channel</span> = <span class="string">c1</span></span><br><span class="line"><span class="attr">a1.sinks.k1.type</span> = <span class="string">org.apache.flume.sink.kafka.KafkaSink</span></span><br><span class="line"><span class="attr">a1.sinks.k1.kafka.flumeBatchSize</span> = <span class="string">3</span></span><br><span class="line"><span class="comment"># kafka 服务地址</span></span><br><span class="line"><span class="attr">a1.sinks.k1.kafka.bootstrap.servers</span> = <span class="string">192.162.11.191:9092</span></span><br><span class="line"><span class="comment"># topic 名称</span></span><br><span class="line"><span class="attr">a1.sinks.k1.kafka.topic</span> = <span class="string">flume-collect-kafka2</span></span><br><span class="line"><span class="attr">a1.sinks.k1.kafka.producer.acks</span> = <span class="string">1</span></span><br><span class="line"><span class="attr">a1.sinks.k1.kafka.producer.linger.ms</span> = <span class="string">1</span></span><br><span class="line"><span class="attr">a1.sinks.k1.kafka.producer.compression.type</span> = <span class="string">snappy</span></span><br><span class="line"><span class="comment"></span></span><br><span class="line"><span class="comment"># channel</span></span><br><span class="line"><span class="attr">a1.channels.c1.type</span> = <span class="string">memory</span></span><br><span class="line"><span class="attr">a1.channels.c1.capacity</span> = <span class="string">1000</span></span><br><span class="line"><span class="attr">a1.channels.c1.transactionCapacity</span> = <span class="string">1000</span></span><br><span class="line"><span class="attr">a1.channels.c1.keep-alive</span> = <span class="string">10</span></span><br></pre></td></tr></table></figure></div>
+
+<p>启动命令</p>
+<div class="highlight-container" data-rel="Shell"><figure class="iseeu highlight shell"><table><tr><td class="code"><pre><span class="line">nohup /usr/local/flume/bin/flume-ng agent \</span><br><span class="line">-n a1 \</span><br><span class="line">-c /usr/local/flume/conf/ \</span><br><span class="line">-f /usr/local/flume/conf/kafka-memory-kafka.conf \</span><br><span class="line">-Dflume.root.logger=INFO,console \</span><br><span class="line"><span class="meta prompt_">&gt; </span><span class="language-bash">/usr/local/flume/conf/kafka-memory-kafka.log 2&gt;&amp;1 &amp;</span></span><br></pre></td></tr></table></figure></div>
+
+
+
+<h3 id="5-2-Kafka-Kafka-Kafka"><a href="#5-2-Kafka-Kafka-Kafka" class="headerlink" title="5.2 Kafka -&gt; Kafka -&gt; Kafka"></a>5.2 Kafka -&gt; Kafka -&gt; Kafka</h3><div class="highlight-container" data-rel="Shell"><figure class="iseeu highlight shell"><table><tr><td class="code"><pre><span class="line">vi kafka-kafka-kafka.conf</span><br></pre></td></tr></table></figure></div>
+
+<div class="highlight-container" data-rel="Properties"><figure class="iseeu highlight properties"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 定义 agent、source、channel、sink 名称，并绑定关系</span></span><br><span class="line"><span class="attr">a1.sources</span> = <span class="string">r1</span></span><br><span class="line"><span class="attr">a1.sinks</span> = <span class="string">k1</span></span><br><span class="line"><span class="attr">a1.channels</span> = <span class="string">c1</span></span><br><span class="line"><span class="comment"></span></span><br><span class="line"><span class="comment"># source</span></span><br><span class="line"><span class="attr">a1.sources.r1.type</span> = <span class="string">org.apache.flume.source.kafka.KafkaSource</span></span><br><span class="line"><span class="attr">a1.sources.r1.channels</span> = <span class="string">c1</span></span><br><span class="line"><span class="attr">a1.sources.r1.batchSize</span> = <span class="string">3</span></span><br><span class="line"><span class="attr">a1.sources.r1.batchDurationMillis</span> = <span class="string">2000</span></span><br><span class="line"><span class="comment"># Kafka 服务地址</span></span><br><span class="line"><span class="attr">a1.sources.r1.kafka.bootstrap.servers</span> = <span class="string">192.162.11.25:9092</span></span><br><span class="line"><span class="comment"># topic 名称</span></span><br><span class="line"><span class="attr">a1.sources.r1.kafka.topics</span> = <span class="string">flume-source-kafka</span></span><br><span class="line"><span class="comment"># i1 i2 为拦截器，拦截器执行顺序根据配置顺序执行</span></span><br><span class="line"><span class="attr">a1.sources.r1.interceptors</span> = <span class="string">i1 i2</span></span><br><span class="line"><span class="attr">a1.sources.r1.interceptors.i1.type</span> = <span class="string">static</span></span><br><span class="line"><span class="attr">a1.sources.r1.interceptors.i1.key</span> = <span class="string">topic</span></span><br><span class="line"><span class="attr">a1.sources.r1.interceptors.i1.preserveExisting</span> = <span class="string">false</span></span><br><span class="line"><span class="comment"># sink 端 topic 名称</span></span><br><span class="line"><span class="attr">a1.sources.r1.interceptors.i1.value</span> = <span class="string">flume-collect-kafka</span></span><br><span class="line"><span class="comment"># 自定义拦截器插件</span></span><br><span class="line"><span class="attr">a1.sources.r1.interceptors.i2.type</span> = <span class="string">com.bda.dcp.flume.interceptor.JsonInterceptor$Builder</span></span><br><span class="line"><span class="attr">a1.sources.r1.interceptors.i2.keyword</span>=<span class="string">hello, fly</span></span><br><span class="line"><span class="comment"></span></span><br><span class="line"><span class="comment"># sink</span></span><br><span class="line"><span class="attr">a1.sinks.k1.channel</span> = <span class="string">c1</span></span><br><span class="line"><span class="attr">a1.sinks.k1.type</span> = <span class="string">org.apache.flume.sink.kafka.KafkaSink</span></span><br><span class="line"><span class="attr">a1.sinks.k1.kafka.flumeBatchSize</span> = <span class="string">3</span></span><br><span class="line"><span class="comment"># kafka 服务地址</span></span><br><span class="line"><span class="attr">a1.sinks.k1.kafka.bootstrap.servers</span> = <span class="string">192.162.11.191:9092</span></span><br><span class="line"><span class="comment"># topic 名称</span></span><br><span class="line"><span class="attr">a1.sinks.k1.kafka.topic</span> = <span class="string">flume-collect-kafka</span></span><br><span class="line"><span class="attr">a1.sinks.k1.kafka.producer.acks</span> = <span class="string">1</span></span><br><span class="line"><span class="attr">a1.sinks.k1.kafka.producer.linger.ms</span> = <span class="string">1</span></span><br><span class="line"><span class="attr">a1.sinks.k1.kafka.producer.compression.type</span> = <span class="string">snappy</span></span><br><span class="line"><span class="comment"></span></span><br><span class="line"><span class="comment"># channel</span></span><br><span class="line"><span class="attr">a1.channels.c1.type</span> = <span class="string">org.apache.flume.channel.kafka.KafkaChannel</span></span><br><span class="line"><span class="comment"># kafka 服务地址</span></span><br><span class="line"><span class="attr">a1.channels.c1.kafka.bootstrap.servers</span> = <span class="string">192.162.11.25:9092</span></span><br><span class="line"><span class="comment"># topic 名称</span></span><br><span class="line"><span class="attr">a1.channels.c1.kafka.topic</span> = <span class="string">flume-channel</span></span><br><span class="line"><span class="attr">a1.channels.c1.kafka.consumer.auto.offset.reset</span> = <span class="string">latest</span></span><br></pre></td></tr></table></figure></div>
+
+<p>启动命令</p>
+<div class="highlight-container" data-rel="Shell"><figure class="iseeu highlight shell"><table><tr><td class="code"><pre><span class="line">nohup /usr/local/flume/bin/flume-ng agent \</span><br><span class="line">-n a1 \</span><br><span class="line">-c /usr/local/flume/conf/ \</span><br><span class="line">-f /usr/local/flume/conf/kafka-kafka-kafka.conf \</span><br><span class="line">-Dflume.root.logger=INFO,console \</span><br><span class="line"><span class="meta prompt_">&gt; </span><span class="language-bash">/usr/local/flume/conf/kafka-kafka-kafka.log 2&gt;&amp;1 &amp;</span></span><br></pre></td></tr></table></figure></div>
+
+
+
+
+
+]]></content>
+      <categories>
+        <category>flume</category>
+      </categories>
+      <tags>
+        <tag>flume</tag>
       </tags>
   </entry>
   <entry>
@@ -749,50 +749,6 @@
       </categories>
       <tags>
         <tag>golang</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>EasyExcel读取合并单元格数据</title>
-    <url>/posts/56baab11/</url>
-    <content><![CDATA[<h2 id="EasyExcel"><a href="#EasyExcel" class="headerlink" title="EasyExcel"></a>EasyExcel</h2><p>EasyExcel 文档地址：<a class="link"   href="https://easyexcel.opensource.alibaba.com/docs/current/quickstart/read" >https://easyexcel.opensource.alibaba.com/docs/current/quickstart/read <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
-<h2 id="一、前言"><a href="#一、前言" class="headerlink" title="一、前言"></a>一、前言</h2><p>当 excel 表格的数据表头和内容都比较工整，每个单元格对应一个数据时，通过 EasyExcel 可以很容易就将数据读取出来。但是当表格数据存在<code>合并单元格</code>时，还是按照 EasyExcel 原来的方式读取数据，读取出来的数据只有合并单元格的<code>首行</code>才有数据，其他行的数据均为<code>null</code>。</p>
-<h2 id="二、问题分析"><a href="#二、问题分析" class="headerlink" title="二、问题分析"></a>二、问题分析</h2><p>首先需要知道 <code>excel</code>表格合并单元格的原理：<code>在合并单元格时，仅保留左上角的值，而放弃其他值</code>。</p>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="/../../images/articles/easyexcel/01.png"
-                      alt="img"
-                ></p>
-<p>也就是说合并的单元格取的值都是<code>左上角的值</code>。</p>
-<h2 id="三、实现"><a href="#三、实现" class="headerlink" title="三、实现"></a>三、实现</h2><p>EasyExcel 处理合并单元格文档地址：</p>
-<p><a class="link"   href="https://easyexcel.opensource.alibaba.com/docs/current/quickstart/read#%E9%A2%9D%E5%A4%96%E4%BF%A1%E6%81%AF%E6%89%B9%E6%B3%A8%E8%B6%85%E9%93%BE%E6%8E%A5%E5%90%88%E5%B9%B6%E5%8D%95%E5%85%83%E6%A0%BC%E4%BF%A1%E6%81%AF%E8%AF%BB%E5%8F%96" >https://easyexcel.opensource.alibaba.com/docs/current/quickstart/read#%E9%A2%9D%E5%A4%96%E4%BF%A1%E6%81%AF%E6%89%B9%E6%B3%A8%E8%B6%85%E9%93%BE%E6%8E%A5%E5%90%88%E5%B9%B6%E5%8D%95%E5%85%83%E6%A0%BC%E4%BF%A1%E6%81%AF%E8%AF%BB%E5%8F%96 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="/../../images/articles/easyexcel/02.png"
-                      alt="img"
-                ></p>
-<h3 id="监听器"><a href="#监听器" class="headerlink" title="监听器"></a>监听器</h3><div class="highlight-container" data-rel="Java"><figure class="iseeu highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> com.alibaba.excel.context.AnalysisContext;</span><br><span class="line"><span class="keyword">import</span> com.alibaba.excel.metadata.CellExtra;</span><br><span class="line"><span class="keyword">import</span> com.alibaba.excel.read.listener.ReadListener;</span><br><span class="line"><span class="keyword">import</span> lombok.Getter;</span><br><span class="line"><span class="keyword">import</span> lombok.extern.slf4j.Slf4j;</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> java.util.ArrayList;</span><br><span class="line"><span class="keyword">import</span> java.util.List;</span><br><span class="line"></span><br><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * Excel 监听器</span></span><br><span class="line"><span class="comment"> * Created by fengxuguang on 2024/5/23 9:41</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line"><span class="meta">@Getter</span></span><br><span class="line"><span class="meta">@Slf4j</span></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">ExcelListener</span>&lt;T&gt; <span class="keyword">implements</span> <span class="title class_">ReadListener</span>&lt;T&gt; &#123;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">private</span> <span class="keyword">final</span> List&lt;T&gt; list = <span class="keyword">new</span> <span class="title class_">ArrayList</span>&lt;&gt;();</span><br><span class="line"></span><br><span class="line">    <span class="keyword">private</span> <span class="type">Integer</span> <span class="variable">headNumber</span> <span class="operator">=</span> <span class="number">0</span>;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">private</span> <span class="keyword">final</span> List&lt;CellExtra&gt; extraMergeList = <span class="keyword">new</span> <span class="title class_">ArrayList</span>&lt;&gt;();</span><br><span class="line"></span><br><span class="line">    <span class="keyword">public</span> <span class="title function_">ExcelListener</span><span class="params">(Integer headNumber)</span> &#123;</span><br><span class="line">        <span class="built_in">this</span>.headNumber = headNumber;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="meta">@Override</span></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">void</span> <span class="title function_">invoke</span><span class="params">(T data, AnalysisContext analysisContext)</span> &#123;</span><br><span class="line">        <span class="keyword">if</span> (analysisContext.readRowHolder().getRowIndex() &gt;= headNumber) &#123;</span><br><span class="line">            list.add(data);</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="meta">@Override</span></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">void</span> <span class="title function_">extra</span><span class="params">(CellExtra extra, AnalysisContext context)</span> &#123;</span><br><span class="line">        <span class="keyword">switch</span> (extra.getType()) &#123;</span><br><span class="line">            <span class="keyword">case</span> COMMENT:</span><br><span class="line">                log.info(<span class="string">&quot;解析到一条注释:&#123;&#125;&quot;</span>, extra.toString());</span><br><span class="line">                <span class="keyword">break</span>;</span><br><span class="line">            <span class="keyword">case</span> HYPERLINK:</span><br><span class="line">                log.info(<span class="string">&quot;解析到一条链接:&#123;&#125;&quot;</span>, extra.toString());</span><br><span class="line">                <span class="keyword">break</span>;</span><br><span class="line">            <span class="keyword">case</span> MERGE:</span><br><span class="line"><span class="comment">//                log.info(</span></span><br><span class="line"><span class="comment">//                        &quot;额外信息是超链接,而且覆盖了一个区间,在firstRowIndex:&#123;&#125;,firstColumnIndex;&#123;&#125;,lastRowIndex:&#123;&#125;,lastColumnIndex:&#123;&#125;&quot;,</span></span><br><span class="line"><span class="comment">//                        extra.getFirstRowIndex(), extra.getFirstColumnIndex(), extra.getLastRowIndex(),</span></span><br><span class="line"><span class="comment">//                        extra.getLastColumnIndex());</span></span><br><span class="line">                <span class="keyword">if</span> (extra.getRowIndex() &gt;= headNumber) &#123;</span><br><span class="line">                    extraMergeList.add(extra);</span><br><span class="line">                &#125;</span><br><span class="line">                <span class="keyword">break</span>;</span><br><span class="line">            <span class="keyword">default</span>:</span><br><span class="line">                <span class="keyword">break</span>;</span><br><span class="line">        &#125;</span><br><span class="line">        ReadListener.<span class="built_in">super</span>.extra(extra, context);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="meta">@Override</span></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">void</span> <span class="title function_">doAfterAllAnalysed</span><span class="params">(AnalysisContext analysisContext)</span> &#123;</span><br><span class="line"></span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div>
-
-<p>在读取文件的时候添加 <code>.extraRead(CellExtraTypeEnum.MERGE)</code>就能获取所有的合并单元格，代码如下：</p>
-<div class="highlight-container" data-rel="Java"><figure class="iseeu highlight java"><table><tr><td class="code"><pre><span class="line">ExcelListener&lt;T&gt; readListener = <span class="keyword">new</span> <span class="title class_">ExcelListener</span>&lt;T&gt;(headRowNumber);</span><br><span class="line">EasyExcel.read(inputStream, clazz, readListener)</span><br><span class="line">        <span class="comment">// 需要读取合并单元格信息 默认不读取</span></span><br><span class="line">        .extraRead(CellExtraTypeEnum.MERGE)</span><br><span class="line">        .sheet(sheetIndex)</span><br><span class="line">        .doRead();</span><br></pre></td></tr></table></figure></div>
-
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="/../../images/articles/easyexcel/03.png"
-                      alt="img"
-                ></p>
-<p>在<code>EasyExcel</code>中可以通过 <code>@ExcelProperty</code>中的<code>index</code>属性来标明该字段的索引，例如：</p>
-<div class="highlight-container" data-rel="Java"><figure class="iseeu highlight java"><table><tr><td class="code"><pre><span class="line"><span class="meta">@ExcelProperty(value = &quot;名称&quot;, index = 2)</span></span><br><span class="line"><span class="keyword">private</span> String name;</span><br></pre></td></tr></table></figure></div>
-]]></content>
-      <categories>
-        <category>java</category>
-        <category>easyexcel</category>
-      </categories>
-      <tags>
-        <tag>java</tag>
-        <tag>easyexcel</tag>
       </tags>
   </entry>
   <entry>
@@ -1047,6 +1003,84 @@
       </tags>
   </entry>
   <entry>
+    <title>IDEA打开文件后左侧有很多空白设置</title>
+    <url>/posts/1384e06/</url>
+    <content><![CDATA[<p>IDEA 升级到 2024.1 版本后，打开文件发现文件左侧空白太多了，截图如下：</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/../../images/articles/idea_01.png"
+                      alt="image-20240417153929981"
+                ></p>
+<p>解决方案，在 idea 菜单栏 view 处找到 View &gt; Appearance &gt; Exit Distraction Free Mode 设置即可，截图如下：</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/../../images/articles/idea_02.png"
+                      alt="image-20240417154347065"
+                ></p>
+]]></content>
+      <tags>
+        <tag>idea</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>EasyExcel读取合并单元格数据</title>
+    <url>/posts/56baab11/</url>
+    <content><![CDATA[<h2 id="EasyExcel"><a href="#EasyExcel" class="headerlink" title="EasyExcel"></a>EasyExcel</h2><p>EasyExcel 文档地址：<a class="link"   href="https://easyexcel.opensource.alibaba.com/docs/current/quickstart/read" >https://easyexcel.opensource.alibaba.com/docs/current/quickstart/read <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+<h2 id="一、前言"><a href="#一、前言" class="headerlink" title="一、前言"></a>一、前言</h2><p>当 excel 表格的数据表头和内容都比较工整，每个单元格对应一个数据时，通过 EasyExcel 可以很容易就将数据读取出来。但是当表格数据存在<code>合并单元格</code>时，还是按照 EasyExcel 原来的方式读取数据，读取出来的数据只有合并单元格的<code>首行</code>才有数据，其他行的数据均为<code>null</code>。</p>
+<h2 id="二、问题分析"><a href="#二、问题分析" class="headerlink" title="二、问题分析"></a>二、问题分析</h2><p>首先需要知道 <code>excel</code>表格合并单元格的原理：<code>在合并单元格时，仅保留左上角的值，而放弃其他值</code>。</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/../../images/articles/easyexcel/01.png"
+                      alt="img"
+                ></p>
+<p>也就是说合并的单元格取的值都是<code>左上角的值</code>。</p>
+<h2 id="三、实现"><a href="#三、实现" class="headerlink" title="三、实现"></a>三、实现</h2><p>EasyExcel 处理合并单元格文档地址：</p>
+<p><a class="link"   href="https://easyexcel.opensource.alibaba.com/docs/current/quickstart/read#%E9%A2%9D%E5%A4%96%E4%BF%A1%E6%81%AF%E6%89%B9%E6%B3%A8%E8%B6%85%E9%93%BE%E6%8E%A5%E5%90%88%E5%B9%B6%E5%8D%95%E5%85%83%E6%A0%BC%E4%BF%A1%E6%81%AF%E8%AF%BB%E5%8F%96" >https://easyexcel.opensource.alibaba.com/docs/current/quickstart/read#%E9%A2%9D%E5%A4%96%E4%BF%A1%E6%81%AF%E6%89%B9%E6%B3%A8%E8%B6%85%E9%93%BE%E6%8E%A5%E5%90%88%E5%B9%B6%E5%8D%95%E5%85%83%E6%A0%BC%E4%BF%A1%E6%81%AF%E8%AF%BB%E5%8F%96 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/../../images/articles/easyexcel/02.png"
+                      alt="img"
+                ></p>
+<h3 id="监听器"><a href="#监听器" class="headerlink" title="监听器"></a>监听器</h3><div class="highlight-container" data-rel="Java"><figure class="iseeu highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> com.alibaba.excel.context.AnalysisContext;</span><br><span class="line"><span class="keyword">import</span> com.alibaba.excel.metadata.CellExtra;</span><br><span class="line"><span class="keyword">import</span> com.alibaba.excel.read.listener.ReadListener;</span><br><span class="line"><span class="keyword">import</span> lombok.Getter;</span><br><span class="line"><span class="keyword">import</span> lombok.extern.slf4j.Slf4j;</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> java.util.ArrayList;</span><br><span class="line"><span class="keyword">import</span> java.util.List;</span><br><span class="line"></span><br><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * Excel 监听器</span></span><br><span class="line"><span class="comment"> * Created by fengxuguang on 2024/5/23 9:41</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line"><span class="meta">@Getter</span></span><br><span class="line"><span class="meta">@Slf4j</span></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">ExcelListener</span>&lt;T&gt; <span class="keyword">implements</span> <span class="title class_">ReadListener</span>&lt;T&gt; &#123;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">private</span> <span class="keyword">final</span> List&lt;T&gt; list = <span class="keyword">new</span> <span class="title class_">ArrayList</span>&lt;&gt;();</span><br><span class="line"></span><br><span class="line">    <span class="keyword">private</span> <span class="type">Integer</span> <span class="variable">headNumber</span> <span class="operator">=</span> <span class="number">0</span>;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">private</span> <span class="keyword">final</span> List&lt;CellExtra&gt; extraMergeList = <span class="keyword">new</span> <span class="title class_">ArrayList</span>&lt;&gt;();</span><br><span class="line"></span><br><span class="line">    <span class="keyword">public</span> <span class="title function_">ExcelListener</span><span class="params">(Integer headNumber)</span> &#123;</span><br><span class="line">        <span class="built_in">this</span>.headNumber = headNumber;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="meta">@Override</span></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">void</span> <span class="title function_">invoke</span><span class="params">(T data, AnalysisContext analysisContext)</span> &#123;</span><br><span class="line">        <span class="keyword">if</span> (analysisContext.readRowHolder().getRowIndex() &gt;= headNumber) &#123;</span><br><span class="line">            list.add(data);</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="meta">@Override</span></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">void</span> <span class="title function_">extra</span><span class="params">(CellExtra extra, AnalysisContext context)</span> &#123;</span><br><span class="line">        <span class="keyword">switch</span> (extra.getType()) &#123;</span><br><span class="line">            <span class="keyword">case</span> COMMENT:</span><br><span class="line">                log.info(<span class="string">&quot;解析到一条注释:&#123;&#125;&quot;</span>, extra.toString());</span><br><span class="line">                <span class="keyword">break</span>;</span><br><span class="line">            <span class="keyword">case</span> HYPERLINK:</span><br><span class="line">                log.info(<span class="string">&quot;解析到一条链接:&#123;&#125;&quot;</span>, extra.toString());</span><br><span class="line">                <span class="keyword">break</span>;</span><br><span class="line">            <span class="keyword">case</span> MERGE:</span><br><span class="line"><span class="comment">//                log.info(</span></span><br><span class="line"><span class="comment">//                        &quot;额外信息是超链接,而且覆盖了一个区间,在firstRowIndex:&#123;&#125;,firstColumnIndex;&#123;&#125;,lastRowIndex:&#123;&#125;,lastColumnIndex:&#123;&#125;&quot;,</span></span><br><span class="line"><span class="comment">//                        extra.getFirstRowIndex(), extra.getFirstColumnIndex(), extra.getLastRowIndex(),</span></span><br><span class="line"><span class="comment">//                        extra.getLastColumnIndex());</span></span><br><span class="line">                <span class="keyword">if</span> (extra.getRowIndex() &gt;= headNumber) &#123;</span><br><span class="line">                    extraMergeList.add(extra);</span><br><span class="line">                &#125;</span><br><span class="line">                <span class="keyword">break</span>;</span><br><span class="line">            <span class="keyword">default</span>:</span><br><span class="line">                <span class="keyword">break</span>;</span><br><span class="line">        &#125;</span><br><span class="line">        ReadListener.<span class="built_in">super</span>.extra(extra, context);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="meta">@Override</span></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">void</span> <span class="title function_">doAfterAllAnalysed</span><span class="params">(AnalysisContext analysisContext)</span> &#123;</span><br><span class="line"></span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div>
+
+<p>在读取文件的时候添加 <code>.extraRead(CellExtraTypeEnum.MERGE)</code>就能获取所有的合并单元格，代码如下：</p>
+<div class="highlight-container" data-rel="Java"><figure class="iseeu highlight java"><table><tr><td class="code"><pre><span class="line">ExcelListener&lt;T&gt; readListener = <span class="keyword">new</span> <span class="title class_">ExcelListener</span>&lt;T&gt;(headRowNumber);</span><br><span class="line">EasyExcel.read(inputStream, clazz, readListener)</span><br><span class="line">        <span class="comment">// 需要读取合并单元格信息 默认不读取</span></span><br><span class="line">        .extraRead(CellExtraTypeEnum.MERGE)</span><br><span class="line">        .sheet(sheetIndex)</span><br><span class="line">        .doRead();</span><br></pre></td></tr></table></figure></div>
+
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/../../images/articles/easyexcel/03.png"
+                      alt="img"
+                ></p>
+<p>在<code>EasyExcel</code>中可以通过 <code>@ExcelProperty</code>中的<code>index</code>属性来标明该字段的索引，例如：</p>
+<div class="highlight-container" data-rel="Java"><figure class="iseeu highlight java"><table><tr><td class="code"><pre><span class="line"><span class="meta">@ExcelProperty(value = &quot;名称&quot;, index = 2)</span></span><br><span class="line"><span class="keyword">private</span> String name;</span><br></pre></td></tr></table></figure></div>
+]]></content>
+      <categories>
+        <category>java</category>
+        <category>easyexcel</category>
+      </categories>
+      <tags>
+        <tag>java</tag>
+        <tag>easyexcel</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>ListUtil封装jdk8-stream语法，简化代码编写</title>
+    <url>/posts/508b40e4/</url>
+    <content><![CDATA[<h2 id="背景"><a href="#背景" class="headerlink" title="背景"></a>背景</h2><p>​	由于在日常开发中，会经常使用到<code>JDK8</code>中的<code>Stream</code>语法糖，然而在使用过程中，发现存在很多冗余的方法，便想着封装个工具类，简化开发过程中的使用。</p>
+<h2 id="工具类-ListUtil"><a href="#工具类-ListUtil" class="headerlink" title="工具类 ListUtil"></a>工具类 ListUtil</h2><div class="highlight-container" data-rel="Java"><figure class="iseeu highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> org.apache.commons.collections.CollectionUtils;</span><br><span class="line"><span class="keyword">import</span> org.apache.commons.lang3.StringUtils;</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> java.util.ArrayList;</span><br><span class="line"><span class="keyword">import</span> java.util.Collections;</span><br><span class="line"><span class="keyword">import</span> java.util.HashMap;</span><br><span class="line"><span class="keyword">import</span> java.util.List;</span><br><span class="line"><span class="keyword">import</span> java.util.Map;</span><br><span class="line"><span class="keyword">import</span> java.util.Optional;</span><br><span class="line"><span class="keyword">import</span> java.util.function.BinaryOperator;</span><br><span class="line"><span class="keyword">import</span> java.util.function.Function;</span><br><span class="line"><span class="keyword">import</span> java.util.function.Predicate;</span><br><span class="line"><span class="keyword">import</span> java.util.stream.Collectors;</span><br><span class="line"></span><br><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * JDK8-Stream 工具类封装</span></span><br><span class="line"><span class="comment"> * Created by fengxuguang on 2024/3/20 14:29</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">ListUtil</span> &#123;</span><br><span class="line"></span><br><span class="line">    <span class="comment">/**</span></span><br><span class="line"><span class="comment">     * 过滤出有效 属性, 并去重</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> list 集合</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> mapper 处理属性</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@return</span> List&lt;String&gt; 返回结果</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> &lt;T&gt; 形参集合内实体类型</span></span><br><span class="line"><span class="comment">     */</span></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> &lt;T&gt;List&lt;String&gt; <span class="title function_">filterValidValue</span><span class="params">(List&lt;T&gt; list, Function&lt;? <span class="built_in">super</span> T, String&gt; mapper)</span> &#123;</span><br><span class="line">        <span class="keyword">if</span> (CollectionUtils.isEmpty(list)) &#123;</span><br><span class="line">            <span class="keyword">return</span> Collections.emptyList();</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        <span class="keyword">return</span> list.stream()</span><br><span class="line">                .map(mapper)</span><br><span class="line">                .filter(StringUtils::isNotBlank)</span><br><span class="line">                .distinct()</span><br><span class="line">                .collect(Collectors.toList());</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="comment">/**</span></span><br><span class="line"><span class="comment">     * 过滤多字段有效值, 并去重</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> list 集合</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> mappers 属性, 支持多属性</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@return</span> List&lt;String&gt; 返回结果</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> &lt;T&gt; 形参集合内实体类型</span></span><br><span class="line"><span class="comment">     */</span></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> &lt;T&gt; List&lt;String&gt; <span class="title function_">filterValidValueForFields</span><span class="params">(List&lt;T&gt; list, Function&lt;? <span class="built_in">super</span> T, String&gt; ...mappers)</span> &#123;</span><br><span class="line">        <span class="keyword">if</span> (CollectionUtils.isEmpty(list)) &#123;</span><br><span class="line">            <span class="keyword">return</span> Collections.emptyList();</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        List&lt;String&gt; result = <span class="keyword">new</span> <span class="title class_">ArrayList</span>&lt;&gt;();</span><br><span class="line">        <span class="keyword">for</span> (Function&lt;? <span class="built_in">super</span> T, String&gt; mapper : mappers) &#123;</span><br><span class="line">            result.addAll(list.stream()</span><br><span class="line">                    .map(mapper)</span><br><span class="line">                    .filter(StringUtils::isNotBlank)</span><br><span class="line">                    .distinct()</span><br><span class="line">                    .collect(Collectors.toList()));</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> result.stream()</span><br><span class="line">                .distinct()</span><br><span class="line">                .collect(Collectors.toList());</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="comment">/**</span></span><br><span class="line"><span class="comment">     * 将 List 转为 Map, 如果有相同元素, 去第一个</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> list list集合</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> keyMapper 作为属性列</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@return</span> Map&lt;String, T&gt; map 集合</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> &lt;T&gt; 形参集合内实体类型</span></span><br><span class="line"><span class="comment">     */</span></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> &lt;T&gt; Map&lt;String, T&gt; <span class="title function_">toMap</span><span class="params">(List&lt;T&gt; list, Function&lt;? <span class="built_in">super</span> T, String&gt; keyMapper)</span> &#123;</span><br><span class="line">        BinaryOperator&lt;T&gt; miss = (k1, k2) -&gt; k1;</span><br><span class="line">        <span class="keyword">return</span> list.stream()</span><br><span class="line">                .collect(Collectors.toMap(keyMapper, Function.identity(), miss));</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="comment">/**</span></span><br><span class="line"><span class="comment">     * 过滤数据</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> list list 集合</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> predicate 断言</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@return</span> List&lt;T&gt; 集合</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> &lt;T&gt; 形参集合内实体类型</span></span><br><span class="line"><span class="comment">     */</span></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> &lt;T&gt; List&lt;T&gt; <span class="title function_">filter</span><span class="params">(List&lt;T&gt; list, Predicate&lt;? <span class="built_in">super</span> T&gt; predicate)</span> &#123;</span><br><span class="line">        <span class="keyword">if</span> (CollectionUtils.isEmpty(list)) &#123;</span><br><span class="line">            <span class="keyword">return</span> Collections.emptyList();</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        <span class="keyword">return</span> list.stream()</span><br><span class="line">                .filter(predicate)</span><br><span class="line">                .collect(Collectors.toList());</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="comment">/**</span></span><br><span class="line"><span class="comment">     * 获取 List 集合内实体中某属性的值</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> list List集合</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> mapper 属性</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@return</span> List&lt;T&gt; 集合</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> &lt;R&gt; 返回集合内实体的类型</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> &lt;T&gt; 形参集合内实体类型</span></span><br><span class="line"><span class="comment">     */</span></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> &lt;R, T&gt; List&lt;R&gt; <span class="title function_">map</span><span class="params">(List&lt;T&gt; list, Function&lt;? <span class="built_in">super</span> T, R&gt; mapper)</span> &#123;</span><br><span class="line">        <span class="keyword">if</span> (CollectionUtils.isEmpty(list)) &#123;</span><br><span class="line">            <span class="keyword">return</span> Collections.emptyList();</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        <span class="keyword">return</span> list.stream()</span><br><span class="line">                .map(mapper)</span><br><span class="line">                .collect(Collectors.toList());</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="comment">/**</span></span><br><span class="line"><span class="comment">     * 将 List 集合按照集合内实体某属性进行分组</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> list List集合</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> mapper 属性</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@return</span> Map&lt;R, List&lt;T&gt; map 集合</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> &lt;R&gt; 分组属性类型</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> &lt;T&gt; 形参集合内实体类型</span></span><br><span class="line"><span class="comment">     */</span></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> &lt;R, T&gt; Map&lt;R, List&lt;T&gt;&gt; <span class="title function_">groupBy</span><span class="params">(List&lt;T&gt; list, Function&lt;? <span class="built_in">super</span> T, R&gt; mapper)</span> &#123;</span><br><span class="line">        <span class="keyword">if</span> (CollectionUtils.isEmpty(list)) &#123;</span><br><span class="line">            <span class="keyword">return</span> Collections.emptyMap();</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        <span class="keyword">return</span> list.stream()</span><br><span class="line">                .collect(Collectors.groupingBy(mapper));</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="comment">/**</span></span><br><span class="line"><span class="comment">     * 将 List 集合按照实体属性 keyMapper 作为 key, valueMapper 作为 value 封装成 map 集合</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> list List集合</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> keyMapper 实体属性, 作为 map 集合的 key</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> valueMapper 实体属性, 作为 map 集合的 value</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@return</span> Map&lt;K, List&lt;R&gt;&gt; map 集合</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> &lt;K&gt; 返回 map 集合的 key 类型</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> &lt;T&gt; 形参 List 集合类型</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> &lt;R&gt; 返回 map 集合的 value 类型</span></span><br><span class="line"><span class="comment">     */</span></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> &lt;K, T, R&gt; Map&lt;K, List&lt;R&gt;&gt; <span class="title function_">groupBy</span><span class="params">(List&lt;T&gt; list,</span></span><br><span class="line"><span class="params">                                                    Function&lt;? <span class="built_in">super</span> T, K&gt; keyMapper,</span></span><br><span class="line"><span class="params">                                                    Function&lt;? <span class="built_in">super</span> T, R&gt; valueMapper)</span> &#123;</span><br><span class="line">        <span class="keyword">if</span> (CollectionUtils.isEmpty(list)) &#123;</span><br><span class="line">            <span class="keyword">return</span> Collections.emptyMap();</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        Map&lt;K, List&lt;R&gt;&gt; result = <span class="keyword">new</span> <span class="title class_">HashMap</span>&lt;&gt;();</span><br><span class="line">        groupBy(list, keyMapper).forEach((k, v) -&gt; result.put(k, map(v, valueMapper)));</span><br><span class="line"></span><br><span class="line">        <span class="keyword">return</span> result;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="comment">/**</span></span><br><span class="line"><span class="comment">     * 获取 List 集合过滤之后的一个数据</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> list List 集合</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> predicate 断言, 过滤条件</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@return</span> Optional&lt;T&gt;</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> &lt;T&gt; 形参集合内实体类型</span></span><br><span class="line"><span class="comment">     */</span></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> &lt;T&gt; Optional&lt;T&gt; <span class="title function_">findOne</span><span class="params">(List&lt;T&gt; list, Predicate&lt;? <span class="built_in">super</span> T&gt; predicate)</span> &#123;</span><br><span class="line">        <span class="keyword">return</span> list.stream()</span><br><span class="line">                .filter(predicate)</span><br><span class="line">                .findFirst();</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="comment">/**</span></span><br><span class="line"><span class="comment">     * 获取 List 集合过滤后的数量</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> list List 集合</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> predicate 断言, 过滤条件</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@return</span> long 数量</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> &lt;T&gt; 形参集合内实体类型</span></span><br><span class="line"><span class="comment">     */</span></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> &lt;T&gt; <span class="type">long</span> <span class="title function_">count</span><span class="params">(List&lt;T&gt; list, Predicate&lt;? <span class="built_in">super</span> T&gt; predicate)</span> &#123;</span><br><span class="line">        <span class="keyword">if</span> (CollectionUtils.isEmpty(list)) &#123;</span><br><span class="line">            <span class="keyword">return</span> <span class="number">0L</span>;</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        <span class="keyword">return</span> list.stream()</span><br><span class="line">                .filter(predicate)</span><br><span class="line">                .count();</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div>
+
+]]></content>
+      <tags>
+        <tag>jdk8</tag>
+        <tag>stream</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>JDK17新特性</title>
     <url>/posts/941e419f/</url>
     <content><![CDATA[<h2 id="1-Java-Record"><a href="#1-Java-Record" class="headerlink" title="1. Java Record"></a>1. Java Record</h2><p> Java14 中预览的新特性叫做 Record，在 Java 中，Record 是一种特殊类型的 Java 类。可用来创建不可变类，语法简短。参考 <a class="link"   href="https://openjdk.java.net/jeps/395" >JEP 395 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>，Jackson 2.12 支持 Record 类。</p>
@@ -1151,40 +1185,6 @@
       </tags>
   </entry>
   <entry>
-    <title>ListUtil封装jdk8-stream语法，简化代码编写</title>
-    <url>/posts/508b40e4/</url>
-    <content><![CDATA[<h2 id="背景"><a href="#背景" class="headerlink" title="背景"></a>背景</h2><p>​	由于在日常开发中，会经常使用到<code>JDK8</code>中的<code>Stream</code>语法糖，然而在使用过程中，发现存在很多冗余的方法，便想着封装个工具类，简化开发过程中的使用。</p>
-<h2 id="工具类-ListUtil"><a href="#工具类-ListUtil" class="headerlink" title="工具类 ListUtil"></a>工具类 ListUtil</h2><div class="highlight-container" data-rel="Java"><figure class="iseeu highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> org.apache.commons.collections.CollectionUtils;</span><br><span class="line"><span class="keyword">import</span> org.apache.commons.lang3.StringUtils;</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> java.util.ArrayList;</span><br><span class="line"><span class="keyword">import</span> java.util.Collections;</span><br><span class="line"><span class="keyword">import</span> java.util.HashMap;</span><br><span class="line"><span class="keyword">import</span> java.util.List;</span><br><span class="line"><span class="keyword">import</span> java.util.Map;</span><br><span class="line"><span class="keyword">import</span> java.util.Optional;</span><br><span class="line"><span class="keyword">import</span> java.util.function.BinaryOperator;</span><br><span class="line"><span class="keyword">import</span> java.util.function.Function;</span><br><span class="line"><span class="keyword">import</span> java.util.function.Predicate;</span><br><span class="line"><span class="keyword">import</span> java.util.stream.Collectors;</span><br><span class="line"></span><br><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * JDK8-Stream 工具类封装</span></span><br><span class="line"><span class="comment"> * Created by fengxuguang on 2024/3/20 14:29</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">ListUtil</span> &#123;</span><br><span class="line"></span><br><span class="line">    <span class="comment">/**</span></span><br><span class="line"><span class="comment">     * 过滤出有效 属性, 并去重</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> list 集合</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> mapper 处理属性</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@return</span> List&lt;String&gt; 返回结果</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> &lt;T&gt; 形参集合内实体类型</span></span><br><span class="line"><span class="comment">     */</span></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> &lt;T&gt;List&lt;String&gt; <span class="title function_">filterValidValue</span><span class="params">(List&lt;T&gt; list, Function&lt;? <span class="built_in">super</span> T, String&gt; mapper)</span> &#123;</span><br><span class="line">        <span class="keyword">if</span> (CollectionUtils.isEmpty(list)) &#123;</span><br><span class="line">            <span class="keyword">return</span> Collections.emptyList();</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        <span class="keyword">return</span> list.stream()</span><br><span class="line">                .map(mapper)</span><br><span class="line">                .filter(StringUtils::isNotBlank)</span><br><span class="line">                .distinct()</span><br><span class="line">                .collect(Collectors.toList());</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="comment">/**</span></span><br><span class="line"><span class="comment">     * 过滤多字段有效值, 并去重</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> list 集合</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> mappers 属性, 支持多属性</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@return</span> List&lt;String&gt; 返回结果</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> &lt;T&gt; 形参集合内实体类型</span></span><br><span class="line"><span class="comment">     */</span></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> &lt;T&gt; List&lt;String&gt; <span class="title function_">filterValidValueForFields</span><span class="params">(List&lt;T&gt; list, Function&lt;? <span class="built_in">super</span> T, String&gt; ...mappers)</span> &#123;</span><br><span class="line">        <span class="keyword">if</span> (CollectionUtils.isEmpty(list)) &#123;</span><br><span class="line">            <span class="keyword">return</span> Collections.emptyList();</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        List&lt;String&gt; result = <span class="keyword">new</span> <span class="title class_">ArrayList</span>&lt;&gt;();</span><br><span class="line">        <span class="keyword">for</span> (Function&lt;? <span class="built_in">super</span> T, String&gt; mapper : mappers) &#123;</span><br><span class="line">            result.addAll(list.stream()</span><br><span class="line">                    .map(mapper)</span><br><span class="line">                    .filter(StringUtils::isNotBlank)</span><br><span class="line">                    .distinct()</span><br><span class="line">                    .collect(Collectors.toList()));</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> result.stream()</span><br><span class="line">                .distinct()</span><br><span class="line">                .collect(Collectors.toList());</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="comment">/**</span></span><br><span class="line"><span class="comment">     * 将 List 转为 Map, 如果有相同元素, 去第一个</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> list list集合</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> keyMapper 作为属性列</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@return</span> Map&lt;String, T&gt; map 集合</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> &lt;T&gt; 形参集合内实体类型</span></span><br><span class="line"><span class="comment">     */</span></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> &lt;T&gt; Map&lt;String, T&gt; <span class="title function_">toMap</span><span class="params">(List&lt;T&gt; list, Function&lt;? <span class="built_in">super</span> T, String&gt; keyMapper)</span> &#123;</span><br><span class="line">        BinaryOperator&lt;T&gt; miss = (k1, k2) -&gt; k1;</span><br><span class="line">        <span class="keyword">return</span> list.stream()</span><br><span class="line">                .collect(Collectors.toMap(keyMapper, Function.identity(), miss));</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="comment">/**</span></span><br><span class="line"><span class="comment">     * 过滤数据</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> list list 集合</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> predicate 断言</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@return</span> List&lt;T&gt; 集合</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> &lt;T&gt; 形参集合内实体类型</span></span><br><span class="line"><span class="comment">     */</span></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> &lt;T&gt; List&lt;T&gt; <span class="title function_">filter</span><span class="params">(List&lt;T&gt; list, Predicate&lt;? <span class="built_in">super</span> T&gt; predicate)</span> &#123;</span><br><span class="line">        <span class="keyword">if</span> (CollectionUtils.isEmpty(list)) &#123;</span><br><span class="line">            <span class="keyword">return</span> Collections.emptyList();</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        <span class="keyword">return</span> list.stream()</span><br><span class="line">                .filter(predicate)</span><br><span class="line">                .collect(Collectors.toList());</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="comment">/**</span></span><br><span class="line"><span class="comment">     * 获取 List 集合内实体中某属性的值</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> list List集合</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> mapper 属性</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@return</span> List&lt;T&gt; 集合</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> &lt;R&gt; 返回集合内实体的类型</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> &lt;T&gt; 形参集合内实体类型</span></span><br><span class="line"><span class="comment">     */</span></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> &lt;R, T&gt; List&lt;R&gt; <span class="title function_">map</span><span class="params">(List&lt;T&gt; list, Function&lt;? <span class="built_in">super</span> T, R&gt; mapper)</span> &#123;</span><br><span class="line">        <span class="keyword">if</span> (CollectionUtils.isEmpty(list)) &#123;</span><br><span class="line">            <span class="keyword">return</span> Collections.emptyList();</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        <span class="keyword">return</span> list.stream()</span><br><span class="line">                .map(mapper)</span><br><span class="line">                .collect(Collectors.toList());</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="comment">/**</span></span><br><span class="line"><span class="comment">     * 将 List 集合按照集合内实体某属性进行分组</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> list List集合</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> mapper 属性</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@return</span> Map&lt;R, List&lt;T&gt; map 集合</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> &lt;R&gt; 分组属性类型</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> &lt;T&gt; 形参集合内实体类型</span></span><br><span class="line"><span class="comment">     */</span></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> &lt;R, T&gt; Map&lt;R, List&lt;T&gt;&gt; <span class="title function_">groupBy</span><span class="params">(List&lt;T&gt; list, Function&lt;? <span class="built_in">super</span> T, R&gt; mapper)</span> &#123;</span><br><span class="line">        <span class="keyword">if</span> (CollectionUtils.isEmpty(list)) &#123;</span><br><span class="line">            <span class="keyword">return</span> Collections.emptyMap();</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        <span class="keyword">return</span> list.stream()</span><br><span class="line">                .collect(Collectors.groupingBy(mapper));</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="comment">/**</span></span><br><span class="line"><span class="comment">     * 将 List 集合按照实体属性 keyMapper 作为 key, valueMapper 作为 value 封装成 map 集合</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> list List集合</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> keyMapper 实体属性, 作为 map 集合的 key</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> valueMapper 实体属性, 作为 map 集合的 value</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@return</span> Map&lt;K, List&lt;R&gt;&gt; map 集合</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> &lt;K&gt; 返回 map 集合的 key 类型</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> &lt;T&gt; 形参 List 集合类型</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> &lt;R&gt; 返回 map 集合的 value 类型</span></span><br><span class="line"><span class="comment">     */</span></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> &lt;K, T, R&gt; Map&lt;K, List&lt;R&gt;&gt; <span class="title function_">groupBy</span><span class="params">(List&lt;T&gt; list,</span></span><br><span class="line"><span class="params">                                                    Function&lt;? <span class="built_in">super</span> T, K&gt; keyMapper,</span></span><br><span class="line"><span class="params">                                                    Function&lt;? <span class="built_in">super</span> T, R&gt; valueMapper)</span> &#123;</span><br><span class="line">        <span class="keyword">if</span> (CollectionUtils.isEmpty(list)) &#123;</span><br><span class="line">            <span class="keyword">return</span> Collections.emptyMap();</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        Map&lt;K, List&lt;R&gt;&gt; result = <span class="keyword">new</span> <span class="title class_">HashMap</span>&lt;&gt;();</span><br><span class="line">        groupBy(list, keyMapper).forEach((k, v) -&gt; result.put(k, map(v, valueMapper)));</span><br><span class="line"></span><br><span class="line">        <span class="keyword">return</span> result;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="comment">/**</span></span><br><span class="line"><span class="comment">     * 获取 List 集合过滤之后的一个数据</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> list List 集合</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> predicate 断言, 过滤条件</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@return</span> Optional&lt;T&gt;</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> &lt;T&gt; 形参集合内实体类型</span></span><br><span class="line"><span class="comment">     */</span></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> &lt;T&gt; Optional&lt;T&gt; <span class="title function_">findOne</span><span class="params">(List&lt;T&gt; list, Predicate&lt;? <span class="built_in">super</span> T&gt; predicate)</span> &#123;</span><br><span class="line">        <span class="keyword">return</span> list.stream()</span><br><span class="line">                .filter(predicate)</span><br><span class="line">                .findFirst();</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="comment">/**</span></span><br><span class="line"><span class="comment">     * 获取 List 集合过滤后的数量</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> list List 集合</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> predicate 断言, 过滤条件</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@return</span> long 数量</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> &lt;T&gt; 形参集合内实体类型</span></span><br><span class="line"><span class="comment">     */</span></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> &lt;T&gt; <span class="type">long</span> <span class="title function_">count</span><span class="params">(List&lt;T&gt; list, Predicate&lt;? <span class="built_in">super</span> T&gt; predicate)</span> &#123;</span><br><span class="line">        <span class="keyword">if</span> (CollectionUtils.isEmpty(list)) &#123;</span><br><span class="line">            <span class="keyword">return</span> <span class="number">0L</span>;</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        <span class="keyword">return</span> list.stream()</span><br><span class="line">                .filter(predicate)</span><br><span class="line">                .count();</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div>
-
-]]></content>
-      <tags>
-        <tag>jdk8</tag>
-        <tag>stream</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>IDEA打开文件后左侧有很多空白设置</title>
-    <url>/posts/1384e06/</url>
-    <content><![CDATA[<p>IDEA 升级到 2024.1 版本后，打开文件发现文件左侧空白太多了，截图如下：</p>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="/../../images/articles/idea_01.png"
-                      alt="image-20240417153929981"
-                ></p>
-<p>解决方案，在 idea 菜单栏 view 处找到 View &gt; Appearance &gt; Exit Distraction Free Mode 设置即可，截图如下：</p>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="/../../images/articles/idea_02.png"
-                      alt="image-20240417154347065"
-                ></p>
-]]></content>
-      <tags>
-        <tag>idea</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>动态 Druid 连接池</title>
     <url>/posts/ecd042ad/</url>
     <content><![CDATA[<h2 id="动态-Druid-连接池"><a href="#动态-Druid-连接池" class="headerlink" title="动态 Druid 连接池"></a>动态 Druid 连接池</h2><h3 id="背景"><a href="#背景" class="headerlink" title="背景"></a>背景</h3><p> <strong>需求</strong>：因项目业务需求，需要在系统上配置不同数据库，然后进行连接获取数据库相关数据； 原生 JDBC 通过 DriverManager 进行连接每次都要重新进行连接，导致整体查询时间效率变低，故引入 Druid 连接池；<br>  但是不同类型数据库生成<code>DruidDataSource</code>后没有将<code>DS(DruidDataSource)</code>进行缓存起来， 本质还是每次连接数据库时还是重新进行数据库连接，问题依然存在。<br>  所以设计了一个<code>容器</code>将<code>DS</code>缓存起来，考虑到容器里数量限制，使用<code>LinkedHashMap</code>进行存储数据，控制存储<code>DS</code>的数量。 另考虑缓存起来的<code>DS</code>存在数据库密码修改的情况，支持更新<code>容器</code>内<code>DS</code>的<code>密码</code>，保证 DS 可用。<br>具体代码如下：</p>
@@ -1212,41 +1212,6 @@
       </categories>
       <tags>
         <tag>java</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>1.两数之和【简单】</title>
-    <url>/posts/88b7b605/</url>
-    <content><![CDATA[<h2 id="题目"><a href="#题目" class="headerlink" title="题目"></a>题目</h2><p>给定一个整数数组 <code>nums</code> 和一个整数目标值 <code>target</code>，请你在该数组中找出 <strong>和为目标值</strong> <em><code>target</code></em> 的那 <strong>两个</strong> 整数，并返回它们的数组下标。</p>
-<p>你可以假设每种输入只会对应一个答案。但是，数组中同一个元素在答案里不能重复出现。</p>
-<p>你可以按任意顺序返回答案。</p>
-<p><strong>示例 1：</strong></p>
-<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">输入：nums = [2,7,11,15], target = 9</span><br><span class="line">输出：[0,1]</span><br><span class="line">解释：因为 nums[0] + nums[1] == 9 ，返回 [0, 1] 。</span><br></pre></td></tr></table></figure></div>
-
-<p><strong>示例 2：</strong></p>
-<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">输入：nums = [3,2,4], target = 6</span><br><span class="line">输出：[1,2]</span><br></pre></td></tr></table></figure></div>
-
-<p><strong>示例 3：</strong></p>
-<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">输入：nums = [3,3], target = 6</span><br><span class="line">输出：[0,1]</span><br></pre></td></tr></table></figure></div>
-
-<p><strong>提示：</strong></p>
-<ul>
-<li><code>2 &lt;= nums.length &lt;= 104</code></li>
-<li><code>-109 &lt;= nums[i] &lt;= 109</code></li>
-<li><code>-109 &lt;= target &lt;= 109</code></li>
-<li><strong>只会存在一个有效答案</strong></li>
-</ul>
-<p><strong>进阶：</strong>你可以想出一个时间复杂度小于 <code>O(n2)</code> 的算法吗？</p>
-<p>Related Topics</p>
-<p>数组</p>
-<p>哈希表</p>
-<h2 id="代码实现"><a href="#代码实现" class="headerlink" title="代码实现"></a>代码实现</h2><h3 id="java"><a href="#java" class="headerlink" title="java"></a>java</h3><div class="highlight-container" data-rel="Java"><figure class="iseeu highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">Solution</span> &#123;</span><br><span class="line">    <span class="keyword">public</span> <span class="type">int</span>[] twoSum(<span class="type">int</span>[] nums, <span class="type">int</span> target) &#123;</span><br><span class="line">        Map&lt;Integer, Integer&gt; map = <span class="keyword">new</span> <span class="title class_">HashMap</span>&lt;&gt;();</span><br><span class="line">        <span class="keyword">for</span> (<span class="type">int</span> <span class="variable">i</span> <span class="operator">=</span> <span class="number">0</span>; i &lt; nums.length; i ++) &#123;</span><br><span class="line">            <span class="keyword">if</span> (map.containsKey(target - nums[i])) &#123;</span><br><span class="line">                <span class="type">int</span>[] r = &#123;map.get(target - nums[i]), i&#125;;</span><br><span class="line">                <span class="keyword">return</span> r;</span><br><span class="line">            &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">                map.put(nums[i], i);</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> <span class="literal">null</span>;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div>
-]]></content>
-      <categories>
-        <category>leetcode</category>
-      </categories>
-      <tags>
-        <tag>leetcode</tag>
       </tags>
   </entry>
   <entry>
@@ -1299,6 +1264,41 @@
 <p>若存在小的数字在大的数字的左边的情况，根据规则需要减去小的数字。对于这种情况，我们也可以将每个字符视作一个单独的值，若一个数字右侧的数字比它大，则将该数字的符号取反。</p>
 <p>例如 XIV 可视作 X−I+V&#x3D;10−1+5&#x3D;14。</p>
 <div class="highlight-container" data-rel="Go"><figure class="iseeu highlight go"><table><tr><td class="code"><pre><span class="line"><span class="keyword">var</span> symbolValues = <span class="keyword">map</span>[<span class="type">byte</span>]<span class="type">int</span>&#123;<span class="string">&#x27;I&#x27;</span>: <span class="number">1</span>, <span class="string">&#x27;V&#x27;</span>: <span class="number">5</span>, <span class="string">&#x27;X&#x27;</span>: <span class="number">10</span>, <span class="string">&#x27;L&#x27;</span>: <span class="number">50</span>, <span class="string">&#x27;C&#x27;</span>: <span class="number">100</span>, <span class="string">&#x27;D&#x27;</span>: <span class="number">500</span>, <span class="string">&#x27;M&#x27;</span>: <span class="number">1000</span>&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">romanToInt</span><span class="params">(s <span class="type">string</span>)</span></span> (ans <span class="type">int</span>) &#123;</span><br><span class="line">    n := <span class="built_in">len</span>(s)</span><br><span class="line">    <span class="keyword">for</span> i := <span class="keyword">range</span> s &#123;</span><br><span class="line">        value := symbolValues[s[i]]</span><br><span class="line">        <span class="keyword">if</span> i &lt; n<span class="number">-1</span> &amp;&amp; value &lt; symbolValues[s[i+<span class="number">1</span>]] &#123;</span><br><span class="line">            ans -= value</span><br><span class="line">        &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">            ans += value</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div>
+]]></content>
+      <categories>
+        <category>leetcode</category>
+      </categories>
+      <tags>
+        <tag>leetcode</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>1.两数之和【简单】</title>
+    <url>/posts/88b7b605/</url>
+    <content><![CDATA[<h2 id="题目"><a href="#题目" class="headerlink" title="题目"></a>题目</h2><p>给定一个整数数组 <code>nums</code> 和一个整数目标值 <code>target</code>，请你在该数组中找出 <strong>和为目标值</strong> <em><code>target</code></em> 的那 <strong>两个</strong> 整数，并返回它们的数组下标。</p>
+<p>你可以假设每种输入只会对应一个答案。但是，数组中同一个元素在答案里不能重复出现。</p>
+<p>你可以按任意顺序返回答案。</p>
+<p><strong>示例 1：</strong></p>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">输入：nums = [2,7,11,15], target = 9</span><br><span class="line">输出：[0,1]</span><br><span class="line">解释：因为 nums[0] + nums[1] == 9 ，返回 [0, 1] 。</span><br></pre></td></tr></table></figure></div>
+
+<p><strong>示例 2：</strong></p>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">输入：nums = [3,2,4], target = 6</span><br><span class="line">输出：[1,2]</span><br></pre></td></tr></table></figure></div>
+
+<p><strong>示例 3：</strong></p>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">输入：nums = [3,3], target = 6</span><br><span class="line">输出：[0,1]</span><br></pre></td></tr></table></figure></div>
+
+<p><strong>提示：</strong></p>
+<ul>
+<li><code>2 &lt;= nums.length &lt;= 104</code></li>
+<li><code>-109 &lt;= nums[i] &lt;= 109</code></li>
+<li><code>-109 &lt;= target &lt;= 109</code></li>
+<li><strong>只会存在一个有效答案</strong></li>
+</ul>
+<p><strong>进阶：</strong>你可以想出一个时间复杂度小于 <code>O(n2)</code> 的算法吗？</p>
+<p>Related Topics</p>
+<p>数组</p>
+<p>哈希表</p>
+<h2 id="代码实现"><a href="#代码实现" class="headerlink" title="代码实现"></a>代码实现</h2><h3 id="java"><a href="#java" class="headerlink" title="java"></a>java</h3><div class="highlight-container" data-rel="Java"><figure class="iseeu highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">Solution</span> &#123;</span><br><span class="line">    <span class="keyword">public</span> <span class="type">int</span>[] twoSum(<span class="type">int</span>[] nums, <span class="type">int</span> target) &#123;</span><br><span class="line">        Map&lt;Integer, Integer&gt; map = <span class="keyword">new</span> <span class="title class_">HashMap</span>&lt;&gt;();</span><br><span class="line">        <span class="keyword">for</span> (<span class="type">int</span> <span class="variable">i</span> <span class="operator">=</span> <span class="number">0</span>; i &lt; nums.length; i ++) &#123;</span><br><span class="line">            <span class="keyword">if</span> (map.containsKey(target - nums[i])) &#123;</span><br><span class="line">                <span class="type">int</span>[] r = &#123;map.get(target - nums[i]), i&#125;;</span><br><span class="line">                <span class="keyword">return</span> r;</span><br><span class="line">            &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">                map.put(nums[i], i);</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> <span class="literal">null</span>;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div>
 ]]></content>
       <categories>
         <category>leetcode</category>
@@ -1399,27 +1399,6 @@
       </tags>
   </entry>
   <entry>
-    <title>33.搜索旋转排序数组【中等】</title>
-    <url>/posts/35a2d738/</url>
-    <content><![CDATA[<h2 id="题目"><a href="#题目" class="headerlink" title="题目"></a>题目</h2><p>整数数组 nums 按升序排列，数组中的值 互不相同 。</p>
-<p>在传递给函数之前，nums 在预先未知的某个下标 k（0 &lt;&#x3D; k &lt; nums.length）上进行了 旋转，使数组变为 [nums[k], nums[k+1], …, nums[n-1], nums[0], nums[1], …, nums[k-1]]（下标 从 0 开始 计数）。例如， [0,1,2,4,5,6,7] 在下标 3 处经旋转后可能变为 [4,5,6,7,0,1,2] 。</p>
-<p>给你 旋转后 的数组 nums 和一个整数 target ，如果 nums 中存在这个目标值 target ，则返回它的下标，否则返回 -1 。</p>
-<p>你必须设计一个时间复杂度为 O(log n) 的算法解决此问题。</p>
-<p>示例 1：</p>
-<p>输入：nums &#x3D; [4,5,6,7,0,1,2], target &#x3D; 0 输出：4 示例 2：</p>
-<p>输入：nums &#x3D; [4,5,6,7,0,1,2], target &#x3D; 3 输出：-1 示例 3：</p>
-<p>输入：nums &#x3D; [1], target &#x3D; 0 输出：-1 提示：</p>
-<p>1 &lt;&#x3D; nums.length &lt;&#x3D; 5000 -104 &lt;&#x3D; nums[i] &lt;&#x3D; 104 nums 中的每个值都 独一无二 题目数据保证 nums 在预先未知的某个下标上进行了旋转 -104 &lt;&#x3D; target &lt;&#x3D; 104 Related Topics 数组 二分查找</p>
-<h2 id="代码实现"><a href="#代码实现" class="headerlink" title="代码实现"></a>代码实现</h2><h3 id="java-实现"><a href="#java-实现" class="headerlink" title="java 实现"></a>java 实现</h3><div class="highlight-container" data-rel="Java"><figure class="iseeu highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">Solution</span> &#123;</span><br><span class="line">    <span class="keyword">public</span> <span class="type">int</span> <span class="title function_">search</span><span class="params">(<span class="type">int</span>[] nums, <span class="type">int</span> target)</span> &#123;</span><br><span class="line">        <span class="type">int</span> <span class="variable">leftIndex</span> <span class="operator">=</span> <span class="number">0</span>;</span><br><span class="line">        <span class="type">int</span> <span class="variable">rightIndex</span> <span class="operator">=</span> nums.length - <span class="number">1</span>;</span><br><span class="line"></span><br><span class="line">        <span class="keyword">while</span> (leftIndex &lt;= rightIndex) &#123;</span><br><span class="line">            <span class="type">int</span> <span class="variable">mod</span> <span class="operator">=</span> (leftIndex + rightIndex) / <span class="number">2</span>;</span><br><span class="line">            <span class="keyword">if</span> (nums[mod] == target) &#123;</span><br><span class="line">                <span class="keyword">return</span> mod;</span><br><span class="line">            &#125;</span><br><span class="line">            <span class="comment">// 递增</span></span><br><span class="line">            <span class="keyword">if</span> (nums[<span class="number">0</span>] &lt;= nums[mod]) &#123;</span><br><span class="line">                <span class="keyword">if</span> (nums[<span class="number">0</span>] &lt;= target &amp;&amp; target &lt; nums[mod]) &#123;</span><br><span class="line">                    rightIndex = mod - <span class="number">1</span>;</span><br><span class="line">                &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">                    leftIndex = mod + <span class="number">1</span>;</span><br><span class="line">                &#125;</span><br><span class="line">            &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">                <span class="keyword">if</span> (nums[mod] &lt; target &amp;&amp; target &lt;= nums[nums.length - <span class="number">1</span>]) &#123;</span><br><span class="line">                    leftIndex = mod + <span class="number">1</span>;</span><br><span class="line">                &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">                    rightIndex = mod - <span class="number">1</span>;</span><br><span class="line">                &#125;</span><br><span class="line">            &#125;</span><br><span class="line"></span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> -<span class="number">1</span>;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div>
-]]></content>
-      <categories>
-        <category>leetcode</category>
-      </categories>
-      <tags>
-        <tag>leetcode</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>5.最长回文子串【中等】</title>
     <url>/posts/94d737b/</url>
     <content><![CDATA[<h2 id="题目"><a href="#题目" class="headerlink" title="题目"></a>题目</h2><p>给你一个字符串 <code>s</code>，找到 <code>s</code> 中最长的回文子串。</p>
@@ -1448,6 +1427,60 @@
       </tags>
   </entry>
   <entry>
+    <title>33.搜索旋转排序数组【中等】</title>
+    <url>/posts/35a2d738/</url>
+    <content><![CDATA[<h2 id="题目"><a href="#题目" class="headerlink" title="题目"></a>题目</h2><p>整数数组 nums 按升序排列，数组中的值 互不相同 。</p>
+<p>在传递给函数之前，nums 在预先未知的某个下标 k（0 &lt;&#x3D; k &lt; nums.length）上进行了 旋转，使数组变为 [nums[k], nums[k+1], …, nums[n-1], nums[0], nums[1], …, nums[k-1]]（下标 从 0 开始 计数）。例如， [0,1,2,4,5,6,7] 在下标 3 处经旋转后可能变为 [4,5,6,7,0,1,2] 。</p>
+<p>给你 旋转后 的数组 nums 和一个整数 target ，如果 nums 中存在这个目标值 target ，则返回它的下标，否则返回 -1 。</p>
+<p>你必须设计一个时间复杂度为 O(log n) 的算法解决此问题。</p>
+<p>示例 1：</p>
+<p>输入：nums &#x3D; [4,5,6,7,0,1,2], target &#x3D; 0 输出：4 示例 2：</p>
+<p>输入：nums &#x3D; [4,5,6,7,0,1,2], target &#x3D; 3 输出：-1 示例 3：</p>
+<p>输入：nums &#x3D; [1], target &#x3D; 0 输出：-1 提示：</p>
+<p>1 &lt;&#x3D; nums.length &lt;&#x3D; 5000 -104 &lt;&#x3D; nums[i] &lt;&#x3D; 104 nums 中的每个值都 独一无二 题目数据保证 nums 在预先未知的某个下标上进行了旋转 -104 &lt;&#x3D; target &lt;&#x3D; 104 Related Topics 数组 二分查找</p>
+<h2 id="代码实现"><a href="#代码实现" class="headerlink" title="代码实现"></a>代码实现</h2><h3 id="java-实现"><a href="#java-实现" class="headerlink" title="java 实现"></a>java 实现</h3><div class="highlight-container" data-rel="Java"><figure class="iseeu highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">Solution</span> &#123;</span><br><span class="line">    <span class="keyword">public</span> <span class="type">int</span> <span class="title function_">search</span><span class="params">(<span class="type">int</span>[] nums, <span class="type">int</span> target)</span> &#123;</span><br><span class="line">        <span class="type">int</span> <span class="variable">leftIndex</span> <span class="operator">=</span> <span class="number">0</span>;</span><br><span class="line">        <span class="type">int</span> <span class="variable">rightIndex</span> <span class="operator">=</span> nums.length - <span class="number">1</span>;</span><br><span class="line"></span><br><span class="line">        <span class="keyword">while</span> (leftIndex &lt;= rightIndex) &#123;</span><br><span class="line">            <span class="type">int</span> <span class="variable">mod</span> <span class="operator">=</span> (leftIndex + rightIndex) / <span class="number">2</span>;</span><br><span class="line">            <span class="keyword">if</span> (nums[mod] == target) &#123;</span><br><span class="line">                <span class="keyword">return</span> mod;</span><br><span class="line">            &#125;</span><br><span class="line">            <span class="comment">// 递增</span></span><br><span class="line">            <span class="keyword">if</span> (nums[<span class="number">0</span>] &lt;= nums[mod]) &#123;</span><br><span class="line">                <span class="keyword">if</span> (nums[<span class="number">0</span>] &lt;= target &amp;&amp; target &lt; nums[mod]) &#123;</span><br><span class="line">                    rightIndex = mod - <span class="number">1</span>;</span><br><span class="line">                &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">                    leftIndex = mod + <span class="number">1</span>;</span><br><span class="line">                &#125;</span><br><span class="line">            &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">                <span class="keyword">if</span> (nums[mod] &lt; target &amp;&amp; target &lt;= nums[nums.length - <span class="number">1</span>]) &#123;</span><br><span class="line">                    leftIndex = mod + <span class="number">1</span>;</span><br><span class="line">                &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">                    rightIndex = mod - <span class="number">1</span>;</span><br><span class="line">                &#125;</span><br><span class="line">            &#125;</span><br><span class="line"></span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> -<span class="number">1</span>;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div>
+]]></content>
+      <categories>
+        <category>leetcode</category>
+      </categories>
+      <tags>
+        <tag>leetcode</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>7.整数反转【中等】</title>
+    <url>/posts/13a6e543/</url>
+    <content><![CDATA[<h2 id="题目"><a href="#题目" class="headerlink" title="题目"></a>题目</h2><p>给你一个 32 位的有符号整数 <code>x</code> ，返回将 <code>x</code> 中的数字部分反转后的结果。</p>
+<p>如果反转后整数超过 32 位的有符号整数的范围 <code>[−231, 231 − 1]</code> ，就返回 0。</p>
+<p><strong>假设环境不允许存储 64 位整数（有符号或无符号）。</strong></p>
+<p><strong>示例 1：</strong></p>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">输入：x = 123</span><br><span class="line">输出：321</span><br></pre></td></tr></table></figure></div>
+
+<p><strong>示例 2：</strong></p>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">输入：x = -123</span><br><span class="line">输出：-321</span><br></pre></td></tr></table></figure></div>
+
+<p><strong>示例 3：</strong></p>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">输入：x = 120</span><br><span class="line">输出：21</span><br></pre></td></tr></table></figure></div>
+
+<p><strong>示例 4：</strong></p>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">输入：x = 0</span><br><span class="line">输出：0</span><br></pre></td></tr></table></figure></div>
+
+<p><strong>提示：</strong></p>
+<ul>
+<li><code>-231 &lt;= x &lt;= 231 - 1</code></li>
+</ul>
+<p>Related Topics</p>
+<p>数学</p>
+<h2 id="代码实现"><a href="#代码实现" class="headerlink" title="代码实现"></a>代码实现</h2><h3 id="java"><a href="#java" class="headerlink" title="java"></a>java</h3><div class="highlight-container" data-rel="Java"><figure class="iseeu highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">Solution</span> &#123;</span><br><span class="line">    <span class="keyword">public</span> <span class="type">int</span> <span class="title function_">reverse</span><span class="params">(<span class="type">int</span> x)</span> &#123;</span><br><span class="line">        <span class="type">int</span> <span class="variable">res</span> <span class="operator">=</span> <span class="number">0</span>;</span><br><span class="line">        <span class="keyword">while</span> (x != <span class="number">0</span>) &#123;</span><br><span class="line">            <span class="type">int</span> <span class="variable">pop</span> <span class="operator">=</span> x % <span class="number">10</span>;</span><br><span class="line">            <span class="keyword">if</span> (res &gt; Integer.MAX_VALUE / <span class="number">10</span> || (res == Integer.MAX_VALUE / <span class="number">10</span> &amp;&amp; pop &gt; <span class="number">7</span>)) &#123;</span><br><span class="line">                <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">            &#125;</span><br><span class="line">            <span class="keyword">if</span> (res &lt; Integer.MIN_VALUE / <span class="number">10</span> || (res == Integer.MIN_VALUE / <span class="number">10</span> &amp;&amp; pop &lt; -<span class="number">8</span>)) &#123;</span><br><span class="line">                <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">            &#125;</span><br><span class="line">            res = res * <span class="number">10</span> + pop;</span><br><span class="line">            x /= <span class="number">10</span>;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> res;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div>
+]]></content>
+      <categories>
+        <category>leetcode</category>
+      </categories>
+      <tags>
+        <tag>leetcode</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>53.最大子数组和【中等】</title>
     <url>/posts/430b3eee/</url>
     <content><![CDATA[<h2 id="题目"><a href="#题目" class="headerlink" title="题目"></a>题目</h2><p>给你一个整数数组 nums ，请你找出一个具有最大和的连续子数组（子数组最少包含一个元素），返回其最大和。</p>
@@ -1459,6 +1492,39 @@
 <p>1 &lt;&#x3D; nums.length &lt;&#x3D; 105 -104 &lt;&#x3D; nums[i] &lt;&#x3D; 104 进阶：如果你已经实现复杂度为 O(n) 的解法，尝试使用更为精妙的 分治法 求解。</p>
 <p>Related Topics 数组 分治 动态规划</p>
 <h2 id="代码实现"><a href="#代码实现" class="headerlink" title="代码实现"></a>代码实现</h2><h3 id="java-实现"><a href="#java-实现" class="headerlink" title="java 实现"></a>java 实现</h3><div class="highlight-container" data-rel="Java"><figure class="iseeu highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">Solution</span> &#123;</span><br><span class="line">    <span class="keyword">public</span> <span class="type">int</span> <span class="title function_">maxSubArray</span><span class="params">(<span class="type">int</span>[] nums)</span> &#123;</span><br><span class="line">        <span class="keyword">if</span> (nums.length == <span class="number">0</span>) &#123;</span><br><span class="line">            <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="type">int</span>[] f = <span class="keyword">new</span> <span class="title class_">int</span>[nums.length];</span><br><span class="line">        f[<span class="number">0</span>] = nums[<span class="number">0</span>];</span><br><span class="line">        <span class="type">int</span> <span class="variable">result</span> <span class="operator">=</span> nums[<span class="number">0</span>];</span><br><span class="line">        <span class="keyword">for</span> (<span class="type">int</span> <span class="variable">j</span> <span class="operator">=</span> <span class="number">1</span>; j &lt; nums.length; j ++) &#123;</span><br><span class="line">            f[j] = Math.max(f[j - <span class="number">1</span>], <span class="number">0</span>) + nums[j];</span><br><span class="line"></span><br><span class="line">            result = Math.max(f[j], result);</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> result;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div>
+]]></content>
+      <categories>
+        <category>leetcode</category>
+      </categories>
+      <tags>
+        <tag>leetcode</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>9.回文数【简单】</title>
+    <url>/posts/a7884dee/</url>
+    <content><![CDATA[<h2 id="题目"><a href="#题目" class="headerlink" title="题目"></a>题目</h2><p>给你一个整数 <code>x</code> ，如果 <code>x</code> 是一个回文整数，返回 <code>true</code> ；否则，返回 <code>false</code> 。</p>
+<p>回文数是指正序（从左向右）和倒序（从右向左）读都是一样的整数。</p>
+<ul>
+<li>例如，<code>121</code> 是回文，而 <code>123</code> 不是。</li>
+</ul>
+<p><strong>示例 1：</strong></p>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">输入：x = 121</span><br><span class="line">输出：true</span><br></pre></td></tr></table></figure></div>
+
+<p><strong>示例 2：</strong></p>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">输入：x = -121</span><br><span class="line">输出：false</span><br><span class="line">解释：从左向右读, 为 -121 。 从右向左读, 为 121- 。因此它不是一个回文数。</span><br></pre></td></tr></table></figure></div>
+
+<p><strong>示例 3：</strong></p>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">输入：x = 10</span><br><span class="line">输出：false</span><br><span class="line">解释：从右向左读, 为 01 。因此它不是一个回文数。</span><br></pre></td></tr></table></figure></div>
+
+<p><strong>提示：</strong></p>
+<ul>
+<li><code>-231 &lt;= x &lt;= 231 - 1</code></li>
+</ul>
+<p><strong>进阶：</strong>你能不将整数转为字符串来解决这个问题吗？</p>
+<p>Related Topics</p>
+<p>数学</p>
+<h2 id="代码实现"><a href="#代码实现" class="headerlink" title="代码实现"></a>代码实现</h2><h3 id="java"><a href="#java" class="headerlink" title="java"></a>java</h3><div class="highlight-container" data-rel="Java"><figure class="iseeu highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">Solution</span> &#123;</span><br><span class="line">    <span class="keyword">public</span> <span class="type">boolean</span> <span class="title function_">isPalindrome</span><span class="params">(<span class="type">int</span> x)</span> &#123;</span><br><span class="line">        <span class="keyword">if</span> (x &lt; <span class="number">0</span> || (x % <span class="number">10</span> == <span class="number">0</span> &amp;&amp; x != <span class="number">0</span>)) <span class="keyword">return</span> <span class="literal">false</span>;</span><br><span class="line"></span><br><span class="line">        <span class="type">int</span> <span class="variable">revertedNumber</span> <span class="operator">=</span> <span class="number">0</span>;</span><br><span class="line">        <span class="keyword">while</span> (x &gt; revertedNumber) &#123;</span><br><span class="line">            revertedNumber = revertedNumber * <span class="number">10</span> + x % <span class="number">10</span>;</span><br><span class="line">            x /= <span class="number">10</span>;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> x == revertedNumber || x == revertedNumber / <span class="number">10</span>;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div>
 ]]></content>
       <categories>
         <category>leetcode</category>
@@ -1535,36 +1601,54 @@
       </tags>
   </entry>
   <entry>
-    <title>7.整数反转【中等】</title>
-    <url>/posts/13a6e543/</url>
-    <content><![CDATA[<h2 id="题目"><a href="#题目" class="headerlink" title="题目"></a>题目</h2><p>给你一个 32 位的有符号整数 <code>x</code> ，返回将 <code>x</code> 中的数字部分反转后的结果。</p>
-<p>如果反转后整数超过 32 位的有符号整数的范围 <code>[−231, 231 − 1]</code> ，就返回 0。</p>
-<p><strong>假设环境不允许存储 64 位整数（有符号或无符号）。</strong></p>
-<p><strong>示例 1：</strong></p>
-<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">输入：x = 123</span><br><span class="line">输出：321</span><br></pre></td></tr></table></figure></div>
+    <title>Nacos2.2.1源码启动</title>
+    <url>/posts/89a74d17/</url>
+    <content><![CDATA[<h2 id="启动流程"><a href="#启动流程" class="headerlink" title="启动流程"></a>启动流程</h2><ol>
+<li><p>找到 Nacos 的控制台启动类</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/../../images/articles/nacos/nacos-start.png"
+                      alt="image-20240419163826445"
+                ></p>
+</li>
+<li><p>配置启动选项（默认 cluster 集群模式启动，会报错，需要将其改为 单机模式 standalone）</p>
+<p>-Dnacos.standalone&#x3D;true</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/../../images/articles/nacos/nacos-param.png"
+                      alt="image-20240419164224322"
+                ></p>
+</li>
+<li><p>修改 application.properties 配置文件</p>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line"># 给下面两个属性随机设值</span><br><span class="line">nacos.core.auth.server.identity.key=111</span><br><span class="line">nacos.core.auth.server.identity.value=111</span><br><span class="line"></span><br><span class="line"># 打开此属性</span><br><span class="line">nacos.core.auth.plugin.nacos.token.secret.key=SecretKey012345678901234567890123456789012345678901234567890123456789</span><br></pre></td></tr></table></figure></div></li>
+</ol>
+]]></content>
+      <tags>
+        <tag>nacos</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>SpringBootApplication注解</title>
+    <url>/posts/b1e2d9f1/</url>
+    <content><![CDATA[<h2 id="SpringBootApplication-注解"><a href="#SpringBootApplication-注解" class="headerlink" title="SpringBootApplication 注解"></a>SpringBootApplication 注解</h2><div class="highlight-container" data-rel="Java"><figure class="iseeu highlight java"><table><tr><td class="code"><pre><span class="line"><span class="comment">// 省略...</span></span><br><span class="line"><span class="meta">@SpringBootConfiguration</span></span><br><span class="line"><span class="meta">@EnableAutoConfiguration</span></span><br><span class="line"><span class="meta">@ComponentScan(</span></span><br><span class="line"><span class="meta">    excludeFilters = &#123;@Filter(</span></span><br><span class="line"><span class="meta">    type = FilterType.CUSTOM,</span></span><br><span class="line"><span class="meta">    classes = &#123;TypeExcludeFilter.class&#125;</span></span><br><span class="line"><span class="meta">), @Filter(</span></span><br><span class="line"><span class="meta">    type = FilterType.CUSTOM,</span></span><br><span class="line"><span class="meta">    classes = &#123;AutoConfigurationExcludeFilter.class&#125;</span></span><br><span class="line"><span class="meta">)&#125;</span></span><br><span class="line"><span class="meta">)</span></span><br><span class="line"><span class="keyword">public</span> <span class="meta">@interface</span> SpringBootApplication &#123;</span><br><span class="line">    </span><br><span class="line">    <span class="comment">// exclude 属性表示哪些类需要排除掉, 等同于 EnableAutoConfiguration 类里的 exclude 属性</span></span><br><span class="line">    <span class="meta">@AliasFor(annotation = EnableAutoConfiguration.class)</span></span><br><span class="line">    Class&lt;?&gt;[] exclude() <span class="keyword">default</span> &#123;&#125;;</span><br><span class="line"></span><br><span class="line">    <span class="comment">// excludeName 属性表示哪些类名称需要排除掉, 等同于 EnableAutoConfiguration 类里的 excludeName 属性</span></span><br><span class="line">    <span class="meta">@AliasFor(annotation = EnableAutoConfiguration.class)</span></span><br><span class="line">    String[] excludeName() <span class="keyword">default</span> &#123;&#125;;</span><br><span class="line"></span><br><span class="line">    <span class="comment">// scanBasePackages 属性表示要扫描哪些包下的类, 等同于 ComponentScan 类里的 basePackages 属性</span></span><br><span class="line">    <span class="meta">@AliasFor(annotation = ComponentScan.class, attribute = &quot;basePackages&quot;)</span></span><br><span class="line">    String[] scanBasePackages() <span class="keyword">default</span> &#123;&#125;;</span><br><span class="line"></span><br><span class="line">    <span class="comment">// scanBasePackageClasses 属性表示要扫描哪些包下的类，等同于 ComponentScan 类里的 basePackageClasses 属性</span></span><br><span class="line">    <span class="meta">@AliasFor(annotation = ComponentScan.class, attribute = &quot;basePackageClasses&quot;)</span></span><br><span class="line">    Class&lt;?&gt;[] scanBasePackageClasses() <span class="keyword">default</span> &#123;&#125;;</span><br><span class="line"></span><br><span class="line">    <span class="meta">@AliasFor(annotation = ComponentScan.class, attribute = &quot;nameGenerator&quot;)</span></span><br><span class="line">    Class&lt;? <span class="keyword">extends</span> <span class="title class_">BeanNameGenerator</span>&gt; nameGenerator() <span class="keyword">default</span> BeanNameGenerator.class;</span><br><span class="line"></span><br><span class="line">    <span class="comment">// 配置是否生效, 默认 true, 表示要加载</span></span><br><span class="line">    <span class="meta">@AliasFor(annotation = Configuration.class)</span></span><br><span class="line">    <span class="type">boolean</span> <span class="title function_">proxyBeanMethods</span><span class="params">()</span> <span class="keyword">default</span> <span class="literal">true</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div>
 
-<p><strong>示例 2：</strong></p>
-<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">输入：x = -123</span><br><span class="line">输出：-321</span><br></pre></td></tr></table></figure></div>
+<p>@SpringBootApplication 注解是 Spring Boot 中的核心注解，它用于标识一个主要的 Spring Boot 应用程序类。</p>
+<p>该注解是一个复合注解，包含：@ComponentScan、@SpringBootConfigure、@EnableAuthConfigure 注解。</p>
+<h2 id="ComponentScan-注解"><a href="#ComponentScan-注解" class="headerlink" title="@ComponentScan 注解"></a>@ComponentScan 注解</h2><p>扫描路径为当前解析这个类所在的包路径。</p>
+<h2 id="EnableAutoConfigure-注解"><a href="#EnableAutoConfigure-注解" class="headerlink" title="@EnableAutoConfigure 注解"></a>@EnableAutoConfigure 注解</h2><div class="highlight-container" data-rel="Java"><figure class="iseeu highlight java"><table><tr><td class="code"><pre><span class="line"><span class="comment">// 省略 ...</span></span><br><span class="line"><span class="meta">@AutoConfigurationPackage</span></span><br><span class="line"><span class="meta">@Import(&#123;AutoConfigurationImportSelector.class&#125;)</span></span><br><span class="line"><span class="keyword">public</span> <span class="meta">@interface</span> EnableAutoConfiguration &#123;</span><br><span class="line">    <span class="type">String</span> <span class="variable">ENABLED_OVERRIDE_PROPERTY</span> <span class="operator">=</span> <span class="string">&quot;spring.boot.enableautoconfiguration&quot;</span>;</span><br><span class="line"></span><br><span class="line">    Class&lt;?&gt;[] exclude() <span class="keyword">default</span> &#123;&#125;;</span><br><span class="line"></span><br><span class="line">    String[] excludeName() <span class="keyword">default</span> &#123;&#125;;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div>
 
-<p><strong>示例 3：</strong></p>
-<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">输入：x = 120</span><br><span class="line">输出：21</span><br></pre></td></tr></table></figure></div>
+<p>这个注解会负责进行自动配置类的导入，也就是将项目中的配置类自动导入到 Spring 容器中，从而得到解析。</p>
+<h2 id="SpringBootConfigure-注解"><a href="#SpringBootConfigure-注解" class="headerlink" title="@SpringBootConfigure 注解"></a>@SpringBootConfigure 注解</h2><div class="highlight-container" data-rel="Java"><figure class="iseeu highlight java"><table><tr><td class="code"><pre><span class="line"><span class="comment">// 省略 ...</span></span><br><span class="line"><span class="meta">@Configuration</span></span><br><span class="line"><span class="meta">@Indexed</span></span><br><span class="line"><span class="keyword">public</span> <span class="meta">@interface</span> SpringBootConfiguration &#123;</span><br><span class="line">    </span><br><span class="line">    <span class="meta">@AliasFor(annotation = Configuration.class)</span></span><br><span class="line">    <span class="type">boolean</span> <span class="title function_">proxyBeanMethods</span><span class="params">()</span> <span class="keyword">default</span> <span class="literal">true</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div>
 
-<p><strong>示例 4：</strong></p>
-<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">输入：x = 0</span><br><span class="line">输出：0</span><br></pre></td></tr></table></figure></div>
-
-<p><strong>提示：</strong></p>
-<ul>
-<li><code>-231 &lt;= x &lt;= 231 - 1</code></li>
-</ul>
-<p>Related Topics</p>
-<p>数学</p>
-<h2 id="代码实现"><a href="#代码实现" class="headerlink" title="代码实现"></a>代码实现</h2><h3 id="java"><a href="#java" class="headerlink" title="java"></a>java</h3><div class="highlight-container" data-rel="Java"><figure class="iseeu highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">Solution</span> &#123;</span><br><span class="line">    <span class="keyword">public</span> <span class="type">int</span> <span class="title function_">reverse</span><span class="params">(<span class="type">int</span> x)</span> &#123;</span><br><span class="line">        <span class="type">int</span> <span class="variable">res</span> <span class="operator">=</span> <span class="number">0</span>;</span><br><span class="line">        <span class="keyword">while</span> (x != <span class="number">0</span>) &#123;</span><br><span class="line">            <span class="type">int</span> <span class="variable">pop</span> <span class="operator">=</span> x % <span class="number">10</span>;</span><br><span class="line">            <span class="keyword">if</span> (res &gt; Integer.MAX_VALUE / <span class="number">10</span> || (res == Integer.MAX_VALUE / <span class="number">10</span> &amp;&amp; pop &gt; <span class="number">7</span>)) &#123;</span><br><span class="line">                <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">            &#125;</span><br><span class="line">            <span class="keyword">if</span> (res &lt; Integer.MIN_VALUE / <span class="number">10</span> || (res == Integer.MIN_VALUE / <span class="number">10</span> &amp;&amp; pop &lt; -<span class="number">8</span>)) &#123;</span><br><span class="line">                <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">            &#125;</span><br><span class="line">            res = res * <span class="number">10</span> + pop;</span><br><span class="line">            x /= <span class="number">10</span>;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> res;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div>
+<p>相当于 <strong>@Configuration</strong> 注解，表示当前类是个配置类。</p>
 ]]></content>
       <categories>
-        <category>leetcode</category>
+        <category>springboot</category>
       </categories>
       <tags>
-        <tag>leetcode</tag>
+        <tag>springboot</tag>
       </tags>
   </entry>
   <entry>
@@ -1617,90 +1701,6 @@
 ]]></content>
       <tags>
         <tag>ngrok</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>9.回文数【简单】</title>
-    <url>/posts/a7884dee/</url>
-    <content><![CDATA[<h2 id="题目"><a href="#题目" class="headerlink" title="题目"></a>题目</h2><p>给你一个整数 <code>x</code> ，如果 <code>x</code> 是一个回文整数，返回 <code>true</code> ；否则，返回 <code>false</code> 。</p>
-<p>回文数是指正序（从左向右）和倒序（从右向左）读都是一样的整数。</p>
-<ul>
-<li>例如，<code>121</code> 是回文，而 <code>123</code> 不是。</li>
-</ul>
-<p><strong>示例 1：</strong></p>
-<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">输入：x = 121</span><br><span class="line">输出：true</span><br></pre></td></tr></table></figure></div>
-
-<p><strong>示例 2：</strong></p>
-<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">输入：x = -121</span><br><span class="line">输出：false</span><br><span class="line">解释：从左向右读, 为 -121 。 从右向左读, 为 121- 。因此它不是一个回文数。</span><br></pre></td></tr></table></figure></div>
-
-<p><strong>示例 3：</strong></p>
-<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">输入：x = 10</span><br><span class="line">输出：false</span><br><span class="line">解释：从右向左读, 为 01 。因此它不是一个回文数。</span><br></pre></td></tr></table></figure></div>
-
-<p><strong>提示：</strong></p>
-<ul>
-<li><code>-231 &lt;= x &lt;= 231 - 1</code></li>
-</ul>
-<p><strong>进阶：</strong>你能不将整数转为字符串来解决这个问题吗？</p>
-<p>Related Topics</p>
-<p>数学</p>
-<h2 id="代码实现"><a href="#代码实现" class="headerlink" title="代码实现"></a>代码实现</h2><h3 id="java"><a href="#java" class="headerlink" title="java"></a>java</h3><div class="highlight-container" data-rel="Java"><figure class="iseeu highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">Solution</span> &#123;</span><br><span class="line">    <span class="keyword">public</span> <span class="type">boolean</span> <span class="title function_">isPalindrome</span><span class="params">(<span class="type">int</span> x)</span> &#123;</span><br><span class="line">        <span class="keyword">if</span> (x &lt; <span class="number">0</span> || (x % <span class="number">10</span> == <span class="number">0</span> &amp;&amp; x != <span class="number">0</span>)) <span class="keyword">return</span> <span class="literal">false</span>;</span><br><span class="line"></span><br><span class="line">        <span class="type">int</span> <span class="variable">revertedNumber</span> <span class="operator">=</span> <span class="number">0</span>;</span><br><span class="line">        <span class="keyword">while</span> (x &gt; revertedNumber) &#123;</span><br><span class="line">            revertedNumber = revertedNumber * <span class="number">10</span> + x % <span class="number">10</span>;</span><br><span class="line">            x /= <span class="number">10</span>;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> x == revertedNumber || x == revertedNumber / <span class="number">10</span>;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div>
-]]></content>
-      <categories>
-        <category>leetcode</category>
-      </categories>
-      <tags>
-        <tag>leetcode</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>SpringBootApplication注解</title>
-    <url>/posts/b1e2d9f1/</url>
-    <content><![CDATA[<h2 id="SpringBootApplication-注解"><a href="#SpringBootApplication-注解" class="headerlink" title="SpringBootApplication 注解"></a>SpringBootApplication 注解</h2><div class="highlight-container" data-rel="Java"><figure class="iseeu highlight java"><table><tr><td class="code"><pre><span class="line"><span class="comment">// 省略...</span></span><br><span class="line"><span class="meta">@SpringBootConfiguration</span></span><br><span class="line"><span class="meta">@EnableAutoConfiguration</span></span><br><span class="line"><span class="meta">@ComponentScan(</span></span><br><span class="line"><span class="meta">    excludeFilters = &#123;@Filter(</span></span><br><span class="line"><span class="meta">    type = FilterType.CUSTOM,</span></span><br><span class="line"><span class="meta">    classes = &#123;TypeExcludeFilter.class&#125;</span></span><br><span class="line"><span class="meta">), @Filter(</span></span><br><span class="line"><span class="meta">    type = FilterType.CUSTOM,</span></span><br><span class="line"><span class="meta">    classes = &#123;AutoConfigurationExcludeFilter.class&#125;</span></span><br><span class="line"><span class="meta">)&#125;</span></span><br><span class="line"><span class="meta">)</span></span><br><span class="line"><span class="keyword">public</span> <span class="meta">@interface</span> SpringBootApplication &#123;</span><br><span class="line">    </span><br><span class="line">    <span class="comment">// exclude 属性表示哪些类需要排除掉, 等同于 EnableAutoConfiguration 类里的 exclude 属性</span></span><br><span class="line">    <span class="meta">@AliasFor(annotation = EnableAutoConfiguration.class)</span></span><br><span class="line">    Class&lt;?&gt;[] exclude() <span class="keyword">default</span> &#123;&#125;;</span><br><span class="line"></span><br><span class="line">    <span class="comment">// excludeName 属性表示哪些类名称需要排除掉, 等同于 EnableAutoConfiguration 类里的 excludeName 属性</span></span><br><span class="line">    <span class="meta">@AliasFor(annotation = EnableAutoConfiguration.class)</span></span><br><span class="line">    String[] excludeName() <span class="keyword">default</span> &#123;&#125;;</span><br><span class="line"></span><br><span class="line">    <span class="comment">// scanBasePackages 属性表示要扫描哪些包下的类, 等同于 ComponentScan 类里的 basePackages 属性</span></span><br><span class="line">    <span class="meta">@AliasFor(annotation = ComponentScan.class, attribute = &quot;basePackages&quot;)</span></span><br><span class="line">    String[] scanBasePackages() <span class="keyword">default</span> &#123;&#125;;</span><br><span class="line"></span><br><span class="line">    <span class="comment">// scanBasePackageClasses 属性表示要扫描哪些包下的类，等同于 ComponentScan 类里的 basePackageClasses 属性</span></span><br><span class="line">    <span class="meta">@AliasFor(annotation = ComponentScan.class, attribute = &quot;basePackageClasses&quot;)</span></span><br><span class="line">    Class&lt;?&gt;[] scanBasePackageClasses() <span class="keyword">default</span> &#123;&#125;;</span><br><span class="line"></span><br><span class="line">    <span class="meta">@AliasFor(annotation = ComponentScan.class, attribute = &quot;nameGenerator&quot;)</span></span><br><span class="line">    Class&lt;? <span class="keyword">extends</span> <span class="title class_">BeanNameGenerator</span>&gt; nameGenerator() <span class="keyword">default</span> BeanNameGenerator.class;</span><br><span class="line"></span><br><span class="line">    <span class="comment">// 配置是否生效, 默认 true, 表示要加载</span></span><br><span class="line">    <span class="meta">@AliasFor(annotation = Configuration.class)</span></span><br><span class="line">    <span class="type">boolean</span> <span class="title function_">proxyBeanMethods</span><span class="params">()</span> <span class="keyword">default</span> <span class="literal">true</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div>
-
-<p>@SpringBootApplication 注解是 Spring Boot 中的核心注解，它用于标识一个主要的 Spring Boot 应用程序类。</p>
-<p>该注解是一个复合注解，包含：@ComponentScan、@SpringBootConfigure、@EnableAuthConfigure 注解。</p>
-<h2 id="ComponentScan-注解"><a href="#ComponentScan-注解" class="headerlink" title="@ComponentScan 注解"></a>@ComponentScan 注解</h2><p>扫描路径为当前解析这个类所在的包路径。</p>
-<h2 id="EnableAutoConfigure-注解"><a href="#EnableAutoConfigure-注解" class="headerlink" title="@EnableAutoConfigure 注解"></a>@EnableAutoConfigure 注解</h2><div class="highlight-container" data-rel="Java"><figure class="iseeu highlight java"><table><tr><td class="code"><pre><span class="line"><span class="comment">// 省略 ...</span></span><br><span class="line"><span class="meta">@AutoConfigurationPackage</span></span><br><span class="line"><span class="meta">@Import(&#123;AutoConfigurationImportSelector.class&#125;)</span></span><br><span class="line"><span class="keyword">public</span> <span class="meta">@interface</span> EnableAutoConfiguration &#123;</span><br><span class="line">    <span class="type">String</span> <span class="variable">ENABLED_OVERRIDE_PROPERTY</span> <span class="operator">=</span> <span class="string">&quot;spring.boot.enableautoconfiguration&quot;</span>;</span><br><span class="line"></span><br><span class="line">    Class&lt;?&gt;[] exclude() <span class="keyword">default</span> &#123;&#125;;</span><br><span class="line"></span><br><span class="line">    String[] excludeName() <span class="keyword">default</span> &#123;&#125;;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div>
-
-<p>这个注解会负责进行自动配置类的导入，也就是将项目中的配置类自动导入到 Spring 容器中，从而得到解析。</p>
-<h2 id="SpringBootConfigure-注解"><a href="#SpringBootConfigure-注解" class="headerlink" title="@SpringBootConfigure 注解"></a>@SpringBootConfigure 注解</h2><div class="highlight-container" data-rel="Java"><figure class="iseeu highlight java"><table><tr><td class="code"><pre><span class="line"><span class="comment">// 省略 ...</span></span><br><span class="line"><span class="meta">@Configuration</span></span><br><span class="line"><span class="meta">@Indexed</span></span><br><span class="line"><span class="keyword">public</span> <span class="meta">@interface</span> SpringBootConfiguration &#123;</span><br><span class="line">    </span><br><span class="line">    <span class="meta">@AliasFor(annotation = Configuration.class)</span></span><br><span class="line">    <span class="type">boolean</span> <span class="title function_">proxyBeanMethods</span><span class="params">()</span> <span class="keyword">default</span> <span class="literal">true</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div>
-
-<p>相当于 <strong>@Configuration</strong> 注解，表示当前类是个配置类。</p>
-]]></content>
-      <categories>
-        <category>springboot</category>
-      </categories>
-      <tags>
-        <tag>springboot</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Nacos2.2.1源码启动</title>
-    <url>/posts/89a74d17/</url>
-    <content><![CDATA[<h2 id="启动流程"><a href="#启动流程" class="headerlink" title="启动流程"></a>启动流程</h2><ol>
-<li><p>找到 Nacos 的控制台启动类</p>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="/../../images/articles/nacos/nacos-start.png"
-                      alt="image-20240419163826445"
-                ></p>
-</li>
-<li><p>配置启动选项（默认 cluster 集群模式启动，会报错，需要将其改为 单机模式 standalone）</p>
-<p>-Dnacos.standalone&#x3D;true</p>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="/../../images/articles/nacos/nacos-param.png"
-                      alt="image-20240419164224322"
-                ></p>
-</li>
-<li><p>修改 application.properties 配置文件</p>
-<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line"># 给下面两个属性随机设值</span><br><span class="line">nacos.core.auth.server.identity.key=111</span><br><span class="line">nacos.core.auth.server.identity.value=111</span><br><span class="line"></span><br><span class="line"># 打开此属性</span><br><span class="line">nacos.core.auth.plugin.nacos.token.secret.key=SecretKey012345678901234567890123456789012345678901234567890123456789</span><br></pre></td></tr></table></figure></div></li>
-</ol>
-]]></content>
-      <tags>
-        <tag>nacos</tag>
       </tags>
   </entry>
   <entry>
