@@ -1,6 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+code {
+  color: #c7254e !important;
+  background: #f9f2f4 !important;
+}
 .fade-in-down-animation {
   animation-fill-mode: both;
   animation-duration: 1s;
