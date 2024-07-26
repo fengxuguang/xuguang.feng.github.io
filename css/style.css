@@ -921,7 +921,7 @@ button {
   padding: 0 1rem 0 0.5rem;
   border-radius: 0 14px 14px 0;
   position: relative;
-  border-left: 5px solid var(--default-text-color);
+  border-left: 5px solid #42b983;
 }
 .markdown-body blockquote p,
 .markdown-body blockquote ul,
