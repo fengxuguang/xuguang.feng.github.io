@@ -17,17 +17,22 @@
     
     <!--- Seo Part-->
     
-    <link rel="canonical" href="https://blog.fengxuguang.top/archives/2024/03/"/>
+    <link rel="canonical" href="https://blog.fengxuguang.top/posts/3cbd56d/"/>
     <meta name="robots" content="index,follow">
     <meta name="googlebot" content="index,follow">
     <meta name="revisit-after" content="1 days">
     
-        <meta property="og:type" content="website">
-<meta property="og:title" content="Hexo">
-<meta property="og:url" content="https://blog.fengxuguang.top/archives/2024/03/index.html">
+        <meta name="description" content="想要情况指定文件夹下的所有文件的内容，但是保留文件应该怎么做呢？ 通过编写 shell 脚本获取指定文件夹下所有 .log 结尾的文件，写入空数据，脚本如下truncateFileContent.sh： 123456789101112131415161718#!&#x2F;bin&#x2F;bash# 获取指定的文件夹路径dir&#x3D;$1cd $dir# 循环遍历目录下的所有文件for file in *.logdo	#">
+<meta property="og:type" content="article">
+<meta property="og:title" content="shell脚本清空指定目录下的文件内容">
+<meta property="og:url" content="https://blog.fengxuguang.top/posts/3cbd56d/index.html">
 <meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="想要情况指定文件夹下的所有文件的内容，但是保留文件应该怎么做呢？ 通过编写 shell 脚本获取指定文件夹下所有 .log 结尾的文件，写入空数据，脚本如下truncateFileContent.sh： 123456789101112131415161718#!&#x2F;bin&#x2F;bash# 获取指定的文件夹路径dir&#x3D;$1cd $dir# 循环遍历目录下的所有文件for file in *.logdo	#">
 <meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2024-08-20T09:49:53.000Z">
+<meta property="article:modified_time" content="2024-08-21T03:09:06.244Z">
 <meta property="article:author" content="John Doe">
+<meta property="article:tag" content="shell">
 <meta name="twitter:card" content="summary">
     
     
@@ -40,7 +45,7 @@
     
     <title>
         
-            归档: 2024/3 -
+            shell脚本清空指定目录下的文件内容 -
         
         冯旭光的博客
     </title>
@@ -297,7 +302,7 @@
 
                             <li class="navbar-item">
                                 <!-- Menu -->
-                                <a class="active"
+                                <a class=""
                                    href="/archives"
                                         >
                                     <i class="fa-regular fa-archive fa-fw"></i>
@@ -392,7 +397,7 @@
 
                     <li class="drawer-navbar-item text-base my-1.5 flex flex-col w-full">
                         
-                        <a class="py-1.5 px-2 flex flex-row items-center justify-between gap-1 hover:!text-primary active:!text-primary text-2xl font-semibold group border-b border-border-color hover:border-primary w-full active"
+                        <a class="py-1.5 px-2 flex flex-row items-center justify-between gap-1 hover:!text-primary active:!text-primary text-2xl font-semibold group border-b border-border-color hover:border-primary w-full "
                            href="/archives"
                         >
                             <span>
@@ -482,306 +487,241 @@
             <div class="main-content">
 
                 
-                    <div class="archive-container shadow-none hover:shadow-none sm:shadow-redefine sm:hover:shadow-redefine-hover">
-    
+                    <div class="post-page-container flex relative justify-between box-border w-full h-full">
+    <div class="article-content-container">
 
-<div class="archive-list-container">
-    
-        <section class="archive-item mb-spacing-unit last:mb-0">
-            <div class="archive-item-header flex flex-row items-center mb-2">
-                <span class="archive-year font-semibold text-3xl mr-2">2024</span>
-                <span class="archive-year-post-count text-xs md:text-sm font-bold rounded-small bg-third-background-color py-[2px] px-[10px] border border-border-color">33</span>
+        <div class="article-title relative w-full">
+            
+                <div class="w-full flex items-center pt-6 justify-start">
+                    <h1 class="article-title-regular text-second-text-color text-4xl md:text-6xl font-bold px-2 sm:px-6 md:px-8 py-3">shell脚本清空指定目录下的文件内容</h1>
+                </div>
+            
             </div>
-            <ul class="article-list pl-0 md:pl-8 text-lg leading-[1.5]">
-              
+
+        
+            <div class="article-header flex flex-row gap-2 items-center px-2 sm:px-6 md:px-8">
+                <div class="avatar w-[46px] h-[46px] flex-shrink-0 rounded-medium border border-border-color p-[1px]">
+                    <img src="/images/avatar.jpg">
+                </div>
+                <div class="info flex flex-col justify-between">
+                    <div class="author flex items-center">
+                        <span class="name text-default-text-color text-lg font-semibold">冯旭光</span>
+                        
+                            <span class="author-label ml-1.5 text-xs px-2 py-0.5 rounded-small text-third-text-color border border-shadow-color-1">Lv4</span>
+                        
+                    </div>
+                    <div class="meta-info">
+                        <div class="article-meta-info">
+    <span class="article-date article-meta-item">
+        <i class="fa-regular fa-pen-fancy"></i>&nbsp;
+        <span class="desktop">2024-08-20 17:49:53</span>
+        <span class="mobile">2024-08-20 17:49:53</span>
+        <span class="hover-info">创建</span>
+    </span>
+    
+        <span class="article-date article-meta-item">
+            <i class="fa-regular fa-wrench"></i>&nbsp;
+            <span class="desktop">2024-08-21 11:09:06</span>
+            <span class="mobile">2024-08-21 11:09:06</span>
+            <span class="hover-info">更新</span>
+        </span>
+    
+
+    
+    
+        <span class="article-tags article-meta-item">
+            <i class="fa-regular fa-tags"></i>&nbsp;
+            <ul>
                 
-                    
-                    <li class="article-item space-y-2 px-6 pt-10 pb-2 text-xl relative border-l-2 border-border-color" date-is='08-20'>
+                    <li>
+                        <a href="/tags/shell/">shell</a>&nbsp;
+                    </li>
                 
-                    
-                        <a href="/posts/3cbd56d/" class="block overflow-hidden w-fit">
-                            <span class="article-title mb-0.5 text-2xl">shell脚本清空指定目录下的文件内容</span>
-                        </a>
-                    
-              
-                
-                    
-                    <li class="article-item space-y-2 px-6 pt-10 pb-2 text-xl relative border-l-2 border-border-color" date-is='06-23'>
-                
-                    
-                        <a href="/posts/e9bc55ba/" class="block overflow-hidden w-fit">
-                            <span class="article-title mb-0.5 text-2xl">RocketMQ入门教程</span>
-                        </a>
-                    
-              
-                
-                    
-                    <li class="article-item space-y-2 px-6 pt-10 pb-2 text-xl relative border-l-2 border-border-color" date-is='06-19'>
-                
-                    
-                        <a href="/posts/56baab11/" class="block overflow-hidden w-fit">
-                            <span class="article-title mb-0.5 text-2xl">EasyExcel读取合并单元格数据</span>
-                        </a>
-                    
-              
-                
-                    
-                    <li class="article-item space-y-2 px-6 pt-10 pb-2 text-xl relative border-l-2 border-border-color" date-is='06-18'>
-                
-                    
-                        <a href="/posts/3e52edfc/" class="block overflow-hidden w-fit">
-                            <span class="article-title mb-0.5 text-2xl">Flume自定义过滤器插件</span>
-                        </a>
-                    
-              
-                
-                    
-                    <li class="article-item space-y-2 px-6 pt-10 pb-2 text-xl relative border-l-2 border-border-color" date-is='06-17'>
-                
-                    
-                        <a href="/posts/8d409c77/" class="block overflow-hidden w-fit">
-                            <span class="article-title mb-0.5 text-2xl">Flume从kafka采集数据到另一个kafka</span>
-                        </a>
-                    
-              
-                
-                    
-                    <li class="article-item space-y-2 px-6 pt-10 pb-2 text-xl relative border-l-2 border-border-color" date-is='06-05'>
-                
-                    
-                        <a href="/posts/24adb6a4/" class="block overflow-hidden w-fit">
-                            <span class="article-title mb-0.5 text-2xl">DDD领域驱动（一）</span>
-                        </a>
-                    
-              
-                
-                    
-                    <li class="article-item space-y-2 px-6 pt-10 pb-2 text-xl relative border-l-2 border-border-color" date-is='06-04'>
-                
-                    
-                        <a href="/posts/36bbd933/" class="block overflow-hidden w-fit">
-                            <span class="article-title mb-0.5 text-2xl">内网穿透（ngrok）</span>
-                        </a>
-                    
-              
-                
-                    
-                    <li class="article-item space-y-2 px-6 pt-10 pb-2 text-xl relative border-l-2 border-border-color" date-is='05-30'>
-                
-                    
-                        <a href="/posts/bc44723c/" class="block overflow-hidden w-fit">
-                            <span class="article-title mb-0.5 text-2xl">IDEA中使用Vim</span>
-                        </a>
-                    
-              
-                
-                    
-                    <li class="article-item space-y-2 px-6 pt-10 pb-2 text-xl relative border-l-2 border-border-color" date-is='04-19'>
-                
-                    
-                        <a href="/posts/89a74d17/" class="block overflow-hidden w-fit">
-                            <span class="article-title mb-0.5 text-2xl">Nacos2.2.1源码启动</span>
-                        </a>
-                    
-              
-                
-                    
-                    <li class="article-item space-y-2 px-6 pt-10 pb-2 text-xl relative border-l-2 border-border-color" date-is='04-17'>
-                
-                    
-                        <a href="/posts/1384e06/" class="block overflow-hidden w-fit">
-                            <span class="article-title mb-0.5 text-2xl">IDEA打开文件后左侧有很多空白设置</span>
-                        </a>
-                    
-              
-                
-                    
-                    <li class="article-item space-y-2 px-6 pt-10 pb-2 text-xl relative border-l-2 border-border-color" date-is='03-20'>
-                
-                    
-                        <a href="/posts/508b40e4/" class="block overflow-hidden w-fit">
-                            <span class="article-title mb-0.5 text-2xl">ListUtil封装jdk8-stream语法，简化代码编写</span>
-                        </a>
-                    
-              
-                
-                    
-                    <li class="article-item space-y-2 px-6 pt-10 pb-2 text-xl relative border-l-2 border-border-color" date-is='03-01'>
-                
-                    
-                        <a href="/posts/34963c84/" class="block overflow-hidden w-fit">
-                            <span class="article-title mb-0.5 text-2xl">创建型-原型模式</span>
-                        </a>
-                    
-              
-                
-                    
-                    <li class="article-item space-y-2 px-6 pt-10 pb-2 text-xl relative border-l-2 border-border-color" date-is='02-22'>
-                
-                    
-                        <a href="/posts/319e992b/" class="block overflow-hidden w-fit">
-                            <span class="article-title mb-0.5 text-2xl">2024阅读进度</span>
-                        </a>
-                    
-              
-                
-                    
-                    <li class="article-item space-y-2 px-6 pt-10 pb-2 text-xl relative border-l-2 border-border-color" date-is='02-21'>
-                
-                    
-                        <a href="/posts/f1432f14/" class="block overflow-hidden w-fit">
-                            <span class="article-title mb-0.5 text-2xl">创建型-工厂模式</span>
-                        </a>
-                    
-              
-                
-                    
-                    <li class="article-item space-y-2 px-6 pt-10 pb-2 text-xl relative border-l-2 border-border-color" date-is='02-19'>
-                
-                    
-                        <a href="/posts/545bbc59/" class="block overflow-hidden w-fit">
-                            <span class="article-title mb-0.5 text-2xl">创建型-单例模式</span>
-                        </a>
-                    
-              
-                
-                    
-                    <li class="article-item space-y-2 px-6 pt-10 pb-2 text-xl relative border-l-2 border-border-color" date-is='02-08'>
-                
-                    
-                        <a href="/posts/430b3eee/" class="block overflow-hidden w-fit">
-                            <span class="article-title mb-0.5 text-2xl">53.最大子数组和【中等】</span>
-                        </a>
-                    
-              
-                
-                    
-                        <a href="/posts/35a2d738/" class="block overflow-hidden w-fit">
-                            <span class="article-title mb-0.5 text-2xl">33.搜索旋转排序数组【中等】</span>
-                        </a>
-                    
-              
-                
-                    
-                        <a href="/posts/2b15e74d/" class="block overflow-hidden w-fit">
-                            <span class="article-title mb-0.5 text-2xl">20.有效的括号【简单】</span>
-                        </a>
-                    
-              
-                
-                    
-                        <a href="/posts/b31c3da/" class="block overflow-hidden w-fit">
-                            <span class="article-title mb-0.5 text-2xl">13.罗马数字转整数【简单】</span>
-                        </a>
-                    
-              
-                
-                    
-                        <a href="/posts/a7884dee/" class="block overflow-hidden w-fit">
-                            <span class="article-title mb-0.5 text-2xl">9.回文数【简单】</span>
-                        </a>
-                    
-              
-                
-                    
-                        <a href="/posts/13a6e543/" class="block overflow-hidden w-fit">
-                            <span class="article-title mb-0.5 text-2xl">7.整数反转【中等】</span>
-                        </a>
-                    
-              
-                
-                    
-                        <a href="/posts/94d737b/" class="block overflow-hidden w-fit">
-                            <span class="article-title mb-0.5 text-2xl">5.最长回文子串【中等】</span>
-                        </a>
-                    
-              
-                
-                    
-                        <a href="/posts/2e9c7a38/" class="block overflow-hidden w-fit">
-                            <span class="article-title mb-0.5 text-2xl">3.无重复字符的最长子串【中等】</span>
-                        </a>
-                    
-              
-                
-                    
-                        <a href="/posts/75f33ffa/" class="block overflow-hidden w-fit">
-                            <span class="article-title mb-0.5 text-2xl">2.两数相加【中等】</span>
-                        </a>
-                    
-              
-                
-                    
-                        <a href="/posts/88b7b605/" class="block overflow-hidden w-fit">
-                            <span class="article-title mb-0.5 text-2xl">1.两数之和【简单】</span>
-                        </a>
-                    
-              
-                
-                    
-                        <a href="/posts/35ae3709/" class="block overflow-hidden w-fit">
-                            <span class="article-title mb-0.5 text-2xl">Docker容器命令</span>
-                        </a>
-                    
-              
-                
-                    
-                        <a href="/posts/3e97faf3/" class="block overflow-hidden w-fit">
-                            <span class="article-title mb-0.5 text-2xl">Golang基础语法</span>
-                        </a>
-                    
-              
-                
-                    
-                        <a href="/posts/ee5b4d8/" class="block overflow-hidden w-fit">
-                            <span class="article-title mb-0.5 text-2xl">Lombok语法</span>
-                        </a>
-                    
-              
-                
-                    
-                        <a href="/posts/610bdf07/" class="block overflow-hidden w-fit">
-                            <span class="article-title mb-0.5 text-2xl">IDEA快捷键</span>
-                        </a>
-                    
-              
-                
-                    
-                        <a href="/posts/b1e2d9f1/" class="block overflow-hidden w-fit">
-                            <span class="article-title mb-0.5 text-2xl">SpringBootApplication注解</span>
-                        </a>
-                    
-              
-                
-                    
-                        <a href="/posts/941e419f/" class="block overflow-hidden w-fit">
-                            <span class="article-title mb-0.5 text-2xl">JDK17新特性</span>
-                        </a>
-                    
-              
-                
-                    
-                    <li class="article-item space-y-2 px-6 pt-10 pb-2 text-xl relative border-l-2 border-border-color" date-is='02-07'>
-                
-                    
-                        <a href="/posts/ecd042ad/" class="block overflow-hidden w-fit">
-                            <span class="article-title mb-0.5 text-2xl">动态 Druid 连接池</span>
-                        </a>
-                    
-              
-                
-                    
-                        <a href="/posts/4a17b156/" class="block overflow-hidden w-fit">
-                            <span class="article-title mb-0.5 text-2xl">Hello World</span>
-                        </a>
-                    
-              
             </ul>
-        </section>
+        </span>
+    
+
+    
+    
+        <span class="article-wordcount article-meta-item">
+            <i class="fa-regular fa-typewriter"></i>&nbsp;<span>146 字</span>
+        </span>
+    
+    
+        <span class="article-min2read article-meta-item">
+            <i class="fa-regular fa-clock"></i>&nbsp;<span>1 分钟</span>
+        </span>
+    
+    
+        <span class="article-pv article-meta-item">
+            <i class="fa-regular fa-eye"></i>&nbsp;<span id="busuanzi_value_page_pv"></span>
+        </span>
     
 </div>
 
+                    </div>
+                </div>
+            </div>
+        
+
+        
+
+
+        <div class="article-content markdown-body px-2 sm:px-6 md:px-8 pb-8">
+            <p>想要情况指定文件夹下的所有文件的内容，但是保留文件应该怎么做呢？</p>
+<p>通过编写 shell 脚本获取指定文件夹下所有 .log 结尾的文件，写入空数据，脚本如下<code>truncateFileContent.sh</code>：</p>
+<div class="highlight-container" data-rel="Shell"><figure class="iseeu highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta prompt_">#</span><span class="language-bash">!/bin/bash</span></span><br><span class="line"><span class="meta prompt_"></span></span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">获取指定的文件夹路径</span></span><br><span class="line">dir=$1</span><br><span class="line"></span><br><span class="line">cd $dir</span><br><span class="line"><span class="meta prompt_"></span></span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">循环遍历目录下的所有文件</span></span><br><span class="line">for file in *.log</span><br><span class="line">do</span><br><span class="line"><span class="meta prompt_">	# </span><span class="language-bash">判断是否为文件，不是则跳过</span></span><br><span class="line">	if [ -f file ]</span><br><span class="line">	then</span><br><span class="line">		echo &quot;&quot; &gt; $file</span><br><span class="line">	fi</span><br><span class="line">done</span><br><span class="line"></span><br><span class="line">echo $dir + &quot;文件夹下的所有 .log 文件内容已清空！&quot;</span><br></pre></td></tr></table></figure></div>
+
+<p>使用姿势：</p>
+<div class="highlight-container" data-rel="Shell"><figure class="iseeu highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sh ./truncateFileContent.sh /opt/data/test/</span><br></pre></td></tr></table></figure></div>
+
+
+        </div>
+
+        
+            <div class="post-copyright-info w-full my-8 px-2 sm:px-6 md:px-8">
+                <div class="article-copyright-info-container">
+    <ul>
+        <li><strong>标题:</strong> shell脚本清空指定目录下的文件内容</li>
+        <li><strong>作者:</strong> 冯旭光</li>
+        <li><strong>创建于
+                :</strong> 2024-08-20 17:49:53</li>
+        
+            <li>
+                <strong>更新于
+                    :</strong> 2024-08-21 11:09:06
+            </li>
+        
+        <li>
+            <strong>链接:</strong> https://blog.fengxuguang.top/posts/3cbd56d/
+        </li>
+        <li>
+            <strong>
+                版权声明:
+            </strong>
+            
+
+            
+                本文章采用 <a class="license" target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0">CC BY-NC-SA 4.0</a> 进行许可。
+            
+        </li>
+    </ul>
 </div>
+
+            </div>
+        
+
+        
+            <ul class="post-tags-box text-lg mt-1.5 flex-wrap justify-center flex md:hidden">
+                
+                    <li class="tag-item mx-0.5">
+                        <a href="/tags/shell/">#shell</a>&nbsp;
+                    </li>
+                
+            </ul>
+        
+
+        
+
+        
+            <div class="article-nav my-8 flex justify-between items-center px-2 sm:px-6 md:px-8">
+                
+                
+                    <div class="article-next border-border-color shadow-redefine-flat shadow-shadow-color-2 rounded-medium px-4 py-2 hover:shadow-redefine-flat-hover hover:shadow-shadow-color-2">
+                        <a class="next"
+                        rel="next"
+                        href="/posts/e9bc55ba/"
+                        >
+                            <span class="title flex justify-center items-center">
+                                <span class="post-nav-title-item">RocketMQ入门教程</span>
+                                <span class="post-nav-item">下一篇</span>
+                            </span>
+                            <span class="right arrow-icon flex justify-center items-center">
+                                <i class="fa-solid fa-chevron-right"></i>
+                            </span>
+                        </a>
+                    </div>
+                
+            </div>
+        
+
+
+        
+            <div class="comment-container px-2 sm:px-6 md:px-8 pb-8">
+                <div class="comments-container mt-10 w-full ">
+    <div id="comment-anchor" class="w-full h-2.5"></div>
+    <div class="comment-area-title w-full my-1.5 md:my-2.5 text-xl md:text-3xl font-bold">
+        评论
+    </div>
+    
+
+        
+            
+    <div id="gitalk-container"></div>
+    <script data-swup-reload-script
+            src="//cdn.staticfile.org/gitalk/1.8.0/gitalk.min.js"></script>
+    <script data-swup-reload-script>
+
+        function loadGitalk() {
+            let __gitalk__pathname = decodeURI(location.pathname);
+            const __gitalk__pathnameLength = __gitalk__pathname.length;
+            const __gitalk__pathnameMaxLength = 50;
+            if (__gitalk__pathnameLength > __gitalk__pathnameMaxLength) {
+                __gitalk__pathname = __gitalk__pathname.substring(0, __gitalk__pathnameMaxLength - 3) + '...';
+            }
+
+            try {
+                Gitalk && new Gitalk({
+                    clientID: '7155294f872e0ee349f7',
+                    clientSecret: 'be2e109a62c483b22d527ab42eb4e9d9595cf910',
+                    repo: 'xuguang.github.io',
+                    owner: 'fengxuguang',
+                    admin: ['fengxuguang'],
+                    id: __gitalk__pathname,
+                    language: 'zh-CN',
+                    proxy: 'https://github.com/login/oauth/access_token'
+                }).render('gitalk-container');
+
+            } catch (e) {
+                window.Gitalk = null;
+            }
+        }
+
+        if ('true') {
+            const loadGitalkTimeout = setTimeout(() => {
+                loadGitalk();
+                clearTimeout(loadGitalkTimeout);
+            }, 1000);
+        } else {
+            window.addEventListener('DOMContentLoaded', loadGitalk);
+        }
+    </script>
+
+
+
+        
+    
+</div>
+
+            </div>
+        
+    </div>
+
+    
+        <div class="toc-content-container">
+            <div class="post-toc-wrap">
+    <div class="post-toc">
+        <div class="toc-title">此页目录</div>
+        <div class="page-title">shell脚本清空指定目录下的文件内容</div>
+        
+
+    </div>
+</div>
+        </div>
+    
+</div>
+
+
 
                 
 
@@ -867,6 +807,27 @@
         </div>
     </div>
 
+    
+        <div class="post-tools">
+            <div class="post-tools-container">
+    <ul class="article-tools-list">
+        <!-- TOC aside toggle -->
+        
+            <li class="right-bottom-tools page-aside-toggle">
+                <i class="fa-regular fa-outdent"></i>
+            </li>
+        
+
+        <!-- go comment -->
+        
+            <li class="go-comment">
+                <i class="fa-regular fa-comments"></i>
+            </li>
+        
+    </ul>
+</div>
+
+        </div>
     
 
     <div class="right-side-tools-container">
